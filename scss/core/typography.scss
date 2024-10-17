@@ -1,0 +1,235 @@
+@use "../abstracts" as *;
+
+@font-face {
+  font-family: 'PP Playground';
+  src: url('../fonts/PPPlayground-Medium.eot');
+  src: url('../fonts/PPPlayground-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PPPlayground-Medium.woff2') format('woff2'),
+    url('../fonts/PPPlayground-Medium.woff') format('woff'),
+    url('../fonts/PPPlayground-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Imbue 24pt';
+  src: url('../fonts/Imbue24pt-Bold.eot');
+  src: url('../fonts/Imbue24pt-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Imbue24pt-Bold.woff2') format('woff2'),
+    url('../fonts/Imbue24pt-Bold.woff') format('woff'),
+    url('../fonts/Imbue24pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Playground';
+  src: url('../fonts/PPPlayground-Light.eot');
+  src: url('../fonts/PPPlayground-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PPPlayground-Light.woff2') format('woff2'),
+    url('../fonts/PPPlayground-Light.woff') format('woff'),
+    url('../fonts/PPPlayground-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Playground';
+  src: url('../fonts/PPPlayground-Thin.eot');
+  src: url('../fonts/PPPlayground-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PPPlayground-Thin.woff2') format('woff2'),
+    url('../fonts/PPPlayground-Thin.woff') format('woff'),
+    url('../fonts/PPPlayground-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+body {
+  font-size: 16px;
+  /* Aumentado para mejorar la legibilidad */
+  font-family: var(--font-primary);
+  font-optical-sizing: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  /* Ajustado para mayor flexibilidad y escalabilidad */
+  line-height: 1.2;
+  /* Ajustado a un múltiplo de la fuente para mejorar la legibilidad */
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  /* Ajustado a un tamaño más común para h2 */
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.3;
+  /* Ajustado para mejorar la legibilidad */
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  /* Ajustado para mantener jerarquía y legibilidad */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.015em;
+  /* Ajustado ligeramente para mejorar la apariencia */
+  line-height: 1.4;
+  /* Ajustado para mejorar el espaciado */
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  /* Ajustado para mantener una jerarquía coherente */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.015em;
+  /* Ajustado para consistencia */
+  line-height: 1.4;
+  /* Mejorar la legibilidad */
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-size: 1.125rem;
+  /* Ajustado para mantener la coherencia */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.015em;
+  /* Ajustado para consistencia */
+  line-height: 1.4;
+  /* Mejorar la legibilidad */
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  /* Ajustado para mantener coherencia */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.015em;
+  /* Ajustado para consistencia */
+  line-height: 1.4;
+  /* Mejorar la legibilidad */
+}
+
+p,
+li {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  /* Ajustado para mejor legibilidad */
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  /* Aumentado para mejorar la legibilidad del texto */
+}
+
+a {
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  /* Ajustado para mejor coherencia con el resto del texto */
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  /* Ajustado para mejorar la legibilidad */
+}
+
+small {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  /* Ajustado para mayor coherencia */
+  line-height: 1.4;
+  /* Ajustado para mejorar la legibilidad */
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

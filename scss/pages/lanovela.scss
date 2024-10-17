@@ -1,0 +1,206 @@
+.lanovela {
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+    .bars {
+        background-color: #fffcd5;
+    }
+
+    header {
+        height: auto;
+
+        .container {
+            align-items: flex-start;
+
+            @media only screen and (max-width: 768px) {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 50px;
+            }
+        }
+
+        a {
+            color: #FFF;
+
+            input {
+                color: #FFF;
+
+                &::placeholder {
+                    color: #FFF;
+
+                }
+            }
+        }
+    }
+
+    .brujula {
+        background-color: #e6e6e6;
+
+    }
+
+    .controls {
+        background-image: url(../img/metal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 20px 20px;
+
+        nav {
+            a {
+                color: #FFF;
+                letter-spacing: .1rem;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    .marquee {
+        color: #FFF;
+    }
+
+    .bottom {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: 1360px;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 768px) {
+            align-items: center;
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
+
+        nav {
+
+            @media only screen and (max-width: 768px) {
+
+                flex-direction: column;
+                position: static;
+                background: transparent;
+                height: auto;
+                width: auto;
+                gap: 10px;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+        .center {
+            position: relative;
+
+            nav {
+                bottom: 0;
+                width: max-content;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto 30px;
+
+                @media only screen and (max-width: 768px) {
+                    width: 50%;
+                    height: 50px;
+                    object-fit: contain;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    /* Estilos básicos */
+    .text-controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Merriweather", serif;
+        font-weight: bold;
+        font-style: normal;
+        border-radius: 5px;
+        transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+
+    button .small-text {
+        font-size: 10px;
+    }
+
+    button .large-text {
+        font-size: 16px;
+    }
+
+    /* Botones de control */
+    .font-size-btn {
+        background-color: #fffbdc;
+        border: 1px solid #ccc;
+    }
+
+    .theme-btn {
+        border: none;
+        color: white;
+        width: 25px;
+        height: 25px;
+    }
+
+    .theme-btn[data-bg="white"] {
+        background-color: white;
+        color: black;
+    }
+
+    .theme-btn[data-bg="#d0d0d0"] {
+        background-color: #d0d0d0;
+        color: black;
+    }
+
+    .theme-btn[data-bg="#646363"] {
+        background-color: #646363;
+        color: #FFF;
+    }
+
+    .theme-btn[data-bg="#000"] {
+        background-color: #000;
+        color: #FFF;
+    }
+
+    .download-btn {
+        background-color: #f5f5dc;
+        border: 1px solid #ccc;
+    }
+
+    /* Estilos del contenido que se va a modificar */
+    .content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 20px;
+
+        * {
+            font-size: 16px;
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #665343;
+
+        }
+    }
+
+
+}

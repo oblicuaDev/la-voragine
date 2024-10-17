@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+  padding: 0 20px;
+  position: relative;
+}
+
+main {
+  z-index: 2;
+}
+
+.non-white {
+  filter: saturate(0%) invert(100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.marquee {
+  margin-top: 68px;
+  font-family: 'Imbue 24pt';
+  font-weight: bold;
+  font-style: normal;
+  color: #665343;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+img.title {
+  margin: 0 auto;
+  display: block;
+  z-index: 2;
+  position: relative;
+  object-fit: contain;
+  pointer-events: none;
+  height: 90px;
+
+}
+
+h1.title {
+  margin: 0 auto;
+  display: block;
+  z-index: 2;
+  position: relative;
+  object-fit: contain;
+  pointer-events: none;
+  font-family: "PP Playground";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 120px;
+  line-height: 80px;
+  color: #665343;
+  text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+    height: 50px;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .brujula {
+    display: none;
+  }
+
+}
+
+/* From Uiverse.io by vinodjangid07 */
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 100;
+  transition-duration: .5s;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: #665343;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked+.toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+  background-color: #fffcd5;
+}
+
+#checkbox:checked+.toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+  transition-duration: .5s;
+  transform: rotate(180deg);
+  left: 45%;
+}
+
+a.complete {
+  display: flex;
+  gap: 5px;
+  font-family: 'Imbue 24pt';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #665343;
+  text-align: left;
+  width: 270px;
+  align-items: center;
+  margin-bottom: 15px;
+
+
+  svg {
+    width: 42px;
+    height: 25px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.brujula {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  img {
+    &:nth-of-type(1) {
+      width: 98%;
+      height: 98%;
+      object-fit: contain;
+    }
+  }
+}
+
+.aguja {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: transform 1s ease-in-out;
+
+  &:hover {
+    transform: translate(-50%, -50%) rotate(0deg);
+
+  }
+}
+
+.azar {
+  transform: translate(-50%, -50%) rotate(300deg);
+}
+
+.codicia {
+  transform: translate(-50%, -50%) rotate(340deg);
+}
+
+.espejismos {
+  transform: translate(-50%, -50%) rotate(400deg);
+}
+
+.extravio {
+  transform: translate(-50%, -50%) rotate(460deg);
+}
+
+.lujuria {
+  transform: translate(-50%, -50%) rotate(520deg);
+}
+
+.patria {
+  transform: translate(-50%, -50%) rotate(570deg);
+}
+
+.violencia {
+  transform: translate(-50%, -50%) rotate(620deg);
+}
+
+.preloader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  background-image: url(../img/texture.jpg);
+
+  #aguja {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: needle-move 3s ease-in-out infinite alternate;
+  }
+}
+
+
+@keyframes needle-move {
+  0% {
+    transform: translate(-50%, -50%) rotate(-10deg);
+  }
+
+  25% {
+    transform: translate(-50%, -50%) rotate(15deg);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) rotate(-5deg);
+  }
+
+  75% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+i {
+  font-style: italic;
+}

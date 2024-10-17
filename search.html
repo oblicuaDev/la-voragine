@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Vorágine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=1.1.0">
+</head>
+
+
+<body class="vertice search">
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox" class="toggle">
+        <div class="bars" id="bar1"></div>
+        <div class="bars" id="bar2"></div>
+        <div class="bars" id="bar3"></div>
+    </label>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo_color.png" alt="logo">
+        </a>
+        <div class="container">
+            <nav class="menu">
+                <a href="about.html">SOBRE EL PROYECTO</a>
+                <a href="">RECURSOS RELACIONADOS</a>
+                <a href="lanovela.html">LA NOVELA</a>
+                <a href="hoy.html">LA VORÁGINE LEÍDA HOY</a>
+            </nav>
+            <a href="search.html" class="search">Buscar <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20.5762 18.5294L15.5803 13.5338C16.6032 12.0948 17.155 10.3786 17.155 8.57751C17.155 6.28633 16.2627 4.13247 14.6426 2.51241C13.0228 0.892351 10.8689 0 8.57767 0C6.28645 0 4.13255 0.892351 2.51246 2.51241C0.892368 4.13247 0 6.28633 0 8.57751C0 10.8687 0.892368 13.0225 2.51246 14.6426C4.13255 16.2627 6.28645 17.155 8.57767 17.155C10.3788 17.155 12.095 16.6032 13.5341 15.5803L18.5297 20.5762C18.8124 20.8588 19.1825 21 19.553 21C19.9235 21 20.2936 20.8588 20.5762 20.5762C21.1413 20.0112 21.1413 19.0947 20.5762 18.5297V18.5294ZM2.89417 8.57751C2.89417 5.44382 5.44393 2.89411 8.57767 2.89411C11.7114 2.89411 14.2612 5.4435 14.2612 8.57751C14.2612 11.7115 11.7117 14.2609 8.57767 14.2609C5.44361 14.2609 2.89417 11.7112 2.89417 8.57751Z"
+                        fill="currentColor" />
+                </svg></a>
+        </div>
+        <img src="img/banrep_color.png" alt="banrep" class="banrep">
+    </header>
+    <main>
+
+        <img src="img/busqueda.png" alt="busqueda" class="title">
+        <div class="marquee">~~~~~~~~~~~~~~~~~~~~~~~~</div>
+        <div class="intro">
+            <div class="center">
+                <h3>Desde aquí puede realizar búsquedas en el sitio web, en la novela, en los resultados de los talleres
+                    de la sección La vorágine leída hoy y en otras herramientas del Banco de la República.</h3>
+            </div>
+            <form action="">
+                <input type="text" placeholder="ingrese aquí su búsqueda" id="searchInput">
+                <div class="actions">
+                    <button type="button" id="searchVertices">Buscar en los vértices</button>
+                    <button type="button" id="searchNovela">Buscar en la novela</button>
+                    <button type="button" id="searchTalleres">Buscar en los talleres</button>
+
+                </div>
+            </form>
+            <a href="index.html" class="brujula">
+                <img src="img/brujula.png" alt="brujula">
+                <img src="img/aguja.png" alt="brujula" class="aguja">
+            </a>
+
+        </div>
+        <section class="results">
+            <h4 class="titleResults">resultados de búsqueda <span class="searchValue"></span></h4>
+            <ul>
+
+            </ul>
+        </section>
+    </main>
+    <div class="preloader">
+        <img src="img/brujula.png" alt="brujula">
+        <img src="img/aguja.png" alt="aguja" id="aguja">
+    </div>
+    <script src="js/main.js"></script>
+    <script>
+        function stripHTMLTags(text) {
+            return text.replace(/<\/?[^>]+(>|$)/g, "");
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const searchInput = document.getElementById("searchInput");
+            const searchVerticesBtn = document.getElementById("searchVertices");
+            const searchNovelaBtn = document.getElementById("searchNovela");
+            const searchTalleresBtn = document.getElementById("searchTalleres");
+            const resultsContainer = document.querySelector(".results ul");
+            const titleResults = document.querySelector(".titleResults .searchValue");
+
+            function submitSearchForm(type) {
+                const searchTerm = searchInput.value.trim().toLowerCase();
+                if (!searchTerm) return;
+
+                titleResults.textContent = searchTerm;
+                const filteredResults = filterResults(type, searchTerm);
+                console.log(filteredResults);
+
+                renderResults(filteredResults);
+            }
+
+            function filterResults(searchTerm) {
+                const lowerSearchTerm = searchTerm.toLowerCase();
+                const results = [];
+
+                vertices.forEach((item) => {
+                    // Buscar en las propiedades principales de cada item
+                    if (item.title.toLowerCase().includes(lowerSearchTerm) || item.intro.toLowerCase().includes(lowerSearchTerm)) {
+                        results.push({
+                            title: item.title,
+                            text: stripHTMLTags(item.intro),
+                            image: item.tarjeta,
+                        });
+                    }
+
+                    // Buscar en cada cita dentro de item.citas
+                    if (item.citas) {
+                        item.citas.forEach((cita) => {
+                            if (cita.comentario && cita.comentario.toLowerCase().includes(lowerSearchTerm) ||
+                                cita.text && cita.text.toLowerCase().includes(lowerSearchTerm) ||
+                                cita.textoAcomp && cita.textoAcomp.toLowerCase().includes(lowerSearchTerm)) {
+
+                                results.push({
+                                    title: `${item.title} - Cita`,
+                                    text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
+                                    image: cita.image || item.tarjeta,
+                                });
+                            }
+
+                            // Buscar dentro de cada galería de la cita
+                            if (cita.galeria) {
+                                cita.galeria.forEach((galeriaItem) => {
+                                    if ((galeriaItem.name && galeriaItem.name.toLowerCase().includes(lowerSearchTerm)) ||
+                                        (galeriaItem.text && galeriaItem.text.toLowerCase().includes(lowerSearchTerm)) ||
+                                        (galeriaItem.ficha && galeriaItem.ficha.some(fichaText => fichaText.toLowerCase().includes(lowerSearchTerm)))) {
+
+                                        results.push({
+                                            title: `${item.title} - Galería`,
+                                            text: stripHTMLTags(galeriaItem.text),
+                                            image: galeriaItem.img,
+                                        });
+                                    }
+                                });
+                            }
+                        });
+                    }
+
+                    // Buscar en cada metodología dentro de item.metodologias
+                    if (item.metodologias) {
+                        item.metodologias.forEach((metodologia) => {
+                            metodologia.docs.forEach((doc) => {
+                                if (doc.title.toLowerCase().includes(lowerSearchTerm) || doc.person.toLowerCase().includes(lowerSearchTerm)) {
+                                    results.push({
+                                        title: `${item.title} - Metodología`,
+                                        text: stripHTMLTags(doc.title),
+                                        image: doc.img,
+                                    });
+                                }
+                            });
+                        });
+                    }
+                });
+
+                return results;
+            }
+            function renderResults(results) {
+                resultsContainer.innerHTML = "";
+                if (results.length === 0) {
+                    resultsContainer.innerHTML = "<li>No se encontraron resultados</li>";
+                    return;
+                }
+
+                results.forEach((result) => {
+                    const li = document.createElement("li");
+                    li.className = "result-item";
+
+                    const title = document.createElement("h5");
+                    title.className = "result-item__title";
+                    title.textContent = result.title;
+
+                    const text = document.createElement("p");
+                    text.className = "result-item__text";
+                    text.innerHTML = result.text.replace(new RegExp(`(${searchInput.value})`, "gi"), '<span class="highlight">$1</span>');
+
+                    const image = document.createElement("div");
+                    image.className = "result-item__image";
+                    if (result.image) {
+                        const imgElement = document.createElement("img");
+                        imgElement.src = result.image;
+                        image.appendChild(imgElement);
+                    }
+
+                    li.appendChild(title);
+                    li.appendChild(text);
+                    li.appendChild(image);
+
+                    resultsContainer.appendChild(li);
+                });
+            }
+
+            searchVerticesBtn.addEventListener("click", () => submitSearchForm("vertices"));
+            searchNovelaBtn.addEventListener("click", () => submitSearchForm("novela"));
+            searchTalleresBtn.addEventListener("click", () => submitSearchForm("talleres"));
+        });
+    </script>
+</body>
+
+</html>
