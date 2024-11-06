@@ -38,10 +38,11 @@
                     </svg>
                 </a>
                 <nav class="menu">
-                    <p><a href="vertice.html?id=azar">AZAR</a>•<a href="vertice.html?id=azar">CODICIA</a>•<a
-                            href="vertice.html?id=azar">ESPEJISMOS</a>•<a href="vertice.html?id=azar">EXTRAVÍO</a>•<a
-                            href="vertice.html?id=azar">LUJURIA</a>•<a href="vertice.html?id=azar">PATRIA</a>•<a
-                            href="vertice.html?id=azar">VIOLENCIA</a></p>
+                    <p><a href="vertice.html?id=azar">AZAR</a>•<a href="vertice.html?id=codicia">CODICIA</a>•<a
+                            href="vertice.html?id=espejismos">ESPEJISMOS</a>•<a
+                            href="vertice.html?id=extravio">EXTRAVÍO</a>•<a
+                            href="vertice.html?id=lujuria">LUJURIA</a>•<a href="vertice.html?id=patria">PATRIA</a>•<a
+                            href="vertice.html?id=violencia">VIOLENCIA</a></p>
                 </nav>
                 <a href="search.html" class="search"><span>Buscar</span>
                     <span class="icon">
@@ -73,9 +74,10 @@
         <audio id="clicSound" src="ruleta.wav" preload="auto"></audio>
         <img src="img/trianguloderecha.png" alt="triangulo" class="triangle">
         <img src="img/rueda.webp" alt="rueda" class="rueda">
-        <a href="javascript:seleccionarTarjetaAleatoria();" class="verticeSelected">
+        <div onclick="seleccionarTarjetaAleatoria()" class="verticeSelected">
+            <a href="javascript:seleccionarTarjetaAleatoria();" class="selectedLink"></a>
             <img src="img/vertices.webp" alt="vertices" class="vertices">
-        </a>
+        </div>
 
         <div class="botonera">
             <a href="hoy.html"><img src="img/hoy.png" alt="hoy"></a>

@@ -95,11 +95,26 @@
             }
         }
 
+        li {
+            max-width: 720px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #665343;
+            text-align: center;
+            padding: 0 20px;
+        }
+
         .result-item {
             display: flex;
             border-top: 1px solid rgba($color: #000, $alpha: .3);
             padding: 30px 0;
-            gap: 15px;
+            max-width: 100%;
+            gap: 70px;
+            text-align: left;
 
             &__title {
                 flex: 1;

@@ -3,6 +3,18 @@
      zoom: 90%;
  }
 
+ .selectedLink {
+     display: block;
+     position: absolute;
+     top: 50%;
+     right: 308px;
+     width: 910px;
+     height: 520px;
+     z-index: 22;
+     transform: translateY(-50%);
+     border-radius: 27px;
+ }
+
  .home {
      height: 100vh;
      overflow: hidden;
