@@ -261,6 +261,21 @@ let vertices = [
         desc: "Testimonio que Clarita dado a Arturo Cova luego de ser herido por una bala. ",
         galeria: [
           {
+            name: "5.2. Consumatum est. José María Gómez Castro",
+            type: "jpg",
+            ficha: [
+              "Consumatum est ",
+              "José María Gómez Castro ",
+              "ca. 1927 ",
+              "Banco de la República, Colección de Arte, AP1512",
+            ],
+            text: "<p>Consumatum est es una ilustración en la que el artista José María Gómez Castro, conocido como Pepe Gómez, hace su propia versión del escudo de Colombia. La imagen hace referencia a esas otras patrias de los territorios basados en economías extractivistas donde, según la ilustración de Gómez, el dinero, el juego, la violencia y la muerte están en el centro. La expresión latina Consummatum est significa “se acabó todo” y se emplea a propósito de una tragedia. Esta imagen retrata la misma realidad de La vorágine, pero en el marco del boom de la exploración petrolera y no del caucho. </p>",
+            link: "https://colecciones.banrepcultural.org/document/coleccion/63a069015d96b8790f25b6f3",
+            btnText: "Haga click para acceder al recurso completo",
+            img: "img/citas/azar/4/5.2.Azar.jpg",
+            thumbnail: "img/citas/azar/4/5.2.Azar_Thumb.jpg",
+          },
+          {
             name: "5.1. Teoría del juego del tresillo (rocambor) y del chipolo",
             type: "jpg",
             ficha: [
@@ -274,22 +289,6 @@ let vertices = [
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/azar/4/5.1.Azar.jpg",
             thumbnail: "img/citas/azar/4/5.1.Azar_Thumb.jpg",
-          },
-          {
-            name: "5.2. Consumatum est. José María Gómez Castro",
-            type: "jpg",
-            ficha: [
-              "Consumatum est ",
-              "José María Gómez Castro ",
-              "ca. 1927 ",
-              "Banco de la República, Colección de Arte, AP1512",
-            ],
-            text: "<p>Consumatum est es una ilustración en la que el artista José María Gómez Castro, conocido como Pepe Gómez, hace su propia versión del escudo de Colombia. La imagen hace referencia a esas otras patrias de los territorios basados en economías extractivistas donde, según la ilustración de Gómez, el dinero, el juego, la violencia y la muerte están en el centro. La expresión latina Consummatum est significa “se acabó todo” y se emplea a propósito de una tragedia. Esta imagen retrata la misma realidad de La vorágine, pero en el marco del boom de la exploración petrolera y no del caucho. </p>",
-            link: "https://colecciones.banrepcultural.org/document/coleccion/63a069015d96b8790f25b6f3",
-            btnText:
-              "Abrir material en colecciones Banrep a través del vínculo",
-            img: "img/citas/azar/4/5.2.Azar.jpg",
-            thumbnail: "img/citas/azar/4/5.2.Azar_Thumb.jpg",
           },
         ],
       },
@@ -422,8 +421,7 @@ let vertices = [
             ],
             text: "<p>El ocañero Noé León (1907-1978) fue un pintor autodidacta y gran exponente del arte conocido como “ingenuo” en el siglo XX colombiano. Sus obras retrataron un mundo selvático o ribereño exuberante, con tintes de pesadilla y violencia, producto de su vida de andariego. Fue policía, vendedor ambulante y cobrador de impuestos. El mundo de los cuadros de Noé León es el de la gente llevada por el viento, los miles de personas que suelen llamarse a sí mismas “fregadas” o “jodidas”, que van por la vida detrás de ilusiones, como el Pipa. Esos también eran los caucheros de <i>La vorágine</i>. Este lienzo se parece a las palabras del Pipa: advierte sobre una selva misteriosa, habitada por animales fascinantes y temibles, vista desde un ojo infantil que también advierte el enorme peligro del lugar.</p>",
             link: "https://colecciones.banrepcultural.org/document/coleccion/63a069015d96b8790f26037c",
-            btnText:
-              "Abrir material en colecciones Banrep a través del vínculo",
+            btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/espejismos/0/1.1.Espejismos.jpg",
             thumbnail: "img/citas/espejismos/0/1.1.Espejismos_Thumb.jpg",
           },
@@ -749,8 +747,7 @@ let vertices = [
             ],
             text: "<p>En esta representación del encuentro con un tigre (probablemente, un jaguar) se muestra claramente el paisaje de la colonización llanera que Rivera describe en La vorágine: un horizonte de pastos que va sustituyendo el paisaje bosquesino de las sociedades indígenas que habitaron históricamente la región. Aquí, como lo muestra la lámina de Gutiérrez de Alba, se aprecia la lucha contra la selva, es el avance del paisaje que resulta del despojo de las tierras indígenas y de la inversión de capital con la que sueña Arturo Cova. Este paisaje del despojo se ve representado en el avance de un hombre armado, entre los troncos de los antiguos gigantes de la selva, de cuya frontera salta un jaguar que está siendo cazado.</p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll16/id/43",
-            btnText:
-              "Abrir material en colecciones Banrep a través del vínculo",
+            btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/codicia/0/1.1.Codicia.jpg",
             thumbnail: "img/citas/codicia/0/1.1.Codicia_Thumb.jpg",
           },
@@ -935,7 +932,7 @@ let vertices = [
   },
   {
     id: "patria",
-    title: "patria",
+    title: "Patria",
     minititle: "la patria",
     intro:
       "<p>La separación de Panamá a inicios del siglo XX, la pérdida de amplios territorios del país y la necesidad de establecer fronteras fueron problemas objeto de debate nacional que preocupaban profundamente a Rivera. El autor refleja estas preocupaciones en La vorágine a través de las reflexiones de diversos personajes sobre la integridad del territorio. Durante este período, Colombia y sus vecinos iniciaron una carrera por el control de los territorios de la macrorregión Orinoco-Amazónica. Los Estados habían delegado sus funciones de soberanía y control social en terratenientes, colonos y misiones religiosas, y los intereses privados de estos actores (que eran también los de los grandes capitales extranjeros) primaron sobre el bien común. Estos agentes cometieron múltiples abusos sabiendo que los Estados priorizarían los beneficios económicos sobre los perjuicios sociales y naturales. </p>",
@@ -1130,7 +1127,7 @@ let vertices = [
   },
   {
     id: "extravio",
-    title: "extravio",
+    title: "Extravio",
     minititle: "el extravio",
     intro:
       "<p>Por la época en que se publicó La vorágine, la Real Academia de la Lengua Española, en la edición del diccionario de 1925, definió extraviar como “poner una cosa en el lugar que no le corresponde, ignorar el paradero de algo o alguien, o dejar la forma de vida que se había empezado por otra (comúnmente, en mal sentido)” (p. 554). La vorágine se puede leer desde el extravío porque sus personajes pierden el camino y la noción de realidad, por lo que terminan en una mala parte: viven bajo la falacia de un futuro mejor. El extravío en la novela es exceso, locura, fiebre, delirio y violencia. </p><p>José Eustasio Rivera retrató de manera impactante las regiones del Orinoco y el Amazonas. Si bien las condiciones de violencia y explotación de estas zonas alcanzaban los titulares de prensa de cuando en cuando, pasaban sin más. Pero quizá por el compendio de crudas realidades que Rivera sintetizó o porque muchos leyeron la novela como testimonio real, La vorágine repercutió en la discusión sobre dicho territorio, desconocido o ignorado, a pesar de que representaba la mitad del país. </p>",
@@ -1160,8 +1157,7 @@ let vertices = [
             ],
             text: "<p>José María Gutiérrez de Alba, agente enviado por la Corona española para evaluar la reactivación comercial tras la Independencia, definió al Caquetá como un “extensísimo territorio, en parte desierto y en parte poblado por varias tribus indígenas en el estado de la Naturaleza” (Tomo XII, p. 29r). Respecto al río Caquetá y a sus pobladores, dijo: </p><p>La vista del río y de las montañas que forman el horizonte en aquel lugar son sorprendentes. Aquella grande arteria fluvial tiene por allí más de cien metros de anchura, convidando a la navegación por los medios fáciles de la industria moderna; […] recorre centenares de millas por un terreno feracísimo, poblado de tribus numerosas, dispuestas a entrar en la vida de la civilización, con tal de que los racionales, como ellos llaman a los que tienen ya alguna cultura, no abusen de su sencillez y de su ignorancia (Tomo XII, pp. 29r-29v). </p><p>La acuarela en la que aparece esta descripción resalta la exuberancia vegetal. Incluye diversas embarcaciones resaltan las posibilidades de navegación y pone en primer plano la fácil disposición de los indígenas al trato con “racionales”. Es un retrato de territorios accesibles, explotables y con “buenos salvajes” (inocentes e ignorantes). </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll16/id/446",
-            btnText:
-              "Abrir material en colecciones Banrep a través del vínculo",
+            btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/extravio/0/1.1.Extravio.jpg",
             thumbnail: "img/citas/extravio/0/1.1.Extravio_Thumb.jpg",
           },
@@ -1364,7 +1360,7 @@ let vertices = [
   },
   {
     id: "lujuria",
-    title: "lujuria",
+    title: "Lujuria",
     minititle: "la lujuria",
     intro:
       "<p>La lujuria no solo está relacionada con el placer carnal, también es el exceso de cualquier cosa. Y como La vorágine es una novela sobre el exceso en todas sus formas, abunda en pasajes lujuriosos. Por ello, hay escenas de absoluta voluptuosidad que no necesariamente tienen talante sexual: el llano y la selva ofrecen paisajes y momentos rebosantes en colores, sonidos, aromas y sensaciones, bien sean conmovedoras o aterradoras. También hay personajes lujuriosos, que derrochan sin vergüenza, tienen mucho más de lo que necesitan —o incluso de lo que saben que tienen— y esclavizan a los demás, atrapándolos con la promesa de satisfacer sus deseos. La violencia que gana el corazón de Arturo Cova en un juego de azar es una violencia de los excesos, una violencia lujuriosa.</p>",
@@ -1394,8 +1390,7 @@ let vertices = [
             ],
             text: "<p>Una sensibilidad semejante a la de Rivera fue la del viajero, poeta y periodista español José María Gutiérrez de Alba (1822-1897), quien en 1871 visitó los llanos de San Martín y pintó y describió de puño y letra el amanecer del 12 de febrero: “Desde la colina en que me hallaba”, anotó en su diario, “contemplé con gozo infinito la salida del sol, que se elevaba majestuosamente, como una bola ensangrentada, entre las ligeras y diáfanas brumas en que su propio calor iba convirtiendo el rocío de la noche”.</p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll16/id/429",
-            btnText:
-              "Abrir material en colecciones Banrep a través del vínculo",
+            btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/lujuria/0/1.1.Lujuria.jpg",
             thumbnail: "img/citas/lujuria/0/1.1.Lujuria_Thumb.jpg",
           },
@@ -1595,7 +1590,7 @@ let vertices = [
   },
   {
     id: "violencia",
-    title: "violencia",
+    title: "Violencia",
     minititle: "la violencia",
     intro:
       "<p>Se ha dicho que La vorágine es la gran novela colombiana sobre la violencia. También lo es sobre el capitalismo, la selva y la frontera. Pero, ciertamente, Violencia es la palabra que, casi desde el inicio, establece la clave de interpretación de la historia que Arturo Cova narra. </p>",
@@ -2029,6 +2024,28 @@ document.addEventListener("DOMContentLoaded", () => {
       let template = `<a href="cita.html?id=${idVertice}&cita=${index}" class="grid-item"><img src="${cita.image}" alt="${textoLimpio}"><p>${textoLimpio}</p></a>`;
       document.querySelector(".vertice .grid-container").innerHTML += template;
     });
+    const introText = document.querySelector(".vertice .intro h3");
+    if (introText) {
+      const readMoreBtn = document.querySelector(".vertice .intro .read-more");
+      const maxHeight = 192;
+
+      // Verificar si el texto es mayor que el contenedor visible
+      if (parseInt(getComputedStyle(introText).height) > parseInt(maxHeight)) {
+        readMoreBtn.style.display = "inline"; // Mostrar botón "Leer más"
+        introText.classList.add("hideText");
+      } else {
+        readMoreBtn.style.display = "none"; // Ocultar si no es necesario
+        introText.classList.remove("hideText");
+      }
+
+      // Evento para mostrar todo el contenido al hacer clic en "Leer más"
+      readMoreBtn.addEventListener("click", function () {
+        introText.style.maxHeight = "none"; // Quitar limitación de líneas
+        introText.style.overflow = "visible"; // Mostrar todo el texto
+        readMoreBtn.style.display = "none"; // Ocultar botón "Leer más"
+        introText.classList.remove("hideText");
+      });
+    }
   }
   if (document.querySelector(".title")) {
     if (infoVertice) {

@@ -93,10 +93,37 @@
             color: #665343;
             padding: 0 20px;
 
+
+
+            &.hideText {
+                max-height: calc(1.5em * 8);
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 8;
+                /* Limitar a 8 líneas */
+                overflow: hidden;
+                text-overflow: ellipsis;
+                /* Añadir puntos suspensivos (...) */
+                /* Ajusta según el alto de línea */
+                line-height: 1.5em;
+                /* Ajusta la altura de la línea */
+            }
+
+
             @media only screen and (max-width: 768px) {
                 font-size: 14px;
 
             }
+        }
+
+        button {
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #665343;
+            text-decoration: underline;
+            padding: 0 20px;
         }
 
         small {
@@ -183,8 +210,8 @@
         font-family: "Merriweather", serif;
         font-weight: 400;
         font-style: italic;
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 18px;
         color: #665343;
         position: relative;
         text-overflow: ellipsis;
