@@ -526,7 +526,7 @@ let vertices = [
             text: "<p>Por la misma época en la que Rivera publicó su novela, el escritor estadounidense Jack London (1876-1916) buscó fortuna en el Klondike o Yukón canadiense. Dejó varias narraciones que dialogan con La vorágine, siendo la más famosa El llamado de la selva (1903). Ramón Vinyes (1882-1952), librero y escritor catalán residente en Barranquilla y futuro mentor de Gabriel García Márquez, produjo un notable texto sobre London en 1919, lo que abre la posibilidad de que Rivera conociera la obra del estadounidense. En las novelas de London, el oro es una irrealidad. Lo que verdaderamente importa, en medio de ese contexto violento y difícil, es la solidaridad, el amor y la voluntad por sobrevivir. </p>",
             link: "",
             btnText: "",
-            img: "img/citas/espejismos/2/3.2.Espejismos.jpg",
+            img: "img/citas/espejismos/2/3.2.Espejismos.png",
             thumbnail: "img/citas/espejismos/2/3.2.Espejismos_Thumb.jpg",
           },
         ],
@@ -720,7 +720,7 @@ let vertices = [
     title: "Codicia",
     minititle: "la codicia",
     intro:
-      "<p>Más que una “novela de la selva”, <i>La vorágine</i> es una novela sobre el capitalismo; más precisamente, sobre las formas que adopta el capitalismo salvaje en el contexto de los territorios fronterizos. En estas regiones, los negocios se entienden como redención y civilización, como inversiones que dan “impulso a la actividad financiera”, al progreso y al desarrollo. </p><p>Tal vez el rasgo más seductor de estas regiones consideradas salvajes e incultas es la promesa de riqueza que se les atribuye y su potencial para el “comercio internacional” (como se conocía en ese momento el sistema global del capital). La bandera económica de este modelo fue la “apertura de recursos” para el mercado global. </p>",
+      "<p>Más que una “novela de la selva”, <i>La vorágine</i> es una novela sobre el capitalismo; más precisamente, sobre las formas que adopta el capitalismo salvaje en el contexto de los territorios fronterizos. En estas regiones, los negocios se entienden como redención y civilización, como inversiones que dan “impulso a la actividad financiera”, al progreso y al desarrollo. </p><p>Tal vez el rasgo más seductor de estas regiones consideradas salvajes e incultas a principios del siglo XX es la promesa de riqueza que se les atribuye y su potencial para el “comercio internacional” (como se conocía en ese momento el sistema global del capital). La bandera económica de este modelo fue la “apertura de recursos” para el mercado global. </p>",
     textoFinal:
       "<p>Si algo caracteriza el periodo de finales del siglo XIX y principios del siglo XX en América Latina fue el auge de las <i>industrias de materias primas</i>, que implicó la explotación de una serie de productos de diversas procedencias históricas y geográficas que fueron el motor del modelo “extractivo exportador”, adoptado por las economías de la región desde finales del siglo XIX. Este modelo se sustentó en tres ideas fundamentales: los recursos naturales son ilimitados, su explotación debe ser rápida y barata, y el progreso se sustenta en la acumulación de capital. Tales ideas propiciaron la violencia entre seres humanos y contra la naturaleza. </p>",
     citas: [
@@ -1511,21 +1511,6 @@ let vertices = [
         desc: "Historia relatada por Helí Mesa ante el Pipa, Arturo Cova y sus acompañantes. ",
         galeria: [
           {
-            name: "4.1. Informes sobre las misiones. Hermanos Menores Capuchinos",
-            type: "jpg",
-            ficha: [
-              "Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca",
-              "Hermanos Menores Capuchinos",
-              "Bogotá: Imprenta Nacional, 1917",
-              "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Misceláneas n.º 197",
-            ],
-            text: "<p>Durante buena parte de la historia republicana de Colombia, el Estado hizo presencia en los llamados “territorios nacionales” mediante la delegación a misiones católicas de distintas congregaciones, la gran mayoría españolas. El gobierno conservador de Rafael Núñez suscribió en 1887 un concordato con la Santa Sede, que entre otros muchos asuntos permitía que las comunidades religiosas hicieran las veces de agentes en representación de los intereses nacionales fronterizos. Es por esto que los informes de misiones abundan para este periodo, especialmente sobre las regiones abarcadas en La vorágine. </p><p>Uno de estos documentos es Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca (Hermanos Menores Capuchinos, 1917) que, como en muchos otros, señala tanto perjuicios como beneficios de la institución. Las misiones ejercieron sistemas de control y explotación del trabajo de los pueblos indígenas que muchas veces rayaron en lo brutal. Pero, igualmente, les proveyeron de un refugio invaluable frente a los avances caucheros y de armas, como la lectura, la escritura y la aritmética, que resultaban fundamentales para sobrevivir a los embates del mundo blanco. </p>",
-            link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4317/rec/2",
-            btnText: "Abrir libro en Babel a través del vínculo",
-            img: "img/citas/lujuria/3/4.1.Lujuria.jpg",
-            thumbnail: "img/citas/lujuria/3/4.1.Lujuria_Thumb.jpg",
-          },
-          {
             name: "4.2. Recuerdos de un viaje. Pablo V. Gómez",
             type: "jpg",
             ficha: [
@@ -1539,6 +1524,21 @@ let vertices = [
             btnText: "",
             img: "img/citas/lujuria/3/4.2.Lujuria.jpg",
             thumbnail: "img/citas/lujuria/3/4.2.Lujuria_Thumb.jpg",
+          },
+          {
+            name: "4.1. Informes sobre las misiones. Hermanos Menores Capuchinos",
+            type: "jpg",
+            ficha: [
+              "Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca",
+              "Hermanos Menores Capuchinos",
+              "Bogotá: Imprenta Nacional, 1917",
+              "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Misceláneas n.º 197",
+            ],
+            text: "<p>Durante buena parte de la historia republicana de Colombia, el Estado hizo presencia en los llamados “territorios nacionales” mediante la delegación a misiones católicas de distintas congregaciones, la gran mayoría españolas. El gobierno conservador de Rafael Núñez suscribió en 1887 un concordato con la Santa Sede, que entre otros muchos asuntos permitía que las comunidades religiosas hicieran las veces de agentes en representación de los intereses nacionales fronterizos. Es por esto que los informes de misiones abundan para este periodo, especialmente sobre las regiones abarcadas en La vorágine. </p><p>Uno de estos documentos es Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca (Hermanos Menores Capuchinos, 1917) que, como en muchos otros, señala tanto perjuicios como beneficios de la institución. Las misiones ejercieron sistemas de control y explotación del trabajo de los pueblos indígenas que muchas veces rayaron en lo brutal. Pero, igualmente, les proveyeron de un refugio invaluable frente a los avances caucheros y de armas, como la lectura, la escritura y la aritmética, que resultaban fundamentales para sobrevivir a los embates del mundo blanco. </p>",
+            link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4317/rec/2",
+            btnText: "Abrir libro en Babel a través del vínculo",
+            img: "img/citas/lujuria/3/4.1.Lujuria.jpg",
+            thumbnail: "img/citas/lujuria/3/4.1.Lujuria_Thumb.jpg",
           },
         ],
       },
@@ -2053,9 +2053,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   if (document.querySelector(".subtitle")) {
-    document.querySelector(
-      ".subtitle"
-    ).innerHTML = `<h2>¿CÓMO SE LEE HOY</h2><h2>${infoVertice.minititle.toUpperCase()}</h2><h2>EN LA VORÁGINE?</h2>`;
+    if (infoVertice.minititle == "los espejismos") {
+      document.querySelector(
+        ".subtitle"
+      ).innerHTML = `<h2>¿CÓMO SE LEEN HOY</h2><h2>${infoVertice.minititle.toUpperCase()}</h2><h2>EN LA VORÁGINE?</h2>`;
+    } else {
+      document.querySelector(
+        ".subtitle"
+      ).innerHTML = `<h2>¿CÓMO SE LEE HOY</h2><h2>${infoVertice.minititle.toUpperCase()}</h2><h2>EN LA VORÁGINE?</h2>`;
+    }
   }
   if (document.querySelector(".cita")) {
     const idCita = params.get("cita") || "";
