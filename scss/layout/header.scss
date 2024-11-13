@@ -18,8 +18,9 @@ header {
             height: 110px;
 
             @media only screen and (max-width: 768px) {
-                width: 120px;
-                height: 80px;
+                width: 80px;
+                height: 50px;
+                object-fit: contain;
 
             }
         }
@@ -28,6 +29,13 @@ header {
     .banrep {
         width: 80px;
         height: 80px;
+
+        @media only screen and (max-width: 768px) {
+            width: 80px;
+            height: 50px;
+            object-fit: contain;
+
+        }
     }
 
     .container {
@@ -40,6 +48,7 @@ header {
 
         @media only screen and (max-width: 768px) {
             flex-direction: column;
+            padding: 0;
         }
 
 
@@ -59,6 +68,7 @@ header {
         transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
         text-transform: uppercase;
         gap: 10px;
+        font-size: 18px;
 
         &:hover {
             transform: translateX(-5px)
@@ -115,7 +125,11 @@ nav {
         font-family: 'Imbue 24pt';
         font-weight: bold;
         font-style: normal;
-        font-size: 21px;
+        font-size: 18px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 

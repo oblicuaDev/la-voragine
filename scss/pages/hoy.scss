@@ -46,6 +46,19 @@
                     text-transform: uppercase;
                     margin-bottom: 15px;
 
+                    a {
+                        font-family: "Merriweather", serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: #665343;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-size: 12px;
+                        text-transform: uppercase;
+
+                    }
+
                     img {
                         width: 23px;
                     }

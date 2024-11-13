@@ -2024,28 +2024,6 @@ document.addEventListener("DOMContentLoaded", () => {
       let template = `<a href="cita.html?id=${idVertice}&cita=${index}" class="grid-item"><img src="${cita.image}" alt="${textoLimpio}"><p>${textoLimpio}</p></a>`;
       document.querySelector(".vertice .grid-container").innerHTML += template;
     });
-    const introText = document.querySelector(".vertice .intro h3");
-    if (introText) {
-      const readMoreBtn = document.querySelector(".vertice .intro .read-more");
-      const maxHeight = 192;
-
-      // Verificar si el texto es mayor que el contenedor visible
-      if (parseInt(getComputedStyle(introText).height) > parseInt(maxHeight)) {
-        readMoreBtn.style.display = "inline"; // Mostrar botón "Leer más"
-        introText.classList.add("hideText");
-      } else {
-        readMoreBtn.style.display = "none"; // Ocultar si no es necesario
-        introText.classList.remove("hideText");
-      }
-
-      // Evento para mostrar todo el contenido al hacer clic en "Leer más"
-      readMoreBtn.addEventListener("click", function () {
-        introText.style.maxHeight = "none"; // Quitar limitación de líneas
-        introText.style.overflow = "visible"; // Mostrar todo el texto
-        readMoreBtn.style.display = "none"; // Ocultar botón "Leer más"
-        introText.classList.remove("hideText");
-      });
-    }
   }
   if (document.querySelector(".title")) {
     if (infoVertice) {
@@ -2099,7 +2077,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let { name, type, ficha, text, link, btnText, img, thumbnail } = item;
 
         // Uso de la función
-        checkImageOrientation(img, function (isVertical) {
+        checkImageOrientation(img, function () {
           // Aquí puedes continuar con el resto del código, utilizando el valor de isVertical
           // Generar el contenido dinámico para el figcaption
           let contenidoFicha = ficha
@@ -2112,12 +2090,10 @@ document.addEventListener("DOMContentLoaded", () => {
           let template = `<button type="button" popovertarget="galitem-${index}"><figure><img  src="${thumbnail}" alt="${name}"><figcaption>${contenidoFicha}</figcaption></figure>
           </button><div popover="" id="galitem-${index}" class="popover"><div class="content"><button class="close" popovertarget="galitem-${index}" popovertargetaction="toggle" type="button"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_101_2)"><path d="M20.2114 16.4061L14.3046 10.4993L20.2114 4.59246C21.2622 3.5417 21.2622 1.83796 20.2114 0.787191C19.1607 -0.263577 17.4569 -0.263577 16.4061 0.787191L10.4993 6.694L4.59317 0.78783C3.5424 -0.262937 1.83866 -0.262937 0.787893 0.78783C-0.262875 1.8386 -0.262875 3.54234 0.787893 4.5931L6.6947 10.4999L0.787893 16.4061C-0.262875 17.4569 -0.262875 19.1606 0.787893 20.2114C1.83866 21.2621 3.5424 21.2621 4.59317 20.2114L10.5 14.3045L16.4068 20.2114C17.4576 21.2621 19.1613 21.2621 20.2121 20.2114C21.2628 19.1606 21.2628 17.4569 20.2121 16.4061H20.2114Z" fill="#665343"></path></g><defs><clipPath id="clip0_101_2"><rect width="21" height="21" fill="white"></rect></clipPath></defs></svg></button><div class="content-header">${
             link != ""
-              ? `<a href="${link}" target="_blank" class="complete"><svg width="31" height="36" viewBox="0 0 31 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.37 7.2H1.62V33.08H23.37V7.2Z" fill="white"></path><path d="M29.15 27.65H7.4V1.78H21.25L29.15 9.7V27.65Z" fill="white"></path><path d="M30.45 8.95L22.09 0.45C21.81 0.16 21.42 0 21.02 0H7.17C6.34 0 5.67 0.67 5.67 1.5V5.67H1.5C0.67 5.67 0 6.34 0 7.17V33.6C0 34.43 0.67 35.1 1.5 35.1H23.71C24.54 35.1 25.21 34.43 25.21 33.6V29.43H29.38C30.21 29.43 30.88 28.76 30.88 27.93V10C30.88 9.61 30.73 9.23 30.45 8.95ZM22.52 5.17L25.8 8.51H22.52V5.17ZM22.21 32.1H3V8.67H5.67V27.93C5.67 28.76 6.34 29.43 7.17 29.43H22.21V32.1ZM8.67 26.43V3H19.52V10C19.52 10.83 20.19 11.5 21.02 11.5H27.88V26.43H8.67Z" fill="#665344"></path><path d="M23.85 14.72H12.69C11.86 14.72 11.19 15.39 11.19 16.22C11.19 17.05 11.86 17.72 12.69 17.72H23.85C24.68 17.72 25.35 17.05 25.35 16.22C25.35 15.39 24.68 14.72 23.85 14.72Z" fill="#665344"></path><path d="M23.85 20.39H12.69C11.86 20.39 11.19 21.06 11.19 21.89C11.19 22.72 11.86 23.39 12.69 23.39H23.85C24.68 23.39 25.35 22.72 25.35 21.89C25.35 21.06 24.68 20.39 23.85 20.39Z" fill="#665344"></path></svg>${btnText}</a>`
+              ? `<a href="${link}" target="_blank" class="complete"><svg width="31" height="36" viewBox="0 0 31 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.37 7.2H1.62V33.08H23.37V7.2Z" fill="white"></path><path d="M29.15 27.65H7.4V1.78H21.25L29.15 9.7V27.65Z" fill="white"></path><path d="M30.45 8.95L22.09 0.45C21.81 0.16 21.42 0 21.02 0H7.17C6.34 0 5.67 0.67 5.67 1.5V5.67H1.5C0.67 5.67 0 6.34 0 7.17V33.6C0 34.43 0.67 35.1 1.5 35.1H23.71C24.54 35.1 25.21 34.43 25.21 33.6V29.43H29.38C30.21 29.43 30.88 28.76 30.88 27.93V10C30.88 9.61 30.73 9.23 30.45 8.95ZM22.52 5.17L25.8 8.51H22.52V5.17ZM22.21 32.1H3V8.67H5.67V27.93C5.67 28.76 6.34 29.43 7.17 29.43H22.21V32.1ZM8.67 26.43V3H19.52V10C19.52 10.83 20.19 11.5 21.02 11.5H27.88V26.43H8.67Z" fill="#665344"></path><path d="M23.85 14.72H12.69C11.86 14.72 11.19 15.39 11.19 16.22C11.19 17.05 11.86 17.72 12.69 17.72H23.85C24.68 17.72 25.35 17.05 25.35 16.22C25.35 15.39 24.68 14.72 23.85 14.72Z" fill="#665344"></path><path d="M23.85 20.39H12.69C11.86 20.39 11.19 21.06 11.19 21.89C11.19 22.72 11.86 23.39 12.69 23.39H23.85C24.68 23.39 25.35 22.72 25.35 21.89C25.35 21.06 24.68 20.39 23.85 20.39Z" fill="#665344"></path></svg>PARA VER EL RECURSO COMPLETO, HAGA CLIC AQUÍ.</a>`
               : ``
           }</div>
-  <div class="content-body"><img height="${
-    isVertical ? 900 : 430
-  }" src="${img}" alt="image"><div class="txt"><div class="nomargin">${contenidoFicha}</div>${text}</div></div></div></div>`;
+  <div class="content-body"><img src="${img}" alt="image"><div class="txt"><div class="nomargin">${contenidoFicha}</div>${text}</div></div></div></div>`;
           // Guardar el template en el array en la posición correcta
           templates[index] = template;
           // Verificar si todas las imágenes han sido procesadas

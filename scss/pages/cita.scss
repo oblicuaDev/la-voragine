@@ -64,10 +64,12 @@
                 color: #665343;
                 gap: 30px;
                 height: calc(100% - 30px);
-                overflow: auto;
+
+                align-items: flex-start;
 
                 img {
                     object-fit: contain;
+                    width: 50%;
                 }
 
                 strong {
@@ -90,6 +92,8 @@
                 .txt {
                     max-width: 290px;
                     width: 100%;
+                    overflow: auto;
+                    height: calc(100% - 190px);
                 }
 
                 .nomargin {
@@ -292,12 +296,6 @@
             margin-bottom: 15px;
         }
 
-        button {
-            &:hover {
-                opacity: 0.8;
-            }
-        }
-
         figure {
             display: flex;
             gap: 10px;
@@ -326,6 +324,23 @@
                     line-height: 16px;
                     margin: 0;
                     text-align: left;
+
+                    strong {
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+
+        button {
+            &:hover {
+                opacity: 0.8;
+
+                figcaption {
+                    p {
+                        color: #c00;
+                    }
                 }
             }
         }

@@ -58,13 +58,6 @@
         }
     }
 
-    .content-crditos {
-        max-width: 480px;
-        margin: 0 auto;
-        width: 100%;
-        padding: 0 0 50px;
-    }
-
     p {
         width: 100%;
         font-family: "Merriweather", serif;
@@ -96,6 +89,36 @@
 
         @media only screen and (max-width: 768px) {
             margin: 0 auto;
+
+        }
+    }
+
+    .content-crditos {
+        max-width: 1080px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 0 50px;
+        justify-content: center;
+        display: flex;
+
+        .left,
+        .right {
+            max-width: 480px;
+
+            p {
+                width: 100%;
+                font-family: "Merriweather", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: clamp(12px, 1vw, 14px);
+                color: #665343;
+                margin: 0;
+
+                @media only screen and (max-width: 768px) {
+                    max-width: 100%;
+                    padding: 20px;
+                }
+            }
 
         }
     }
