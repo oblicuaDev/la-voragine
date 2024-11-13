@@ -87,9 +87,9 @@ let vertices = [
         bg: "img/citas/azar/0/Azar_Cita01_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         comentario:
-          "<p>José Eustasio Rivera fue osado al abrir su novela con este fragmento de una carta de Arturo Cova, el protagonista, ya que dispone la clave con la que ha de leerse La vorágine: se trata de un texto marcado por la fatalidad, no solo la de Cova, sino la de todo habitante de frontera. Son caucheros, quineros, raspachines, mineros, guaqueros o jornaleros, seres en zonas de economías extractivas, guiados por el viento, que es otro nombre para la fortuna. No en vano el nombre de Alicia evoca los alisios, vientos que soplan entre las áreas subtropicales y ecuatoriales. También se ha dicho que en este contexto Alicia pudiera significar “aliciente”.</p> <p>Este epígrafe no es solo el manifiesto de la vida de Arturo Cova, sino de toda una condición social de los habitantes de la frontera, en la que se lamenta el pasado perdido y se llora por la fortuna esquiva. Condición que inevitablemente conduce a la violencia; pues ese desarraigo fatal no deja a su paso más que ruido y desolación.</p>",
+          "<p>José Eustasio Rivera fue osado al abrir su novela con este fragmento de una carta de Arturo Cova, el protagonista, ya que dispone la clave con la que ha de leerse <i>La vorágine</i>: se trata de un texto marcado por la fatalidad, no solo la de Cova, sino la de todo habitante de frontera. Son caucheros, quineros, raspachines, mineros, guaqueros o jornaleros, seres en zonas de economías extractivas, guiados por el viento, que es otro nombre para la fortuna. No en vano el nombre de Alicia evoca los alisios, vientos que soplan entre las áreas subtropicales y ecuatoriales. También se ha dicho que en este contexto Alicia pudiera significar “aliciente”.</p> <p>Este epígrafe no es solo el manifiesto de la vida de Arturo Cova, sino de toda una condición social de los habitantes de la frontera, en la que se lamenta el pasado perdido y se llora por la fortuna esquiva. Condición que inevitablemente conduce a la violencia; pues ese desarraigo fatal no deja a su paso más que ruido y desolación.</p>",
         text: "<p>Los que un tiempo creyeron que mi inteligencia irradiaría extraordinariamente, cual una aureola de mi juventud; los que se olvidaron de mí apenas mi planta descendió al infortunio; los que al recordarme alguna vez piensen en mi fracaso y se pregunten por qué no fui lo que pude haber sido, sepan que el destino implacable me desarraigó de la prosperidad incipiente y me lanzó a las pampas, para que ambulara vagabundo, como los vientos, y me extinguiera como ellos sin dejar más que ruido y desolación (p. 13).</p>",
         desc: "Fragmento de la carta de Arturo Cova.",
         galeria: [
@@ -97,12 +97,12 @@ let vertices = [
             name: "1.1. Manuscrito de La vorágine - f.1r. José Eustasio Rivera",
             type: "jpg",
             ficha: [
-              "Manuscrito de La vorágine ",
+              "<p>Manuscrito de <i>La vorágine</i></p> ",
               "José Eustasio Rivera ",
               "1922-1924 ",
               "Biblioteca Nacional de Colombia, Fondo Antiguo, RM617 ",
             ],
-            text: "<p>La primera página del manuscrito de La vorágine muestra varios elementos interesantes: la firma de José Eustasio Rivera, el establecer que es una novela (que ya por entonces tenía la connotación de ser un relato de hechos imaginados, aunque desde el inicio su autor supiera que jugaría con los límites entre la verdad y la ficción) y un profundo tachón detrás del que, hasta ahora, no sabemos qué ocultó el escritor con ahínco. </p><p>Dentro de ese juego de realidad-ficción y, posiblemente, con la claridad de dar una forma circular en la novela, Rivera tiene claro que pondrá como epígrafe el fragmento de una carta enviada por su personaje central, Arturo Cova, al final de la novela. En esta, Cova denuncia al cónsul colombiano en Manaos las atrocidades que vivió y vio durante su recorrido por la Orinoquía y la Amazonía. </p>",
+            text: "<p>La primera página del manuscrito de <i>La vorágine</i> muestra varios elementos interesantes: la firma de José Eustasio Rivera, el establecer que es una novela (que ya por entonces tenía la connotación de ser un relato de hechos imaginados, aunque desde el inicio su autor supiera que jugaría con los límites entre la verdad y la ficción) y un profundo tachón detrás del que, hasta ahora, no sabemos qué ocultó el escritor con ahínco. </p><p>Dentro de ese juego de realidad-ficción y, posiblemente, con la claridad de dar una forma circular en la novela, Rivera tiene claro que pondrá como epígrafe el fragmento de una carta enviada por su personaje central, Arturo Cova, al final de la novela. En esta, Cova denuncia al cónsul colombiano en Manaos las atrocidades que vivió y vio durante su recorrido por la Orinoquía y la Amazonía. </p>",
             link: "https://catalogoenlinea.bibliotecanacional.gov.co/client/es_ES/search/asset/268942",
             btnText:
               "Abrir material en el catálogo de la BN a través del vínculo ",
@@ -113,12 +113,12 @@ let vertices = [
             name: "1.2. Arturo Cova en las barracas del Guaracú. José Eustasio Rivera",
             type: "jpg",
             ficha: [
-              "Arturo Cova en las barracas del Guaracú (fotografía tomada por la madona Zoraida Ayram)",
+              "<p><i>Arturo Cova en las barracas del Guaracú (fotografía tomada por la madona Zoraida Ayram)</i></p>",
               "Foto anónima",
-              "En José Eustasio Rivera, La vorágine, Bogotá: Cromos, 1924",
+              "<p>En José Eustasio Rivera, <i>La vorágine</i>, Bogotá: Cromos, 1924</p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Co863.5 R49v",
             ],
-            text: "<p>La vorágine fue una de las primeras novelas en servirse de fotografías para dar cuenta de la realidad de las situaciones que narraba o para hacer creer que lo que relataba era real. Pero hay varias incógnitas detrás de este ingenioso recurso. Cuando apareció la novela, algunos pensaron que Arturo Cova no era otro que el mismísimo José Eustasio Rivera, razón por la que el autor eliminó las fotos a partir de la quinta edición. Aun así, no es claro si la fotografía Arturo Cova en las barracas de Guaracú es un fotomontaje en el cual Rivera sobrepuso su rostro al de alguien más. Un censo cauchero levantado en 1912 por el venezolano Samuel Darío Maldonado muestra que sí hubo un Arturo Cova histórico, de carne y hueso, que vivió por la misma época y región en la que transcurre La vorágine. ¿Sería acaso, originalmente, el retrato de Arturo Cova con la cabeza superpuesta de Rivera?</p>",
+            text: "<p><i>La vorágine</i> fue una de las primeras novelas en servirse de fotografías para dar cuenta de la realidad de las situaciones que narraba o para hacer creer que lo que relataba era real. Pero hay varias incógnitas detrás de este ingenioso recurso. Cuando apareció la novela, algunos pensaron que Arturo Cova no era otro que el mismísimo José Eustasio Rivera, razón por la que el autor eliminó las fotos a partir de la quinta edición. Aun así, no es claro si la fotografía <i>Arturo Cova en las barracas de Guaracú</i> es un fotomontaje en el cual Rivera sobrepuso su rostro al de alguien más. Un censo cauchero levantado en 1912 por el venezolano Samuel Darío Maldonado muestra que sí hubo un Arturo Cova histórico, de carne y hueso, que vivió por la misma época y región en la que transcurre <i>La vorágine</i>. ¿Sería acaso, originalmente, el retrato de Arturo Cova con la cabeza superpuesta de Rivera?</p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4309/rec/5",
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/azar/0/1.2.Azar.jpg",
@@ -129,12 +129,12 @@ let vertices = [
       {
         id: "02",
         comentario:
-          "<p>Azar, pasión, corazón y violencia: en esta misteriosa y contundente frase puede leerse los temas fundamentales de La vorágine y de la historia trágica de Colombia. Un país hecho en una buena medida por miles de personas que han buscado hacer “patria” o riqueza en las fronteras, en detrimento de sus habitantes indígenas y su equilibrio, siempre movidos por el azar. Yendo a donde el viento o la fortuna los lleven, como en la emblemática rueda de las cartas del tarot o como en un remolino caprichoso que siempre devora.</p><p>Un país que se consagró solemnemente al Sagrado Corazón de Jesús en 1902, al cabo de la más sanguinaria guerra civil, y luego lo invocó en la posterior violencia interpartidista, que muchas veces ha demostrado amalgamar pasión religiosa con pasión amorosa, de formas acérrimas y violentas. Y es que la violencia está en el corazón de la trama, es el ojo de la vorágine. La violencia es la que siempre media las relaciones entre los personajes, la violencia contra las mujeres, el exterminio de los indios, la esclavización, las relaciones del endeude y, claro, la violencia contra la naturaleza: el ganado, las garzas, los árboles y la selva. </p>",
+          "<p>Azar, pasión, corazón y violencia: en esta misteriosa y contundente frase puede leerse los temas fundamentales de <i>La vorágine</i> y de la historia trágica de Colombia. Un país hecho en una buena medida por miles de personas que han buscado hacer “patria” o riqueza en las fronteras, en detrimento de sus habitantes indígenas y su equilibrio, siempre movidos por el azar. Yendo a donde el viento o la fortuna los lleven, como en la emblemática rueda de las cartas del tarot o como en un remolino caprichoso que siempre devora.</p><p>Un país que se consagró solemnemente al Sagrado Corazón de Jesús en 1902, al cabo de la más sanguinaria guerra civil, y luego lo invocó en la posterior violencia interpartidista, que muchas veces ha demostrado amalgamar pasión religiosa con pasión amorosa, de formas acérrimas y violentas. Y es que la violencia está en el corazón de la trama, es el ojo de la vorágine. La violencia es la que siempre media las relaciones entre los personajes, la violencia contra las mujeres, el exterminio de los indios, la esclavización, las relaciones del endeude y, claro, la violencia contra la naturaleza: el ganado, las garzas, los árboles y la selva. </p>",
         image: "img/citas/azar/cita_02.jpg",
         bg: "img/citas/azar/1/Azar_Cita02_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         text: "<p>Antes que me hubiera apasionado por mujer alguna, jugué mi corazón al azar y me lo ganó la Violencia (p. 15).</p>",
         desc: "Palabras con las que Arturo Cova da inicio a su relato. ",
         galeria: [
@@ -142,9 +142,9 @@ let vertices = [
             name: "2.1. Sagrado Corazón de Jesús. Anónimo",
             type: "jpg",
             ficha: [
-              "Sagrado Corazón de Jesús ",
+              "<p><i>Sagrado Corazón de Jesús</i></p> ",
               "Anónimo ",
-              "En Nuevo manualito para los devotos del Sagrado Corazón de Jesús, Bogotá: Imprenta de Francisco Torres Amaya, 1880 ",
+              "<p>En <i>Nuevo manualito para los devotos del Sagrado Corazón de Jesús</i>, Bogotá: Imprenta de Francisco Torres Amaya, 1880 </p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 248.143 N83j",
             ],
             text: "<p>El 22 de junio de 1902, el presidente José Manuel Marroquín consagró a Colombia al Sagrado Corazón de Jesús, al tiempo que sentaba la primera piedra para la iglesia del Voto Nacional en Bogotá. Buscaba establecer un lugar de paz y concordia tras la Guerra de los Mil Días (1899-1902), conflicto en el que Marroquín mostró una férrea rudeza al combatir a como diera lugar a los adversarios del gobierno. </p><p>El Sagrado Corazón de Jesús fue el emblema de los movimientos conservadores y contrarrevolucionarios. El perturbador contraste entre la faz beatífica de Jesús y su corazón extraído ha servido para reconocernos de varias maneras. Se dice que el nuestro es “el país del Sagrado Corazón” porque cualquier cosa, por inverosímil que sea, puede pasar. Casi que todo puede pasar azarosamente, paradójicamente “dejado de la mano de Dios”. También ha dado para que de una manera no exenta de mucha ambigüedad se proclame que “Colombia es pasión”. </p>",
@@ -157,12 +157,12 @@ let vertices = [
             name: "2.2. Nuevo manualito. Anónimo",
             type: "jpg",
             ficha: [
-              "Nuevo manualito para los devotos del Sagrado Corazón de Jesús ",
+              "<p><i>Nuevo manualito para los devotos del Sagrado Corazón de Jesús</i></p> ",
               "Anónimo ",
               "Bogotá: Imprenta de Francisco Torres Amaya, 1880 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 248.143 N83j ",
             ],
-            text: "<p>Si bien el azar es central en La vorágine, la violencia no es azarosa. Rivera denuncia sus actores, causas y consecuencias. Aunque la causa principal de la violencia es la codicia, ejercida por beneficios económicos, la novela también aborda otros tipos de violencia. </p><p>Aunque Rivera militaba en el Partido Conservador, abogó por la tolerancia política y religiosa. La violencia no es cuestión del azar o de la Sagrada Providencia, es decisión de quien la ejerce o la promueve. </p>",
+            text: "<p>Si bien el azar es central en <i>La vorágine</i>, la violencia no es azarosa. Rivera denuncia sus actores, causas y consecuencias. Aunque la causa principal de la violencia es la codicia, ejercida por beneficios económicos, la novela también aborda otros tipos de violencia. </p><p>Aunque Rivera militaba en el Partido Conservador, abogó por la tolerancia política y religiosa. La violencia no es cuestión del azar o de la Sagrada Providencia, es decisión de quien la ejerce o la promueve. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4338/rec/1",
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/azar/1/2.2.Azar.jpg",
@@ -173,25 +173,25 @@ let vertices = [
       {
         id: "33",
         comentario:
-          "<p>Se ha dicho en varias ocasiones que el verdadero protagonista de La vorágine es Clemente Silva, pues es el único que logra salir de la selva para entregarle el relato de Arturo Cova al cónsul colombiano en Manaos. </p><p>Su nombre, además, puede interpretarse como selva clemente. No obstante, esa capacidad de orientación en la espesura verde y de entendimiento con la selva la ha logrado a un precio muy alto: el sacrificio de su hijo Luciano y el fundirse con el entorno en una sola masa orgánica, en la que la selva lo va devorando de a poco. </p><p>Desde que salió de Pasto en busca de su hijo, que huyó de casa ante una afrenta al honor familiar, Clemente no ha conocido sino desventuras y dolores físicos. De cierta manera, evoca a un ermitaño místico de la antigüedad, no solo por su figura, sino por su enorme capacidad de sufrimiento en busca de redención. Pero, además, como personaje inaugura un tipo social muy de nuestra época, tan fundamental como trágico: el buscador de secuestrados o desaparecidos. </p>",
+          "<p>Se ha dicho en varias ocasiones que el verdadero protagonista de <i>La vorágine</i> es Clemente Silva, pues es el único que logra salir de la selva para entregarle el relato de Arturo Cova al cónsul colombiano en Manaos. </p><p>Su nombre, además, puede interpretarse como <i>selva clemente</i>. No obstante, esa capacidad de orientación en la espesura verde y de entendimiento con la selva la ha logrado a un precio muy alto: el sacrificio de su hijo Luciano y el fundirse con el entorno en una sola masa orgánica, en la que la selva lo va devorando de a poco. </p><p>Desde que salió de Pasto en busca de su hijo, que huyó de casa ante una afrenta al honor familiar, Clemente no ha conocido sino desventuras y dolores físicos. De cierta manera, evoca a un ermitaño místico de la antigüedad, no solo por su figura, sino por su enorme capacidad de sufrimiento en busca de redención. Pero, además, como personaje inaugura un tipo social muy de nuestra época, tan fundamental como trágico: el buscador de secuestrados o desaparecidos. </p>",
         image: "img/citas/azar/cita_03.jpg",
         bg: "img/citas/azar/2/Azar_Cita03_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         text: "<p>Este mísero anciano Clemente Silva siempre ha tenido el monopolio de la desventura. Desde el día que yendo de Iquitos para Manaos oyó noticias del hijo muerto, cifró su esperanza en prolongar la esclavitud. Quería ser cauchero unos años más, hasta que la tierra le permitiera exhumar los restos. La selva, indirectamente, lo reclamaba como prófugo, y era el espectro de Lucianito el que le pedía volver atrás (p. 153).</p>",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         desc: "Arturo Cova sobre Clemente Silva al encontrarse con el río Isana.",
         galeria: [
           {
             name: "3.1. El cauchero Clemente Silva. José Eustasio Rivera",
             type: "jpg",
             ficha: [
-              "El cauchero Clemente Silva ",
+              "<p><i>El cauchero Clemente Silva</i></p> ",
               "Foto anónima ",
-              "En José Eustasio Rivera, La vorágine, Bogotá: Cromos, 1924 ",
+              "<p>En José Eustasio Rivera, <i>La vorágine</i>, Bogotá: Cromos, 1924</p> ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Co863.5 R49v1",
             ],
-            text: "<p>Tan importante resultaba la presencia de Clemente Silva en La vorágine, que Rivera quiso que fuera el otro personaje de la trama que apareciera en una fotografía. Se trata de una imagen poderosa, en la que se demuestra la pericia del viejo cauchero que se funde con el entorno en una sola trama tupida y vegetal, a medio camino entre cielo e infierno. </p><p>El experto brasileño Leopoldo Bernucci ha demostrado que originalmente esta fotografía fue una postal que circuló en Manaos hacia 1904-1905, y que llamó la atención de José Eustasio Rivera. Pero como sabemos que al igual que hubo un Arturo Cova “real”, hubo un Clemente Silva que existió históricamente hacia esa misma época en la misma región, cabe en todo caso preguntarse si quien allí aparece no fuera el mismo sujeto. </p>",
+            text: "<p>Tan importante resultaba la presencia de Clemente Silva en <i>La vorágine</i>, que Rivera quiso que fuera el otro personaje de la trama que apareciera en una fotografía. Se trata de una imagen poderosa, en la que se demuestra la pericia del viejo cauchero que se funde con el entorno en una sola trama tupida y vegetal, a medio camino entre cielo e infierno. </p><p>El experto brasileño Leopoldo Bernucci ha demostrado que originalmente esta fotografía fue una postal que circuló en Manaos hacia 1904-1905, y que llamó la atención de José Eustasio Rivera. Pero como sabemos que al igual que hubo un Arturo Cova “real”, hubo un Clemente Silva que existió históricamente hacia esa misma época en la misma región, cabe en todo caso preguntarse si quien allí aparece no fuera el mismo sujeto. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4309/rec/5",
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/azar/2/3.1.Azar.jpg",
@@ -212,12 +212,12 @@ let vertices = [
       {
         id: "44",
         comentario:
-          "<p>Ramiro Estévanez representa otro tipo social de La vorágine. Arturo Cova lo encuentra bajo el alias de Esteban Ramírez en las barracas del Váquiro (un jefe cauchero tan brutal como estúpido) y lo identifica de inmediato, dado que habían hecho parte del mismo entorno en el pasado. </p><p>Como mucha gente de antes y de ahora, había huido hacia un frente de extracción o colonización para reinventar su historia. En su caso, lo impulsó el despecho. Siendo estudiante y cosmopolita, pero de pocos medios, asumió otro nombre y otro oficio. Presenció la masacre de San Fernando de Atabapo contra el gobernador Roberto Pulido, el 8 de mayo de 1913, que llevó al coronel Tomás Funes a volverse el hombre más fuerte y temible de la región. </p><p>Por haber sido testigo y hasta cierto punto cómplice, Ramiro cree que el destino lo castiga con la ceguera y que nunca regresará a casa porque la fortuna no lo ha favorecido. Por ello, antes que la redención, prefiere el olvido. No obstante, Estévanez es quien impulsa a Cova a escribir la carta de denuncia para el cónsul de Colombia en Manaos, con la esperanza de que el Estado detenga las atrocidades. </p>",
+          "<p>Ramiro Estévanez representa otro tipo social de <i>La vorágine</i>. Arturo Cova lo encuentra bajo el alias de Esteban Ramírez en las barracas del Váquiro (un jefe cauchero tan brutal como estúpido) y lo identifica de inmediato, dado que habían hecho parte del mismo entorno en el pasado. </p><p>Como mucha gente de antes y de ahora, había huido hacia un frente de extracción o colonización para reinventar su historia. En su caso, lo impulsó el despecho. Siendo estudiante y cosmopolita, pero de pocos medios, asumió otro nombre y otro oficio. Presenció la masacre de San Fernando de Atabapo contra el gobernador Roberto Pulido, el 8 de mayo de 1913, que llevó al coronel Tomás Funes a volverse el hombre más fuerte y temible de la región. </p><p>Por haber sido testigo y hasta cierto punto cómplice, Ramiro cree que el destino lo castiga con la ceguera y que nunca regresará a casa porque la fortuna no lo ha favorecido. Por ello, antes que la redención, prefiere el olvido. No obstante, Estévanez es quien impulsa a Cova a escribir la carta de denuncia para el cónsul de Colombia en Manaos, con la esperanza de que el Estado detenga las atrocidades. </p>",
         image: "img/citas/azar/cita_04.jpg",
         bg: "img/citas/azar/3/Azar_Cita04_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         text: "<p>¿Volver yo a las ciudades, desmedrado, pobre y enfermo? El que dejó sus lares en busca de fortuna no debe tornar pidiendo limosna. Por aquí siquiera nadie conoce mis vicisitudes, y la miseria toma aspectos de voluntaria renunciación. Vete, la vida nos amasó con sustancias contradictorias. No podemos seguir el mismo camino. Si algún día ves a mis padres, cúrate de decirles dónde estoy. ¡Caiga el olvido sobre el que nunca puede olvidar! (p. 203).</p>",
         desc: "Ramiro Estévanez respondiendo a Arturo Cova sobre las posibilidades de fugarse de las barracas del Váquiro. ",
         galeria: [
@@ -225,12 +225,12 @@ let vertices = [
             name: "4.1. Horacio Quiroga. Anónimo",
             type: "jpg",
             ficha: [
-              "Horacio Quiroga ",
+              "<p><i>Horacio Quiroga</i></p> ",
               "Anónimo ",
               "s. f. ",
               "Biblioteca Nacional de Uruguay, Colección Aníbal Barrios Pintos",
             ],
-            text: "<p>En esta fotografía se ve al escritor uruguayo Horacio Quiroga (1878-1937), autor de relatos terroríficos y sobrenaturales, y una suerte de “alma gemela” literaria de José Eustasio Rivera, aunque solo se conocieron tardíamente y nunca en persona. </p><p>La historia de Ramiro Estévanez se asemeja en muchos aspectos a la de varios personajes creados por Quiroga, y hasta cierto punto, al mismo escritor uruguayo, quien se fue a vivir a la selva de Misiones, en parte por una decepción amorosa, y la describió con maestría en muchos de sus textos. Aunque Rivera no se basó literalmente en historia alguna de Quiroga, el uruguayo celebró la publicación de La vorágine. Ambos autores son un referente de cómo se ha narrado la selva desde América Latina. </p>",
+            text: "<p>En esta fotografía se ve al escritor uruguayo Horacio Quiroga (1878-1937), autor de relatos terroríficos y sobrenaturales, y una suerte de “alma gemela” literaria de José Eustasio Rivera, aunque solo se conocieron tardíamente y nunca en persona. </p><p>La historia de Ramiro Estévanez se asemeja en muchos aspectos a la de varios personajes creados por Quiroga, y hasta cierto punto, al mismo escritor uruguayo, quien se fue a vivir a la selva de Misiones, en parte por una decepción amorosa, y la describió con maestría en muchos de sus textos. Aunque Rivera no se basó literalmente en historia alguna de Quiroga, el uruguayo celebró la publicación de <i>La vorágine</i>. Ambos autores son un referente de cómo se ha narrado la selva desde América Latina. </p>",
             link: "",
             btnText: "",
             img: "img/citas/azar/3/4.1.Azar.jpg",
@@ -240,7 +240,7 @@ let vertices = [
             name: "4.2. ",
             type: "",
             ficha: [],
-            text: "<p>Tras la muerte de José Eustasio Rivera, el 1.º de diciembre de 1928, El Espectador, en su Suplemento Literario Ilustrado, publicó la carta que Horacio Quiroga le envío a José Eustasio Rivera el 4 de mayo de 1927. En esta, Quiroga reconoce la riqueza literaria de La vorágine y ve al escritor colombiano como un “compañero” en los modos y temáticas que los hermanan.</p>",
+            text: "<p>Tras la muerte de José Eustasio Rivera, el 1.º de diciembre de 1928, <i>El Espectador</i>, en su <i>Suplemento Literario Ilustrado</i>, publicó la carta que Horacio Quiroga le envío a José Eustasio Rivera el 4 de mayo de 1927. En esta, Quiroga reconoce la riqueza literaria de <i>La vorágine</i> y ve al escritor colombiano como un “compañero” en los modos y temáticas que los hermanan.</p>",
             link: "",
             btnText: "",
             img: "img/citas/azar/3/4.2.Azar.jpg",
@@ -256,7 +256,7 @@ let vertices = [
         bg: "img/citas/azar/4/Azar_Cita05_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         text: "<p>En estas fundaciones me dejó botada el coronel Infante, guerriyero venezolano que tomó a Caicara. Ayí me rifaron al tresiyo, como simple cosa, y fui ganada por un tal Puentes, pero Infante me descontó al liquidar el juego. Después lo derrotaron, tuvo que asilarse en Colombia y me abandonó por aquí (p. 58).</p>",
         desc: "Testimonio que Clarita dado a Arturo Cova luego de ser herido por una bala. ",
         galeria: [
@@ -264,12 +264,12 @@ let vertices = [
             name: "5.2. Consumatum est. José María Gómez Castro",
             type: "jpg",
             ficha: [
-              "Consumatum est ",
+              "<p><i>Consumatum est</i></p> ",
               "José María Gómez Castro ",
               "ca. 1927 ",
               "Banco de la República, Colección de Arte, AP1512",
             ],
-            text: "<p>Consumatum est es una ilustración en la que el artista José María Gómez Castro, conocido como Pepe Gómez, hace su propia versión del escudo de Colombia. La imagen hace referencia a esas otras patrias de los territorios basados en economías extractivistas donde, según la ilustración de Gómez, el dinero, el juego, la violencia y la muerte están en el centro. La expresión latina Consummatum est significa “se acabó todo” y se emplea a propósito de una tragedia. Esta imagen retrata la misma realidad de La vorágine, pero en el marco del boom de la exploración petrolera y no del caucho. </p>",
+            text: "<p><i>Consumatum est</i> es una ilustración en la que el artista José María Gómez Castro, conocido como Pepe Gómez, hace su propia versión del escudo de Colombia. La imagen hace referencia a esas otras patrias de los territorios basados en economías extractivistas donde, según la ilustración de Gómez, el dinero, el juego, la violencia y la muerte están en el centro. La expresión latina <i>Consummatum est</i> significa “se acabó todo” y se emplea a propósito de una tragedia. Esta imagen retrata la misma realidad de <i>La vorágine</i>, pero en el marco del <i>boom</i> de la exploración petrolera y no del caucho. </p>",
             link: "https://colecciones.banrepcultural.org/document/coleccion/63a069015d96b8790f25b6f3",
             btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/azar/4/5.2.Azar.jpg",
@@ -279,12 +279,12 @@ let vertices = [
             name: "5.1. Teoría del juego del tresillo (rocambor) y del chipolo",
             type: "jpg",
             ficha: [
-              "Teoría del juego del tresillo (rocambor) y del chipolo ",
+              "<p><i>Teoría del juego del tresillo (rocambor) y del chipolo</i></p> ",
               "Rodolfo Velasco ",
               "Cali: Imprenta H. A. del Pino, 1892 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Misceláneas 208 ",
             ],
-            text: "<p>Varios juegos de cartas están a medio camino entre el azar y la habilidad. Si bien las cartas son dadas por la suerte, el jugador las usará a partir de su conocimiento del juego y de sus oponentes. No es raro que este tipo de juegos sean metáforas del destino humano: “cada quién juega con la mano que le toca”, reza el dicho. </p><p>En Teoría del tresillo, un compilado de reglas sobre el popular juego de cartas de finales del siglo XIX, Rodolfo Velasco advierte que es entretenido, siempre y cuando lo jueguen “personas decentes” que no dejen “anarquizar el juego” al incumplir las reglas. La esencia verdadera de todo juego de azar es que cualquiera, incluso el mejor jugador, puede perder si la suerte no lo acompaña. </p><p>En La vorágine, cuando los juegos de azar aparecen, se apuesta todo: el dinero y la vida. Por ello, alguien siempre busca ganar al azar mediante la trampa: la habilidad real está en quien puede pasar por encima de las reglas sin ser descubierto. La destreza no está en el dominio del juego, sino de la trampa. No obstante, al final y bajo esta dinámica, todos pierden.</p>",
+            text: "<p>Varios juegos de cartas están a medio camino entre el azar y la habilidad. Si bien las cartas son dadas por la suerte, el jugador las usará a partir de su conocimiento del juego y de sus oponentes. No es raro que este tipo de juegos sean metáforas del destino humano: “cada quién juega con la mano que le toca”, reza el dicho. </p><p>En <i>Teoría del tresillo</i>, un compilado de reglas sobre el popular juego de cartas de finales del siglo XIX, Rodolfo Velasco advierte que es entretenido, siempre y cuando lo jueguen “personas decentes” que no dejen “anarquizar el juego” al incumplir las reglas. La esencia verdadera de todo juego de azar es que cualquiera, incluso el mejor jugador, puede perder si la suerte no lo acompaña. </p><p>En <i>La vorágine</i>, cuando los juegos de azar aparecen, se apuesta todo: el dinero y la vida. Por ello, alguien siempre busca ganar al azar mediante la trampa: la habilidad real está en quien puede pasar por encima de las reglas sin ser descubierto. La destreza no está en el dominio del juego, sino de la trampa. No obstante, al final y bajo esta dinámica, todos pierden.</p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4314/rec/1",
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/azar/4/5.1.Azar.jpg",
@@ -404,7 +404,7 @@ let vertices = [
         bg: "img/citas/espejismos/0/Espejismos_Cita01_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         comentario:
           "<p>Desde que aparece en Cáqueza, el Pipa es un vendedor de ilusiones en <i>La vorágine</i>. Cautivó la curiosidad y la ilusión de Arturo Cova y, sobre todo, de Alicia con palabras. El Casanare hacia el que ella huía, y que seguramente imaginaba como una difusa provincia en un mapa, de pronto se mostraba como un lugar que al tiempo sonaba temible y propicio para la aventura. ¿Creía, como Arturo Cova, que encontraría un refugio y una paz anónima allí? ¿Esperaba retornar a Bogotá al cabo de unos meses? ¿Sintió un súbito impulso por seguir hacia la región amazónica? Las contundentes imágenes dibujadas por el Pipa en un mínimo parlamento la hechizaron como una serpiente. Cova, al menos, lo sintió así, porque inmediatamente le pidió al Pipa que se callara. Como espejismos, el Llano, las caucherías, el Amazonas, el tigre y las culebras se veían al alcance de la mano. </p>",
         text: "<p>―¿Ha vivido usted en Casanare? —le preguntó.</p><p> ―Sí, sumercé, y conozco el Llano y las caucherías del Amazonas. Mucho tigre y mucha culebra he matado con la ayuda de Dios (p. 19).</p>",
@@ -414,7 +414,7 @@ let vertices = [
             name: "1.1. Sin título. Noé León",
             type: "tif",
             ficha: [
-              "Sin título ",
+              "<p><i>Sin título</i></p> ",
               "Noé León ",
               "1971 ",
               "Banco de la República, Colección de Arte, AP369",
@@ -429,7 +429,7 @@ let vertices = [
             name: "1.2. Personas alrededor del cadáver de Roa Sierra. Sady González",
             type: "jpg",
             ficha: [
-              "Personas alrededor del cadáver de Roa Sierra ",
+              "<p><i>Personas alrededor del cadáver de Roa Sierra</i></p> ",
               "Sady González ",
               "1948 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, FT2071",
@@ -448,9 +448,9 @@ let vertices = [
         bg: "img/citas/espejismos/1/Espejismos_Cita02_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>El llano y, por extensión, la frontera se les aparecen muy temprano a Arturo y Alicia como espejismos. Apenas Cova asegura que se están familiarizando con el entorno, la óptica les juega una trampa. Se trata de un “fenómeno de la región” creado por la refracción que ocurre por las altas temperaturas, al igual que en los desiertos. Pero en las palabras de don Rafo hay también una advertencia: la frontera es propensa a generar ilusiones. </p><p>Estas ilusiones son como los calmos venados que pasan frente a los ojos de los viajeros, que la ambición y vanidad de Cova ven como un trofeo de cacería. Parecen alcanzables, pero en realidad se hallan muy lejos, son imposibles. Lo mismo pasará con todos los planes grandiosos de Arturo. Tal y como lo lamenta al inicio de la tercera parte de La vorágine, nunca supo calcular el tiro. La ironía es que quienes sí sabían cómo tratar esos “fenómenos de la región” y procurar su sustento eran las bandas de indígenas. </p>",
+          "<p>El llano y, por extensión, la frontera se les aparecen muy temprano a Arturo y Alicia como espejismos. Apenas Cova asegura que se están familiarizando con el entorno, la óptica les juega una trampa. Se trata de un “fenómeno de la región” creado por la refracción que ocurre por las altas temperaturas, al igual que en los desiertos. Pero en las palabras de don Rafo hay también una advertencia: la frontera es propensa a generar ilusiones. </p><p>Estas ilusiones son como los calmos venados que pasan frente a los ojos de los viajeros, que la ambición y vanidad de Cova ven como un trofeo de cacería. Parecen alcanzables, pero en realidad se hallan muy lejos, son imposibles. Lo mismo pasará con todos los planes grandiosos de Arturo. Tal y como lo lamenta al inicio de la tercera parte de <i>La vorágine</i>, nunca supo calcular el tiro. La ironía es que quienes sí sabían cómo tratar esos “fenómenos de la región” y procurar su sustento eran las bandas de indígenas. </p>",
         text: "<p>Poco a poco el regocijo de nuestras lenguas fue cediendo al cansancio. Habíamos hecho copiosas preguntas que don Rafo atendía con autoridad de conocedor. Ya sabíamos lo que era una <i>mata</i>, un <i>caño</i>, un <i>zural</i>, y por fin Alicia conoció los venados. Pastaban en un estero hasta media docena, y al ventearnos enderezaron hacia nosotros las orejas esquivas.</p><p>―No gaste usted los tiros de revólver ―ordenó don Rafo―. Aunque vea los bichos cerca, están a quinientos metros. Fenómenos de la región (p. 23).</p>",
         desc: "Memorias de Arturo Cova sobre su encuentro con don Rafo en el Llano ",
         galeria: [
@@ -458,12 +458,12 @@ let vertices = [
             name: "2.1. La antelia en Fute. Lázaro María Girón y Greñas",
             type: "jpg",
             ficha: [
-              "La antelia en Fute ",
+              "<p><i>La antelia en Fute</i></p> ",
               "Dibujo de Lázaro María Girón grabado por Greñas ",
-              "En Papel Periódico Ilustrado, n.º 40, 1883 ",
+              "<p>En <i>Papel Periódico Ilustrado</i>, n.º 40, 1883 </p>",
               "Hemeroteca Biblioteca Luis Ángel Arango, 070.9861 P16p2 ",
             ],
-            text: "<p>La época en que José Eustasio Rivera escribió La vorágine está marcada por una idea de nación que había divulgado la Comisión Corográfica entre 1850 y 1862. La Comisión puso de presente cuánto había por descubrir en el país que fuera útil para la producción y cuánto había de asombroso y extraño en la enorme diversidad del territorio colombiano. El científico, pintor, cronista, crítico de arte y viajero Lázaro María Girón hizo parte de la Comisión Corográfica. Publicó sus ilustraciones y análisis sobre los más variados temas en el Papel Periódico Ilustrado, un periódico de enorme influencia para el pensamiento, las artes y la cultura visual de la segunda mitad del siglo XIX en Colombia. </p><p>En el número 40 (mayo de 1883), Girón describió un extraordinario fenómeno: la antelia o espectro de Brocken que presenció en las alturas de la hacienda Fute (entre Soacha, Bojacá y Mosquera, en Cundinamarca), producida por su sombra proyectada sobre una espesa cortina de niebla. Girón infirió que los antiguos habitantes de la sabana de Bogotá, al experimentar el mismo fenómeno, habían creado sus nociones de divinidad. </p>",
+            text: "<p>La época en que José Eustasio Rivera escribió <i>La vorágine</i> está marcada por una idea de nación que había divulgado la Comisión Corográfica entre 1850 y 1862. La Comisión puso de presente cuánto había por descubrir en el país que fuera útil para la producción y cuánto había de asombroso y extraño en la enorme diversidad del territorio colombiano. El científico, pintor, cronista, crítico de arte y viajero Lázaro María Girón hizo parte de la Comisión Corográfica. Publicó sus ilustraciones y análisis sobre los más variados temas en el <i>Papel Periódico Ilustrado</i>, un periódico de enorme influencia para el pensamiento, las artes y la cultura visual de la segunda mitad del siglo XIX en Colombia. </p><p>En el número 40 (mayo de 1883), Girón describió un extraordinario fenómeno: la <i>antelia</i> o <i>espectro de Brocken</i> que presenció en las alturas de la hacienda Fute (entre Soacha, Bojacá y Mosquera, en Cundinamarca), producida por su sombra proyectada sobre una espesa cortina de niebla. Girón infirió que los antiguos habitantes de la sabana de Bogotá, al experimentar el mismo fenómeno, habían creado sus nociones de divinidad. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll26/id/304 ",
             btnText: "Abrir libro en Babel a través del vínculo",
             img: "img/citas/espejismos/1/2.1.Espejismos.jpg",
@@ -473,7 +473,7 @@ let vertices = [
             name: "2.2. Camille Flammarion frente al globo del planeta Marte",
             type: "jpg",
             ficha: [
-              "Camille Flammarion frente al globo del planeta Marte ",
+              "<p><i>Camille Flammarion frente al globo del planeta Marte</i></p> ",
               "Anónimo ",
               "s. f. ",
               "Biblioteca Nacional de Francia, Agencia de Prensa Meurisse, París ",
@@ -492,23 +492,23 @@ let vertices = [
         bg: "img/citas/espejismos/2/Espejismos_Cita03_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>Narciso Barrera representa el mismísimo diablo en La vorágine: un ser de perturbadora e impecable blancura en medio de la espesura selvática o de los trabajos del llano, que se dedica a vender ilusiones que se vuelven condenas. No es mucho más y nada indica que tenga mayor capital. Lo único que tiene son palabras melosas y un carisma que fascina y convence a hombres y mujeres sobre paraísos futuros si le siguen hacia el Vichada.</p><p>Las postales que reparte a diestra y siniestra son espejismos. Son fotografías que hacen las veces de dones que embrujan. Quien las recibe, sucumbe al hechizo, pues siembran en ellos la ambición, el deseo y la envidia. Los contaminan. Luego salen a perseguir el espejismo para solo encontrar la muerte en el infierno verde. Como buen Narciso, el mismo Barrera sucumbirá a su propio encantamiento, a su propia vanidad: el espejismo mayúsculo. La muerte lo va a encontrar literalmente viéndose en el espejo. </p>",
-        text: "<p>Y con acento cálido refirió que Barrera había venido a llevar gente para las caucherías del Vichada.</p><p>—Es la ocasión de mejorá: dan alimentación y cinco pesos por día. Así se lo he dicho a Franco […]. </p><p>—Barrera es rasgaísimo. Y miren las vistas del fábrico en el Vichada, a onde quere yevarnos. Digan imparcialmente si no son una preciosidá esos edificios y si estas fotografías no son primorosas. Barrera las ha repartío por toas partes. Miren cuántas tengo pegáas en el baúl.</p><p>Eran unas postales de colores. Se veían en ellas, a la orilla montuosa de un río, casas de dos pisos, en cuyos barandales se agrupaba la gente. Lanchas de vapor humeaban en el puertecito (pp. 28-29). </p>",
+          "<p>Narciso Barrera representa el mismísimo diablo en <i>La vorágine</i>: un ser de perturbadora e impecable blancura en medio de la espesura selvática o de los trabajos del llano, que se dedica a vender ilusiones que se vuelven condenas. No es mucho más y nada indica que tenga mayor capital. Lo único que tiene son palabras melosas y un carisma que fascina y convence a hombres y mujeres sobre paraísos futuros si le siguen hacia el Vichada.</p><p>Las postales que reparte a diestra y siniestra son espejismos. Son fotografías que hacen las veces de dones que embrujan. Quien las recibe, sucumbe al hechizo, pues siembran en ellos la ambición, el deseo y la envidia. Los contaminan. Luego salen a perseguir el espejismo para solo encontrar la muerte en el infierno verde. Como buen Narciso, el mismo Barrera sucumbirá a su propio encantamiento, a su propia vanidad: el espejismo mayúsculo. La muerte lo va a encontrar literalmente viéndose en el espejo. </p>",
+        text: "<p>Y con acento cálido refirió que Barrera había venido a llevar gente para las caucherías del Vichada.</p><p>—Es la ocasión de mejorá: dan alimentación y cinco pesos por día. Así se lo he dicho a Franco […]. </p><p>—Barrera es <i>rasgaísimo</i>. Y miren las vistas del <i>fábrico</i> en el Vichada, a onde quere yevarnos. Digan imparcialmente si no son una preciosidá esos edificios y si estas fotografías no son primorosas. Barrera las ha repartío por toas partes. Miren cuántas tengo pegáas en el baúl.</p><p>Eran unas postales de colores. Se veían en ellas, a la orilla montuosa de un río, casas de dos pisos, en cuyos barandales se agrupaba la gente. Lanchas de vapor humeaban en el puertecito (pp. 28-29). </p>",
         desc: "Palabras de Griselda sobre la visita que hizo Barrera a La Maporita.",
         galeria: [
           {
             name: "3.1. Explotación de las salinas. Santa Marta, Colombia",
             type: "jpg",
             ficha: [
-              "Explotación de las salinas. Santa Marta, Colombia. ",
+              "<p><i>Explotación de las salinas. Santa Marta, Colombia.</i></p> ",
               "Anónimo ",
               "s. f. ",
               "En Colección de tarjetas postales de Colombia, vol. 6, 1903 - 1925 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, TP0204 ",
             ],
-            text: "<p>Las fotos de Clemente Silva y de un cauchero anónimo que acompañaron la primera edición de La vorágine provenían de postales y fueron incluidas en varias ediciones de la novela para enganchar al lector. </p><p>La vorágine da cuenta de una época en la que convergieron la fotografía y los correos. Miles de fotografías de entre 1900 y 1930 se imprimieron como postales con el fin de circular por el mundo y seducir, maravillar. El mercado de las postales era enorme y generaba algo parecido a una red social de nuestros tiempos. Valiéndose de imágenes de lugares que estimulaban la curiosidad y el deseo por viajar, las postales surtían la ilusión de estar allí, en ese lugar y con esas personas. Esta circulación era posible gracias a la cada vez más rápida industria postal, movida por trenes, barcos, aviones y carros, todos vehículos que requerían caucho. </p>",
+            text: "<p>Las fotos de Clemente Silva y de un cauchero anónimo que acompañaron la primera edición de <i>La vorágine</i> provenían de postales y fueron incluidas en varias ediciones de la novela para enganchar al lector. </p><p><i>La vorágine</i> da cuenta de una época en la que convergieron la fotografía y los correos. Miles de fotografías de entre 1900 y 1930 se imprimieron como postales con el fin de circular por el mundo y seducir, maravillar. El mercado de las postales era enorme y generaba algo parecido a una red social de nuestros tiempos. Valiéndose de imágenes de lugares que estimulaban la curiosidad y el deseo por viajar, las postales surtían la ilusión de estar allí, en ese lugar y con esas personas. Esta circulación era posible gracias a la cada vez más rápida industria postal, movida por trenes, barcos, aviones y carros, todos vehículos que requerían caucho. </p>",
             link: "",
             btnText: "",
             img: "img/citas/espejismos/2/3.1.Espejismos.jpg",
@@ -518,12 +518,12 @@ let vertices = [
             name: "3.2. Rumbo a los yacimientos de oro de Klondike. Keystone",
             type: "tif",
             ficha: [
-              "Rumbo a los yacimientos de oro de Klondike, Chilcoot Pass, Alaska ",
+              "<p><i>Rumbo a los yacimientos de oro de Klondike, Chilcoot Pass, Alaska</i></p> ",
               "Keystone View Company ",
               "1898 ",
               "Biblioteca Pública de Nueva York ",
             ],
-            text: "<p>Por la misma época en la que Rivera publicó su novela, el escritor estadounidense Jack London (1876-1916) buscó fortuna en el Klondike o Yukón canadiense. Dejó varias narraciones que dialogan con La vorágine, siendo la más famosa El llamado de la selva (1903). Ramón Vinyes (1882-1952), librero y escritor catalán residente en Barranquilla y futuro mentor de Gabriel García Márquez, produjo un notable texto sobre London en 1919, lo que abre la posibilidad de que Rivera conociera la obra del estadounidense. En las novelas de London, el oro es una irrealidad. Lo que verdaderamente importa, en medio de ese contexto violento y difícil, es la solidaridad, el amor y la voluntad por sobrevivir. </p>",
+            text: "<p>Por la misma época en la que Rivera publicó su novela, el escritor estadounidense Jack London (1876-1916) buscó fortuna en el Klondike o Yukón canadiense. Dejó varias narraciones que dialogan con <i>La vorágine</i>, siendo la más famosa <i>El llamado de la selva</i> (1903). Ramón Vinyes (1882-1952), librero y escritor catalán residente en Barranquilla y futuro mentor de Gabriel García Márquez, produjo un notable texto sobre London en 1919, lo que abre la posibilidad de que Rivera conociera la obra del estadounidense. En las novelas de London, el oro es una irrealidad. Lo que verdaderamente importa, en medio de ese contexto violento y difícil, es la solidaridad, el amor y la voluntad por sobrevivir. </p>",
             link: "",
             btnText: "",
             img: "img/citas/espejismos/2/3.2.Espejismos.png",
@@ -537,9 +537,9 @@ let vertices = [
         bg: "img/citas/espejismos/3/Espejismos_Cita04_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>La vorágine muestra cómo cambia la percepción en la frontera. No solo la gente y la naturaleza circundantes se mueven a otro ritmo, más pausado que el de la frenética ciudad, sino que también las ideas de continuidad y ruptura se trastocan o diluyen. Germán Arciniegas escribió en 1944 que “Todos los hombres que han comprendido la selva, lo primero que han hecho al pisar sus dominios, es tirar sus relojes en el primer charco que encuentran a la vista. Esto es lo que se denomina por los blancos la enfermedad de la selva”. Según interpretaciones como estas, el entorno monótono produce ambiciones delirantes y genera una profunda melancolía; una nostalgia por lo que se dejó atrás, por lo que hubiera podido ser y no fue, como reza la carta de Arturo Cova que hace de epígrafe en La vorágine. </p><p>En la selva, Arturo Cova se imagina como un aventurero. La palabra aventura implica en su etimología “lo que está por venir”. Las aventuras en La vorágine son viajes guiados por espejismos, cuando no llevan a la locura. Cova se veía temerario, donjuanesco y experimentado. Pero estas son trampas de su autopercepción: la trama va mostrando que es una persona muy distinta. Su imagen de sí es otro espejismo, como son las ilusiones que desde allí proyecta. No son las de un aventurero; más bien son las de alguien que busca una vida sedentaria, cómoda y burguesa. </p><p>“Esas cosas de Arturo” son sus repetidas ensoñaciones con una vida que sea todo lo opuesto a la vorágine que lo arrastra. La seguridad que anula el azar. La familia que apacigua el deseo de lances amorosos. La estabilidad que se opone a la violencia.  </p>",
+          "<p><i>La vorágine</i> muestra cómo cambia la percepción en la frontera. No solo la gente y la naturaleza circundantes se mueven a otro ritmo, más pausado que el de la frenética ciudad, sino que también las ideas de continuidad y ruptura se trastocan o diluyen. Germán Arciniegas escribió en 1944 que “Todos los hombres que han comprendido la selva, lo primero que han hecho al pisar sus dominios, es tirar sus relojes en el primer charco que encuentran a la vista. Esto es lo que se denomina por los blancos la enfermedad de la selva”. Según interpretaciones como estas, el entorno monótono produce ambiciones delirantes y genera una profunda melancolía; una nostalgia por lo que se dejó atrás, por lo que hubiera podido ser y no fue, como reza la carta de Arturo Cova que hace de epígrafe en <i>La vorágine</i>. </p><p>En la selva, Arturo Cova se imagina como un aventurero. La palabra <i>aventura</i> implica en su etimología “lo que está por venir”. Las aventuras en <i>La vorágine</i> son viajes guiados por espejismos, cuando no llevan a la locura. Cova se veía temerario, donjuanesco y experimentado. Pero estas son trampas de su autopercepción: la trama va mostrando que es una persona muy distinta. Su imagen de sí es otro espejismo, como son las ilusiones que desde allí proyecta. No son las de un aventurero; más bien son las de alguien que busca una vida sedentaria, cómoda y burguesa. </p><p>“Esas cosas de Arturo” son sus repetidas ensoñaciones con una vida que sea todo lo opuesto a la vorágine que lo arrastra. La seguridad que anula el azar. La familia que apacigua el deseo de lances amorosos. La estabilidad que se opone a la violencia.  </p>",
         text: "<p>Me vi de nuevo entre mis condiscípulos, contándoles mis aventuras de Casanare, exagerándoles mi repentina riqueza, viéndolos felicitarme, entre sorprendidos y envidiosos. Los invitaría a comer a mi casa, porque ya para entonces tendría una, propia, de jardín cercano a mi cuarto de estudio. Con frecuencia, Alicia nos dejaría solos, urgida por el llanto del pequeñuelo, llamado Rafael, en memoria de nuestro compañero de viaje [...].</p><p>Poco a poco, mis buenos éxitos literarios irían conquistando el indulto. Según mi madre, debía tenérseme lástima. Después de mi grado en la facultad se olvidaba todo. Hasta mis amigas, intrigadas por mi conducta, disimularían mi pasado con esta frase: ¡Esas cosas de Arturo...! (p. 43). </p>",
         desc: "Ensoñaciones de Arturo Cova de llegar a ser exitoso el negocio entre Franco y Zubieta. ",
         galeria: [
@@ -547,7 +547,7 @@ let vertices = [
             name: "4.1. De Bogotá al Atlántico. Santiago Pérez Triana",
             type: "jpg",
             ficha: [
-              "De Bogotá al Atlántico por las vías de los ríos Meta, Vichada y Orinoco ",
+              "<p><i>De Bogotá al Atlántico por las vías de los ríos Meta, Vichada y Orinoco</i></p> ",
               "Santiago Pérez Triana ",
               "París: Imprenta Sudamericana, 1897 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 918.6 P37b2 ",
@@ -562,13 +562,13 @@ let vertices = [
             name: "4.2. Alma sin ilusión. Miguel Rasch Isla",
             type: "jpg",
             ficha: [
-              "Alma sin ilusión",
+              "<p><i>Alma sin ilusión</i></p>",
               "Miguel Rasch Isla",
               "1916",
-              "En Revista Moderna, n.º 16, 1916",
+              "<p></p>En <i>Revista Moderna</i>, n.º 16, 1916",
               "Hemeroteca Biblioteca Luis Ángel Arango, 17",
             ],
-            text: "<p>El barranquillero Miguel Rasch Isla (1887-1953), amigo de Rivera, era conocido en los círculos literarios de su época como “el caballero del soneto” por la facilidad con que producía poemas. Rasch Isla sostenía con Rivera una amable competencia por quién dominaba mejor esta forma de poesía. “Para José Eustasio Rivera, mal amigo y peor poeta, con la admiración ferviente de su Miguel Rasch Isla”, rezaba la juguetona dedicatoria autógrafa al ejemplar que le obsequió de su poemario A flor de alma (1911). Luego de publicada la primera edición de La vorágine, Rasch Isla le ayudó a Rivera a revisar el texto y eliminar la cadencia poética que originalmente tenía. </p><p>Alma sin ilusión es un soneto de Rasch Isla que seguía los estándares de su época. Cientos de poemas, tangos, valses y bambucos se compusieron sobre la idea: el alma está derrotada y no tiene ilusiones. La ironía está en que, a falta de ilusiones, aparece otro espejismo: “ser en el dolor cual una casa en el que todo ha muerto, pero donde una alondra en prisión vive cantando”. </p>",
+            text: "<p>El barranquillero Miguel Rasch Isla (1887-1953), amigo de Rivera, era conocido en los círculos literarios de su época como “el caballero del soneto” por la facilidad con que producía poemas. Rasch Isla sostenía con Rivera una amable competencia por quién dominaba mejor esta forma de poesía. “Para José Eustasio Rivera, mal amigo y peor poeta, con la admiración ferviente de su Miguel Rasch Isla”, rezaba la juguetona dedicatoria autógrafa al ejemplar que le obsequió de su poemario <i>A flor de alma</i> (1911). Luego de publicada la primera edición de <i>La vorágine</i>, Rasch Isla le ayudó a Rivera a revisar el texto y eliminar la cadencia poética que originalmente tenía. </p><p><i>Alma sin ilusión</i> es un soneto de Rasch Isla que seguía los estándares de su época. Cientos de poemas, tangos, valses y bambucos se compusieron sobre la idea: el alma está derrotada y no tiene ilusiones. La ironía está en que, a falta de ilusiones, aparece otro espejismo: “ser en el dolor cual una casa en el que todo ha muerto, pero donde una alondra en prisión vive cantando”. </p>",
             link: "",
             btnText: "",
             img: "img/citas/espejismos/3/4.2.Espejismos.jpg",
@@ -582,9 +582,9 @@ let vertices = [
         bg: "img/citas/espejismos/4/Espejismos_Cita05_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>En La vorágine, el horror entra en escena con la muerte del llanero Millán a causa de la corneada de un toro salvaje. El cortejo fúnebre del jinete sin media cabeza se revela ante Cova como una fantasmagoría: otra forma de ilusión óptica de connotaciones tétricas. Como si se tratara de una ilusión desértica y casi mística, la caravana pasa frente a él anunciándole lo que vendrá: la Violencia, el ensañamiento de la muerte sobre la vida, la pérdida del alma y la impotencia. A partir de aquí, la oscuridad de la muerte fascinará a Arturo Cova y le llamará a hundirse en la selva. </p><p>La muerte propia o ajena es otro espejismo tras del cual irán Cova y sus camaradas. Y así como escribió el poeta Cova, tan célebremente, “jugué mi corazón al azar y me lo ganó la Violencia”, pudiera igualmente decir, como hizo en 1936 un magistral colega suyo de una generación posterior, León de Greiff (1895-1976): “Juego mi vida, cambio mi vida / de todos modos / la llevo perdida”. </p>",
+          "<p>En <i>La vorágine</i>, el horror entra en escena con la muerte del llanero Millán a causa de la corneada de un toro salvaje. El cortejo fúnebre del jinete sin media cabeza se revela ante Cova como una <i>fantasmagoría</i>: otra forma de ilusión óptica de connotaciones tétricas. Como si se tratara de una ilusión desértica y casi mística, la caravana pasa frente a él anunciándole lo que vendrá: la Violencia, el ensañamiento de la muerte sobre la vida, la pérdida del alma y la impotencia. A partir de aquí, la oscuridad de la muerte fascinará a Arturo Cova y le llamará a hundirse en la selva. </p><p>La muerte propia o ajena es otro espejismo tras del cual irán Cova y sus camaradas. Y así como escribió el poeta Cova, tan célebremente, “jugué mi corazón al azar y me lo ganó la Violencia”, pudiera igualmente decir, como hizo en 1936 un magistral colega suyo de una generación posterior, León de Greiff (1895-1976): “Juego mi vida, cambio mi vida / de todos modos / la llevo perdida”. </p>",
         text: "<p>Lentamente, el desfile mortuorio pasó ante mí: un hombre de a pie cabestreaba el caballo fúnebre, y los taciturnos jinetes venían detrás. Aunque el asco me fruncía la piel, rendí mis pupilas sobre el despojo. Atravesado en la montura, con el vientre al sol, iba el cuerpo decapitado, entreabriendo las yerbas con los dedos rígidos, como para agarrarlas por última vez. Tintineando en los calcañales desnudos, pendían las espuelas que nadie se acordó de quitar, y del lado opuesto, entre el paréntesis de los brazos, destilaba aguasangre el muñón del cuello, rico de nervios amarillosos, como raicillas recién arrancadas. La bóveda del cráneo y la mandíbula que la sigue faltaban allí, y solamente el maxilar inferior reía ladeado, como burlándose de nosotros. Y esa risa sin rostro y sin alma, sin labios que la corrigieran, sin ojos que la humanizaran, me pareció vengativa, torturadora, y aun al través de los días que corren, me repite su mueca desde ultratumba y me estremece de pavor (pp. 77-78). </p>",
         desc: "Descripción de Arturo Cova del cuerpo inerte de Millán, luego de que un toro lo corneara.",
         galeria: [
@@ -592,9 +592,9 @@ let vertices = [
             name: "5.1. Cementerio de indígenas. Curiosidades de Colombia. JMGA",
             type: "jpg",
             ficha: [
-              "Cementerio de indígenas. Curiosidades de Colombia ",
+              "<p><i>Cementerio de indígenas. Curiosidades de Colombia</i></p> ",
               "José María Gutiérrez de Alba ",
-              "En Impresiones de un viaje a América, tomo V, 1870-1884 ",
+              "<p>En <i>Impresiones de un viaje a América</i>, tomo V, 1870-1884</p> ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, MSS3357 ",
             ],
             text: "<p>El viajero, periodista, escritor y dramaturgo español José María Gutiérrez de Alba pintó esta acuarela, con su respectiva reflexión, mientras recorría los llanos de San Martín a principios de 1871. </p><p>De una manera semejante a la visión de Arturo Cova de la procesión fúnebre de Millán, Gutiérrez experimenta una emoción mística (“religiosa”, la llama él) al encontrarse con un discreto cementerio de indios. Le parece un llamado a la humildad, a lo esencial de la conmemoración de la muerte, por oposición a los grandes monumentos de los cementerios en las urbes. Aunque Gutiérrez de Alba encuentra consuelo en la aparición mientras que Cova sucumbe ante el desespero, en ambos casos la frontera ―el desierto, el llano, la selva― se muestra como un lugar propicio para la revelación. Este es un motivo antiquísimo que, en muchas mitologías, llevan al héroe al desierto o a la selva a buscar alguna manifestación que anuncie su destino. La cita que acompaña la acuarela dice: </p><p>No había allí paredes que rodeasen aquel recinto mortuorio, ni túmulos levantados por la vanidad sobre el polvo de los que ya no pueden ostentarla; allí no había más que algunos toscos maderos colocados en forma de cruz entre un bosque solitario y un camino casi tan solitario como el bosque; y, sin embargo, aquellas humildes tumbas despertaron en mi espíritu ideas más grandes y un respeto religioso mil veces más profundo que el que había experimentado en situaciones análogas, al visitar los cementerios suntuosos, donde el mármol y el bronce traducen en artísticas formas las miserables ilusiones de lo que se llama en el mundo la grandeza humana (6 de enero de 1871). </p>",
@@ -607,12 +607,12 @@ let vertices = [
             name: "5.2. Mirando al misterio. Luis Zea Uribe",
             type: "jpg",
             ficha: [
-              "Mirando al misterio: contribución al estudio de los fenómenos medianímicos y sus proyecciones sobre el problema moral y religioso ",
+              "<p><i>Mirando al misterio: contribución al estudio de los fenómenos medianímicos y sus proyecciones sobre el problema moral y religioso</i></p> ",
               "Luis Zea Uribe ",
               "París: Librairie des Sciences Psychiques, 1923 ",
               "Biblioteca Luis Ángel Arango, Colección Remota - Palacio Rudas, 133.9 Z31m ",
             ],
-            text: "<p>Un año antes de que apareciera La vorágine, el médico antioqueño Luis Zea Uribe (1872-1934) publicó Mirando al misterio, obra que escandalizó a la Iglesia y que le valió la excomunión por defender el espiritismo. En el libro, Zea hablaba de las manifestaciones de la vida después de la muerte y de la inmanencia del espíritu cuando se liberaba del cuerpo. José Eustasio Rivera seguro había oído hablar del médico y de su obra, pues Zea era profesor de la Facultad de Medicina de la Universidad Nacional, donde Rivera estudió Derecho entre 1912 y 1917. Además, Zea se había hecho famoso por ser el cirujano que intentó salvar la vida del general Rafael Uribe Uribe después de su atentado en 1914. </p><p>Por la época en la que este libro apareció, Rivera también se interesó por las manifestaciones de la vida desde el más allá. Varias experiencias lo habían convencido de que esta comunicación era posible. En Orocué, durante su participación en la Comisión de Límites con Venezuela, Rivera sufrió episodios de demencia transitoria, bien fuera por el golpe de sol o por las altas fiebres del paludismo. </p>",
+            text: "<p>Un año antes de que apareciera La vorágine, el médico antioqueño Luis Zea Uribe (1872-1934) publicó <i>Mirando al misterio</i>, obra que escandalizó a la Iglesia y que le valió la excomunión por defender el espiritismo. En el libro, Zea hablaba de las manifestaciones de la vida después de la muerte y de la inmanencia del espíritu cuando se liberaba del cuerpo. José Eustasio Rivera seguro había oído hablar del médico y de su obra, pues Zea era profesor de la Facultad de Medicina de la Universidad Nacional, donde Rivera estudió Derecho entre 1912 y 1917. Además, Zea se había hecho famoso por ser el cirujano que intentó salvar la vida del general Rafael Uribe Uribe después de su atentado en 1914. </p><p>Por la época en la que este libro apareció, Rivera también se interesó por las manifestaciones de la vida desde el más allá. Varias experiencias lo habían convencido de que esta comunicación era posible. En Orocué, durante su participación en la Comisión de Límites con Venezuela, Rivera sufrió episodios de demencia transitoria, bien fuera por el golpe de sol o por las altas fiebres del paludismo. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4334/rec/1",
             btnText: "Abrir material en Babel a través del vínculo",
             img: "img/citas/espejismos/4/5.2.Espejismos.jpg",
