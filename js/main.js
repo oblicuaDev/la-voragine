@@ -730,9 +730,9 @@ let vertices = [
         bg: "img/citas/codicia/0/Codicia_Cita01_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>En su acepción común, la RAE define codicia como el “Afán excesivo de riquezas”. La cita anterior enuncia el estado anímico de Arturo Cova durante su periodo en los llanos. Se imagina a sí mismo como un “héroe” que ha llevado el progreso a las zonas salvajes: un “civilizador”. Su premio es la acumulación de riquezas y su reconocimiento debe ser público. La codicia necesita la exhibición de dos cosas: la riqueza y el poder. ¿Para qué ambas si no es para tener lo que se desea? Ahora, el “civilizador”, en compensación por su trabajo, debe ser satisfecho. No importa si sus deseos son lícitos o éticos, si se le quieren dar o no. Tomará lo que cree merecer, aunque sea por la fuerza. La “dominante obsesión” no solo es tener más, es ser más. Al final, esta locura solo traerá dolor y muerte, como al toro atraído por los engaños del capote. </p>",
+          "<p>En su acepción común, la RAE define codicia como el “Afán excesivo de riquezas”. La cita anterior enuncia el estado anímico de Arturo Cova durante su periodo en los llanos. Se imagina a sí mismo como un “héroe” que ha llevado el progreso a las zonas salvajes: un “civilizador”. Su premio es la acumulación de riquezas y su reconocimiento debe ser público. La codicia necesita la exhibición de dos cosas: la riqueza y el poder. ¿Para qué ambas si no es para tener lo que se desea? Ahora, el “civilizador”, en compensación por su trabajo, <i>debe</i> ser satisfecho. No importa si sus deseos son lícitos o éticos, si se le quieren dar o no. Tomará lo que cree merecer, aunque sea por la fuerza. La “dominante obsesión” no solo es <i>tener</i> más, es <i>ser</i> más. Al final, esta locura solo traerá dolor y muerte, como al toro atraído por los engaños del capote. </p>",
         text: "<p>El pensamiento de la riqueza se convirtió en esos días en mi dominante obsesión, y llegó a sugestionarme con tal poder, que ya me creía ricacho fastuoso, venido a los llanos a dar impulso a la actividad financiera (p. 43).</p>",
         desc: "Pensamientos de Arturo Cova ante las posibilidades de éxito del negocio entre Franco y Zubieta.",
         galeria: [
@@ -740,12 +740,12 @@ let vertices = [
             name: "1.1. Encuentro con un tigre. JMGA",
             type: "jpg",
             ficha: [
-              "Encuentro con un tigre. Camino de los Llanos",
+              "<p><i>Encuentro con un tigre. Camino de los Llanos</i>",
               "José María Gutiérrez de Alba",
-              "En Impresiones de un viaje a América, tomo V, 1870-1884",
+              "En <i>Impresiones de un viaje a América, tomo V, 1870-1884</i></p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, MSS3357",
             ],
-            text: "<p>En esta representación del encuentro con un tigre (probablemente, un jaguar) se muestra claramente el paisaje de la colonización llanera que Rivera describe en La vorágine: un horizonte de pastos que va sustituyendo el paisaje bosquesino de las sociedades indígenas que habitaron históricamente la región. Aquí, como lo muestra la lámina de Gutiérrez de Alba, se aprecia la lucha contra la selva, es el avance del paisaje que resulta del despojo de las tierras indígenas y de la inversión de capital con la que sueña Arturo Cova. Este paisaje del despojo se ve representado en el avance de un hombre armado, entre los troncos de los antiguos gigantes de la selva, de cuya frontera salta un jaguar que está siendo cazado.</p>",
+            text: "<p>En esta representación del encuentro con un tigre (probablemente, un jaguar) se muestra claramente el paisaje de la colonización llanera que Rivera describe en <i>La vorágine</i>: un horizonte de pastos que va sustituyendo el paisaje bosquesino de las sociedades indígenas que habitaron históricamente la región. Aquí, como lo muestra la lámina de Gutiérrez de Alba, se aprecia la lucha contra la selva, es el avance del paisaje que resulta del despojo de las tierras indígenas y de la inversión de capital con la que sueña Arturo Cova. Este paisaje del despojo se ve representado en el avance de un hombre armado, entre los troncos de los antiguos gigantes de la selva, de cuya frontera salta un jaguar que está siendo cazado.</p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll16/id/43",
             btnText: "Haga click para acceder al recurso completo",
             img: "img/citas/codicia/0/1.1.Codicia.jpg",
@@ -755,7 +755,7 @@ let vertices = [
             name: "",
             type: "",
             ficha: [],
-            text: "<p>Las variaciones del escudo del actual departamento del Vichada (comisaría hasta 1991), en las que el paisaje de pastos y el ganado se opone a la selva y el jaguar, ilustran una idea que la novela de Rivera pone en cuestión: la noción de que las regiones salvajes, representadas por el jaguar en el monte, son lugares deshabitados, tierras de nadie para ser tomadas por quienes tienen alma de empresarios, negando y despreciando la autogestión y la productividad de sus habitantes originales. “Tierra de hombres para hombres sin tierra”, reza el escudo. Rivera, a través de los relatos de varios de los personajes de La vorágine, muestra que esta tierra estaba habitada por pueblos indígenas, a quienes se les niegan sus derechos a sangre y fuego en nombre de la “civilización”, aquí representada por el ganado y el mar de pastos.</p>",
+            text: "<p>Las variaciones del escudo del actual departamento del Vichada (comisaría hasta 1991), en las que el paisaje de pastos y el ganado se opone a la selva y el jaguar, ilustran una idea que la novela de Rivera pone en cuestión: la noción de que las regiones salvajes, representadas por el jaguar en el monte, son lugares deshabitados, tierras de nadie para ser tomadas por quienes tienen alma de empresarios, negando y despreciando la autogestión y la productividad de sus habitantes originales. “Tierra de hombres para hombres sin tierra”, reza el escudo. Rivera, a través de los relatos de varios de los personajes de <i>La vorágine</i>, muestra que esta tierra estaba habitada por pueblos indígenas, a quienes se les niegan sus derechos a sangre y fuego en nombre de la “civilización”, aquí representada por el ganado y el mar de pastos.</p>",
             link: "",
             btnText: "",
             img: "img/citas/codicia/0/1.2.Codicia.jpg",
@@ -769,9 +769,9 @@ let vertices = [
         bg: "img/citas/codicia/1/Codicia_Cita02_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>Este pasaje de La vorágine relata la excursión de Arturo Cova, Fidel Franco, el Pipa y el mulato Correa al garcero de Las Hermosas, a donde se dirigen a recoger plumas blancas de garza para venderlas a los comerciantes de Orocué. Estos las exportaban por el Orinoco hacia las ​grandes ​capitales de la moda. Los garceros se encuentran en los extensos esteros y lagunas de las llanuras inundables, a donde llegan una gran multiplicidad de especies de aves acuáticas a anidar. </p><p>Las investigaciones científicas recientes en biología y ciencias ambientales, con soportes etnográficos y arqueológicos, han reconocido que la existencia de estas lagunas de hiperabundancia se deben no solo a procesos puramente naturales, sino en gran parte a la actividad de las sociedades indígenas de la región. La explotación indiscriminada por parte de los colonizadores ha llegado a ponerlas en riesgos profundos e, incluso, a afectarlas de manera irrecuperable. </p>",
+          "<p>Este pasaje de <i>La vorágine</i> relata la excursión de Arturo Cova, Fidel Franco, el Pipa y el mulato Correa al garcero de Las Hermosas, a donde se dirigen a recoger plumas blancas de garza para venderlas a los comerciantes de Orocué. Estos las exportaban por el Orinoco hacia las ​grandes ​capitales de la moda. Los garceros se encuentran en los extensos esteros y lagunas de las llanuras inundables, a donde llegan una gran multiplicidad de especies de aves acuáticas a anidar. </p><p>Las investigaciones científicas recientes en biología y ciencias ambientales, con soportes etnográficos y arqueológicos, han reconocido que la existencia de estas lagunas de hiperabundancia se deben no solo a procesos puramente naturales, sino en gran parte a la actividad de las sociedades indígenas de la región. La explotación indiscriminada por parte de los colonizadores ha llegado a ponerlas en riesgos profundos e, incluso, a afectarlas de manera irrecuperable. </p>",
         text: "<p>—¿Y en qué lugar escondes el oro para tus planes?</p><p>–En el garcero de Las Hermosas. Cuatro libras de pluma fina, si mal nos va. Cada semana cambiaremos un manojito por mercancías […].</p><p>El inundado bosque del garcero, millonario de garzas reales, parecía algodonal de nutridos copos; y en la turquesa del cielo ondeaba, perennemente, un desfile de remos cándidos, sobre los cimborrios de los moriches, donde bullía la empeluzada muchedumbre de polluelos (p. 90).</p>",
         desc: "Conversación entre el Pipa y Arturo Cova sobre el garcero de Las Hermosas.",
         galeria: [
@@ -779,7 +779,7 @@ let vertices = [
             name: "2.1. La mujer detrás del arma. Gordon Ross",
             type: "tif",
             ficha: [
-              "La mujer detrás del arma",
+              "<p><i>La mujer detrás del arma</i></p>",
               "Gordon Ross",
               "24 de mayo de 1911",
               "Biblioteca del Congreso de los Estados Unidos",
@@ -808,9 +808,9 @@ let vertices = [
         bg: "img/citas/codicia/2/Codicia_Cita03_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
         comentario:
-          "<p>El fenómeno que Balbino Jácome describe en este pasaje de La vorágine ilustra una situación recurrente en las economías extractivas: el endeude. Esta práctica maximiza los beneficios económicos mediante la explotación laboral, al crear una deuda impagable por parte del comerciante/prestamista.​​ El crédito se otorga generalmente en mercancía, y el comerciante y prestamista controla los medios del intercambio (las pesas, las medidas, el registro, la contabilidad, etc.) y monopoliza los medios de transporte. El prestamista impone de manera ilegal y arbitraria el precio y los términos de la deuda, que se paga en trabajo o en entregas de un determinado producto a futuro. Se trata de una práctica que llega hasta nuestros días (por ejemplo, en las economías de la coca y la minería ilegal) y que se registra en libros de contabilidad ficticia como los que describe Jácome, creando un flujo de mercancías que se evapora en el aire, dejando solo miseria a su alrededor. </p>",
+          "<p>El fenómeno que Balbino Jácome describe en este pasaje de <i>La vorágine</i> ilustra una situación recurrente en las economías extractivas: el endeude. Esta práctica maximiza los beneficios económicos mediante la explotación laboral, al crear una deuda impagable por parte del comerciante/prestamista.​​ El crédito se otorga generalmente en mercancía, y el comerciante y prestamista controla los medios del intercambio (las pesas, las medidas, el registro, la contabilidad, etc.) y monopoliza los medios de transporte. El prestamista impone de manera ilegal y arbitraria el precio y los términos de la deuda, que se paga en trabajo o en entregas de un determinado producto a futuro. Se trata de una práctica que llega hasta nuestros días (por ejemplo, en las economías de la coca y la minería ilegal) y que se registra en libros de contabilidad ficticia como los que describe Jácome, creando un flujo de mercancías que se evapora en el aire, dejando solo miseria a su alrededor. </p>",
         text: "<p>Mas el crimen perpetuo no está en las selvas sino en dos libros: en el Diario y en el Mayor. Si su señoría los conociera, encontraría más lectura en el debe que en el haber, ya que a muchos hombres se les lleva la cuenta por simple cálculo, según lo que informan los capataces. Con todo, hallaría datos inicuos: peones que entregan kilos de goma a cinco centavos y reciben franelas a veinte pesos; indios que trabajan hace seis años y aparecen debiendo aún el mañoco del primer mes; niños que heredan deudas enormes, procedentes del padre que les mataron, de la madre que les forzaron, hasta de las hermanas que les violaron, y que no cubrirán en toda su vida, porque cuando conozcan la pubertad, los solos gastos de su niñez les darán medio siglo de esclavitud (p. 135).</p>",
         desc: "Palabras de Balbino Jácome a Clemente Silva en el marco de la llegada de un visitador a los barracones. ",
         galeria: [
@@ -818,11 +818,11 @@ let vertices = [
             name: "3.1. Pesando el caucho. Paternoster",
             type: "jpg",
             ficha: [
-              "Pesando el caucho",
-              "En G. Sidney Paternoster, The Lords of the Devil’s Paradise, Londres: Stanley Paul, 1913",
+              "<p><i>Pesando el caucho</i>",
+              "En G. Sidney Paternoster, <i>The Lords of the Devil’s Paradise</i>, Londres: Stanley Paul, 1913</p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 985.063 P17l",
             ],
-            text: "<p>El desarrollo empresarial en las zonas “salvajes” se basa en la penetración del comercio, teniendo como punta de lanza un ejército de comerciantes ambulantes conocidos como cacharreros en Colombia, bongueros en el Orinoco, aviadores en Perú o marrateros en Brasil. Ellos iniciaban el enganche, amarre o endeude de trabajadores que comprometían su trabajo contra avances de mercancías a crédito. </p><p>En el momento en que se escribe La vorágine, los comerciantes endeudaban a colonos, caboclos y campesinos para obtener bolones de caucho, que se evaluaban según el peso y la calidad para determinar su valor contra la deuda adquirida. La clave era que esta deuda, que se adquiría contra bagatelas y mercancías de baja calidad, nunca pudiera ser saldada. </p><p>En muchos casos, la deuda involucraba familias enteras y era hereditaria. Esta forma de trabajo “pre-pago” se caracterizó porque la promesa de empleo seguro y riqueza fácil trajo a la región a rebuscadores y migrantes, por lo general, hombres solos o familias sin tierra. La entrega de “avances” creó cadenas de deuda que amarraban a trabajadores, capataces e intermediarios con grandes firmas comerciales. </p>",
+            text: "<p>El desarrollo empresarial en las zonas “salvajes” se basa en la penetración del comercio, teniendo como punta de lanza un ejército de comerciantes ambulantes conocidos como <i>cacharreros</i> en Colombia, <i>bongueros</i> en el Orinoco, <i>aviadores</i> en Perú o marrateros en Brasil. Ellos iniciaban el <i>enganche, amarre o endeude</i> de trabajadores que comprometían su trabajo contra avances de mercancías a crédito. </p><p>En el momento en que se escribe <i>La vorágine</i>, los comerciantes endeudaban a colonos, <i>caboclos</i> y campesinos para obtener bolones de caucho, que se evaluaban según el peso y la calidad para determinar su valor contra la deuda adquirida. La clave era que esta deuda, que se adquiría contra bagatelas y mercancías de baja calidad, nunca pudiera ser saldada. </p><p>En muchos casos, la deuda involucraba familias enteras y era hereditaria. Esta forma de trabajo “pre-pago” se caracterizó porque la promesa de empleo seguro y riqueza fácil trajo a la región a rebuscadores y migrantes, por lo general, hombres solos o familias sin tierra. La entrega de “avances” creó cadenas de deuda que amarraban a trabajadores, capataces e intermediarios con grandes firmas comerciales. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4319/rec/3",
             btnText: "Abrir libro en Babel a través del vínculo",
             img: "img/citas/codicia/2/3.1.Codicia.png",
@@ -832,9 +832,9 @@ let vertices = [
             name: "3.2. Recibiendo la tarea a los peones. En Gaspar de Pinell",
             type: "jpg",
             ficha: [
-              "Recibiendo la tarea a los peones en una estación cauchera de Caraparaná",
+              "<p><i>Recibiendo la tarea a los peones en una estación cauchera de Caraparaná</i>",
               "Foto anónima",
-              "En Gaspar de Pinell, Excursión apostólica por los ríos Putumayo, San Miguel de Sucumbíos, Cuyabeno, Caquetá y Caguán, Bogotá: Imprenta Nacional, 1928",
+              "En Gaspar de Pinell, <i>Excursión apostólica por los ríos Putumayo, San Miguel de Sucumbíos, Cuyabeno, Caquetá y Caguán</i>, Bogotá: Imprenta Nacional, 1928</p>",
               "Biblioteca Luis Ángel Arango, Depósito A1- Colección General, 266.2 P45e",
             ],
             text: "<p>Los comerciantes y “cacharreros” tenían especial interés en “amarrar” a los pueblos indígenas, pues constituían la principal fuente potencial de mano de obra para la extracción del caucho. Para ello, procedían a endeudar a tribus enteras con el fin de apropiarse no solo de su trabajo, sino también de su vida y de su entorno. Se trataba de una forma de esclavitud que involucraba al conjunto de la sociedad indígena y sus instituciones por medio de diversas formas de violencia física, como el desplazamiento forzado de comunidades enteras, el trabajo brutalizado de hombres, mujeres y niños, y el concubinato de mujeres jóvenes. El endeude sigue siendo hasta hoy una práctica que sustenta la esclavización de migrantes ilegales y de mujeres y niñas prostituidas. El modelo sigue en vigencia, aunque el producto a extraer haya cambiado.</p><p>En la imagen, capataces reciben y pesan el caucho traído por los indígenas en una estación de la Casa Arana y Peruvian Amazon Co.</p>",
@@ -851,9 +851,9 @@ let vertices = [
         bg: "img/citas/codicia/3/Codicia_Cita04_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>Este pasaje de La vorágine introduce a Tomás Funes, quien asumió por la fuerza la gobernación del Estado Federal de Amazonas en Venezuela, creando una “república independiente” para la extracción de caucho y balatá. Rivera conoció este episodio de primera mano cuando fue abogado de la Comisión de Límites Colombo-Venezolana. En la novela, Ramiro Estébanez relata su historia y se pregunta: </p><p>¿Cuál podrá ser la suerte de los caucheros de San Fernando? Causa pavura considerarla. Pasado el primer acto de la tragedia, palidecieron; pero el caudillo que improvisaron ya tenía fuerza, ya tenía nombre. Le dieron a probar sangre y aún tiene sed. ¡Venga acá la gobernación! Él mató como comerciante, como gomero, solo por suprimir las competencias; mas como le quedan competidores en siringales y en barracas, ha resuelto exterminarlos con igual fin y por eso va asesinando a sus mismos cómplices. </p><p>—¡La lógica triunfa! </p><p>—¡Que viva la lógica! (p. 189) </p><p>​​​​​De esta forma se refiere a la lógica del sistema y a la lógica de las caucherías y su régimen de violencia y terror. </p>",
+          "<p>Este pasaje de <i>La vorágine</i> introduce a Tomás Funes, quien asumió por la fuerza la gobernación del Estado Federal de Amazonas en Venezuela, creando una “república independiente” para la extracción de caucho y balatá. Rivera conoció este episodio de primera mano cuando fue abogado de la Comisión de Límites Colombo-Venezolana. En la novela, Ramiro Estébanez relata su historia y se pregunta: </p><p>¿Cuál podrá ser la suerte de los caucheros de San Fernando? Causa pavura considerarla. Pasado el primer acto de la tragedia, palidecieron; pero el caudillo que improvisaron ya tenía fuerza, ya tenía nombre. Le dieron a probar sangre y aún tiene sed. ¡Venga acá la gobernación! Él mató como comerciante, como gomero, solo por suprimir las competencias; mas como le quedan competidores en siringales y en barracas, ha resuelto exterminarlos con igual fin y por eso va asesinando a sus mismos cómplices. </p><p>—¡La lógica triunfa! </p><p><i>—¡Que viva la lógica!</i> (p. 189) </p><p>​​​​​De esta forma se refiere a la lógica del sistema y a la lógica de las caucherías y su régimen de violencia y terror. </p>",
         text: "<p>Y no pienses que al decir “Funes” he nombrado a persona única. Funes es un sistema, un estado de alma, es la sed de oro, es la envidia sórdida. Muchos son Funes, aunque lleve uno solo el nombre fatídico.</p><p>La costumbre de perseguir riquezas ilusas a costa de los indios y de los árboles; el acopio paralizado de caucherías para peones destinadas a producir hasta mil por ciento; la competencia del almacén del gobernador, quien no pagaba derecho alguno, y al vender con mano oficial recogía con ambas manos; la influencia de la selva, que pervierte como el alcohol, llegaron a crear en algunos hombres de San Fernando un impulso y una conciencia que los movió a valerse de un asesino para que iniciara lo que todos querían hacer y que le ayudaron a realizar (p. 184)</p>",
         desc: "Anotaciones de Arturo Cova del testimonio dado por Ramiro Estévanez sobre la matanza de San Fernando en 1913. ",
         galeria: [
@@ -861,8 +861,8 @@ let vertices = [
             name: "4.1. Mapa de las exploraciones de los Hermanos Reyes",
             type: "jpg",
             ficha: [
-              "Mapa que muestra las exploraciones hechas por los Hermanos Reyes en la América del Sur y la línea del proyectado ferrocarril intercontinenta",
-              "En Rafael Reyes, A través de la América del Sur: exploraciones de los hermanos Reyes. Trabajo presentado en la II Conferencia Panamericana reunida en México, Barcelona: R. de S. N. Araluce, 1902",
+              "<p><i>Mapa que muestra las exploraciones hechas por los Hermanos Reyes en la América del Sur y la línea del proyectado ferrocarril intercontinental</i>",
+              "En Rafael Reyes, <i>A través de la América del Sur: exploraciones de los hermanos Reyes. Trabajo presentado en la II Conferencia Panamericana reunida en México<i>, Barcelona: R. de S. N. Araluce, 1902</p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 918 R39a",
             ],
             text: "<p>Para comienzos del siglo XX, la macrorregión Orinoco-Amazónica fue escenario privilegiado del negocio de extracción masiva de caucho, que se ​posicionó​ como uno de los materiales más cotizados de la “segunda revolución industrial”. Tenía una multiplicidad de usos, en especial, en la industria automotriz, que creció de manera vertiginosa a principios del siglo XX. También era fundamental para el cableado, pues en este momento avanzaba la electrificación y se estaba intercomunicando el planeta por medio de cables submarinos para el telégrafo. </p><p>La importancia del caucho como potencial para la economía de la región queda ​expresada​ en el mapa que acompaña la memoria de las exploraciones de Rafael Reyes (presidente de Colombia entre 1904-1909) y sus hermanos. Allí se muestra el sueño de Reyes de construir una línea de tren que uniera el continente de norte a sur (dejando fuera las pampas, la Patagonia y la Tierra del Fuego). Es un mapa de recursos (aparecen la plata, el cobre, el hierro, la hulla y las tierras aptas para la ganadería) en el que se destaca el área de “caucho y cacao silvestres”. Muestra, además, los obstáculos que, de acuerdo con Reyes, era necesario afrontar: los indios salvajes (representados por flechas) o antropófagos (representados por calaveras negras). Esta idea de que los indios representan un obstáculo al desarrollo económico y a la explotación de recursos sigue vigente hasta hoy. </p>",
@@ -875,7 +875,7 @@ let vertices = [
             name: "",
             type: "",
             ficha: [],
-            text: "<p>La extracción de caucho natural en el Amazonas se llevó a cabo mediante el establecimiento de una serie de “casas comerciales” que habían acumulado inmensos capitales. ​Varias​ de estas casas se mencionan en La vorágine y se describe con detalle el accionar de la Casa Funes y la Casa Arana Hermanos de la Peruvian Amazon Co. Sin embargo, estas no fueron las únicas. En realidad, se construyó una red de empresas comerciales que abarcaban la enorme zona cauchera Orinoco-Amazónica. Estas firmas, asociadas con capitales principalmente británicos, franceses y estadounidenses, acopiaban el 90% de la producción del caucho en el mercado global. En este mapa, que dista de ser exhaustivo, se muestran algunas de las principales casas caucheras.</p><p>Orinoco: Co Comercial Orinoco y Casa Funes.</p><p>Putumayo: Arana Hermanos - Peruvian Amazon Co.</p><p>Ríos Negro y Vaupés: JC Araujo, JS Amorim, Higson Co., Albuquerque Hnos. y Casa Pezil</p><p>Madeira y Madre de Dios: Suárez Hnos., Orton Bolivia Rubber Co., Madeira-Mamoré Rway Co., US Rubber Co., Co. Francaise du Cautchoc, Inca Rubber Co., Fitzcarrald & Cardozo da Rosa y Co. Clairmont.</p>",
+            text: "<p>La extracción de caucho natural en el Amazonas se llevó a cabo mediante el establecimiento de una serie de “casas comerciales” que habían acumulado inmensos capitales. ​Varias​ de estas casas se mencionan en <i>La vorágine</i> y se describe con detalle el accionar de la Casa Funes y la Casa Arana Hermanos de la Peruvian Amazon Co. Sin embargo, estas no fueron las únicas. En realidad, se construyó una red de empresas comerciales que abarcaban la enorme zona cauchera Orinoco-Amazónica. Estas firmas, asociadas con capitales principalmente británicos, franceses y estadounidenses, acopiaban el 90% de la producción del caucho en el mercado global. En este mapa, que dista de ser exhaustivo, se muestran algunas de las principales casas caucheras.</p><p><i>Orinoco:</i> Co Comercial Orinoco y Casa Funes.</p><p><i>Putumayo:</i> Arana Hermanos - Peruvian Amazon Co.</p><p><i>Ríos Negro y Vaupés:</i> JC Araujo, JS Amorim, Higson Co., Albuquerque Hnos. y Casa Pezil</p><p><i>Madeira y Madre de Dios:</i> Suárez Hnos., Orton Bolivia Rubber Co., Madeira-Mamoré Rway Co., US Rubber Co., Co. Francaise du Cautchoc, Inca Rubber Co., Fitzcarrald & Cardozo da Rosa y Co. Clairmont.</p>",
             link: "",
             btnText: "",
             img: "img/citas/codicia/3/4.2.Codicia.jpg",
@@ -889,9 +889,9 @@ let vertices = [
         bg: "img/citas/codicia/4/Codicia_Cita05_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
-          "José Eustasio Rivera, La vorágine. Una edición cosmográfica, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. ",
+          "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p> ",
         comentario:
-          "<p>La vorágine utiliza la figura retórica de la selva como cárcel-sepulcro y como personaje que se defiende. Se enfrenta a quienes la violentan a través de hormigas, zancudos, enfermedades, culebras… Sin embargo, no es la selva la que mata, son los libros de cuentas: es la codicia la que impulsa los crímenes contra la naturaleza y la humanidad, y la que lleva a miles a buscar la riqueza en territorios para los que no están preparados. </p><p>Hay una especie de justicia poética en el hecho de que La vorágine fuera escrita en un libro de cuentas. La novela se constituye, de cierta manera, en un ajuste de cuentas: Rivera hace un registro minucioso de los excesos de quienes la explotan y, con ello, valora la codicia como fuente de muerte, y no de progreso. En otras palabras, condena a los hombres y exculpa a la selva. </p><p>Sin embargo, en la práctica, estos crímenes sí dieron inmensos beneficios a los “barones del caucho” —como se conocía a Funes y Arana—, a las grandes potencias y a la economía global de la época, que operó con un ojo cerrado ante las injusticias y el racismo cultural que invisibilizó las muertes de mulatos e indígenas bajo la justificación del “progreso” económico. </p>",
+          "<p><i>La vorágine</i> utiliza la figura retórica de la selva como cárcel-sepulcro y como personaje que se defiende. Se enfrenta a quienes la violentan a través de hormigas, zancudos, enfermedades, culebras… Sin embargo, no es la selva la que mata, son los libros de cuentas: es la codicia la que impulsa los crímenes contra la naturaleza y la humanidad, y la que lleva a miles a buscar la riqueza en territorios para los que no están preparados. </p><p>Hay una especie de justicia poética en el hecho de que <i>La vorágine</i> fuera escrita en un libro de cuentas. La novela se constituye, de cierta manera, en un <i>ajuste de cuentas:</i> Rivera hace un registro minucioso de los excesos de quienes la explotan y, con ello, valora la codicia como fuente de muerte, y no de progreso. En otras palabras, condena a los hombres y exculpa a la selva. </p><p>Sin embargo, en la práctica, estos crímenes sí dieron inmensos beneficios a los “barones del caucho” —como se conocía a Funes y Arana—, a las grandes potencias y a la economía global de la época, que operó con un ojo cerrado ante las injusticias y el racismo cultural que invisibilizó las muertes de mulatos e indígenas bajo la justificación del “progreso” económico. </p>",
         text: "<p>Bien saben los gomeros que el oro vegetal no enriquece a nadie. Los potentados de la floresta no tienen más que créditos en los libros, contra peones que nunca pagan, si no es con la vida, contra indígenas que se merman, contra bongueros que se roban lo que transportan. La servidumbre en estas comarcas se hace vitalicia para esclavos y dueños: unos y otros deben morir aquí. Un sino de fracaso y maldición persigue a cuantos explotan la mina verde. La selva los aniquila, la selva los retiene, la selva los llama para tragárselos. Los que escapan, aunque se refugien en las ciudades, llevan ya el maleficio en cuerpo y alma. Mustios, envejecidos, decepcionados, no tienen más que una aspiración: volver, volver a sabiendas de que si vuelven perecerán. Y los que se quedan, los que desoyen el llamamiento de la montaña, siempre declinan en la miseria, víctimas de dolencias desconocidas, siendo carne palúdica de hospital, entregándose a la cuchilla que les recorta el hígado por pedazos, como en pena de algo sacrílego que cometieron contra los indios, contra los árboles (p. 189).</p>",
         desc: "Palabras del testimonio de Ramiro Estévanez sobre la matanza cometida por Funes en San Fernando. ",
         galeria: [
@@ -899,12 +899,12 @@ let vertices = [
             name: "5.1. En viaje. Carlos Rey de Castro",
             type: "jpg",
             ficha: [
-              "En viaje",
+              "<p><i>En viaje</i>",
               "Fotografía anónima",
-              "En Carlos Rey de Castro, Los escándalos del Putumayo: carta abierta dirigida a Mr. Geo G. Michell. Cónsul de S.M.B., Barcelona: Imp. Viuda de L. Tasso, 1913",
+              "En Carlos Rey de Castro, <i>Los escándalos del Putumayo: carta abierta dirigida a Mr. Geo G. Michell. Cónsul de S.M.B.</i>, Barcelona: Imp. Viuda de L. Tasso, 1913 </p>",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 918.5 R39e",
             ],
-            text: "<p>La Casa Arana, registrada en Londres como la Peruvian Amazon Co., fue el centro de un escándalo en el que se hicieron públicas las condiciones de tortura, violación, violencia extrema y terror a las que fueron sometidos los indígenas, esclavizados por la deuda, desplazados, asesinados y desposeídos de sus tierras. Este horrible capítulo de la historia empresarial en la región ha sido considerado por el historiador Roberto Pineda como un verdadero holocausto. </p><p>A través del relato de Clemente Silva, en La vorágine se da cuenta de las brutales formas de explotación del caucho en la región del Putumayo establecidas por Julio César Arana. Este comerciante peruano había comenzado como “aviador”: avanzando mercancías y cobrando la deuda en caucho. Fue consolidando su negocio y desplazando a otros comerciantes, y en 1903 crea la compañía comercial Arana Hermanos. Esta firma se convirtió en la principal exportadora de caucho en Iquitos, gracias a las “deudas” del sistema del enganche. </p><p>Arana y otros “barones del caucho” acumularon riqueza y poder mediante este tipo de prácticas, y aunque eran despiadados patrones, se consideraban empresarios ejemplares, que estaban “haciendo patria” en la selva: llegaron a consolidarse como cabeza del poder local, mediadores del capital internacional y representantes del Estado nacional. Gracias a que estos barones y reyes de la mercancía monopolizaban los medios de transporte y de comercio –lanchas, aviones y camiones—, rápidamente usurparon el gobierno de la zona y se asumieron como autoridades civiles y militares, consolidándose como el grupo que encarnaba y cooptaba al Estado.</p><p>En la fotografía, Julio César Arana cena junto a los cónsules estadounidense, inglés y peruano durante un viaje en El Liberal, uno de los vapores de la Casa Arana. </p>",
+            text: "<p>La Casa Arana, registrada en Londres como la Peruvian Amazon Co., fue el centro de un escándalo en el que se hicieron públicas las condiciones de tortura, violación, violencia extrema y terror a las que fueron sometidos los indígenas, esclavizados por la deuda, desplazados, asesinados y desposeídos de sus tierras. Este horrible capítulo de la historia empresarial en la región ha sido considerado por el historiador Roberto Pineda como un verdadero holocausto. </p><p>A través del relato de Clemente Silva, en <i>La vorágine</i> se da cuenta de las brutales formas de explotación del caucho en la región del Putumayo establecidas por Julio César Arana. Este comerciante peruano había comenzado como “aviador”: avanzando mercancías y cobrando la deuda en caucho. Fue consolidando su negocio y desplazando a otros comerciantes, y en 1903 crea la compañía comercial Arana Hermanos. Esta firma se convirtió en la principal exportadora de caucho en Iquitos, gracias a las “deudas” del sistema del enganche. </p><p>Arana y otros “barones del caucho” acumularon riqueza y poder mediante este tipo de prácticas, y aunque eran despiadados patrones, se consideraban empresarios ejemplares, que estaban “haciendo patria” en la selva: llegaron a consolidarse como cabeza del poder local, mediadores del capital internacional y representantes del Estado nacional. Gracias a que estos barones y reyes de la mercancía monopolizaban los medios de transporte y de comercio –lanchas, aviones y camiones—, rápidamente usurparon el gobierno de la zona y se asumieron como autoridades civiles y militares, consolidándose como el grupo que encarnaba y cooptaba al Estado.</p><p>En la fotografía, Julio César Arana cena junto a los cónsules estadounidense, inglés y peruano durante un viaje en El Liberal, uno de los vapores de la Casa Arana. </p>",
             link: "https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4315/rec/1",
             btnText: "Abrir libro en Babel a través del vínculo",
             img: "img/citas/codicia/4/5.1.Codicia.jpg",
@@ -914,13 +914,13 @@ let vertices = [
             name: "5.2. Vapor de la United Fruit Company tomando banano",
             type: "jpg",
             ficha: [
-              "Vapor de la United Fruit Company tomando banano",
+              "<p><i>Vapor de la United Fruit Company tomando banano</i></p",
               "United Fruit Company",
               "1913",
               "En Colección de postales de José María Restrepo-Millán (1908-1914)",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos",
             ],
-            text: "<p>Entre las principales actividades extractivistas que se realizaban en Colombia durante la época en la que se publicó La vorágine estaban: el monocultivo de banano (Magdalena), la explotación del petróleo (Concesiones de Mares y Barco), la minería de oro y la explotación de maderas finas (Chocó), entre otras.</p><p>En las regiones selváticas, estas actividades se centraron en extraer los “frutos de la selva”: coca, cacao, tagua, añil, achiote, sarrapia, guaraná e ipecacuana, por mencionar algunos. Estos frutos se suponían silvestres, sin reconocer que son producto del manejo indígena: son el resultado de miles de años de selección cultural tanto de las especies como de sus ecosistemas. Por ello, las empresas extractivas explotan en muchos casos lo que no han tenido que producir (como las plumas de garza). La riqueza que se extrae se acumula por fuera, dejando en la localidad solo los costos sociales y ambientales.</p><p>Esta postal retrata la carga de banano en un vapor de la United Fruit Company. En 1928, la empresa que estuvo involucrada en la tristemente célebre masacre de las bananeras en Ciénaga (Magdalena).</p>",
+            text: "<p>Entre las principales actividades extractivistas que se realizaban en Colombia durante la época en la que se publicó <i>La vorágine</i> estaban: el monocultivo de banano (Magdalena), la explotación del petróleo (Concesiones de Mares y Barco), la minería de oro y la explotación de maderas finas (Chocó), entre otras.</p><p>En las regiones selváticas, estas actividades se centraron en extraer los “frutos de la selva”: coca, cacao, tagua, añil, achiote, sarrapia, guaraná e ipecacuana, por mencionar algunos. Estos frutos se suponían silvestres, sin reconocer que son producto del manejo indígena: son el resultado de miles de años de selección cultural tanto de las especies como de sus ecosistemas. Por ello, las empresas extractivas explotan en muchos casos lo que no han tenido que producir (como las plumas de garza). La riqueza que se extrae se acumula por fuera, dejando en la localidad solo los costos sociales y ambientales.</p><p>Esta postal retrata la carga de banano en un vapor de la United Fruit Company. En 1928, la empresa que estuvo involucrada en la tristemente célebre masacre de las bananeras en Ciénaga (Magdalena).</p>",
             link: "",
             btnText: "Para ver el libro completo, haga clic aquí",
             img: "img/citas/codicia/4/5.2.Codicia.jpg",
@@ -955,7 +955,7 @@ let vertices = [
             name: "1.1. Llanos de San Martín, Colombia",
             type: "jpg",
             ficha: [
-              "<i>Llanos de San Martín, Colombia</i> ",
+              "<p><i>Llanos de San Martín, Colombia</i></p> ",
               "Anónimo ",
               "En Colección de tarjetas postales de Colombia, 1903-1925 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, TP0204 ",
@@ -984,7 +984,7 @@ let vertices = [
             name: "2.1. Carta del curso del río Meta. AvH",
             type: "jpg",
             ficha: [
-              "<i>Carta del curso del río Meta y de una parte de la cadena oriental de las montañas de Nueva Granada</i> ",
+              "<p><i>Carta del curso del río Meta y de una parte de la cadena oriental de las montañas de Nueva Granada</i></p>",
               "Alexander von Humboldt ",
               "1817 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, H448 ",
@@ -999,7 +999,7 @@ let vertices = [
             name: "2.2. Colombia poblada. FJVV",
             type: "jpg",
             ficha: [
-              "<i>Colombia poblada</i> ",
+              "<p><i>Colombia poblada</i></p> ",
               "En Francisco Javier Velasco y Vergara, Atlas completo de geografía colombiana, Bogotá: Imprenta Eléctrica, 1906 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, R912.86 V37a ",
             ],
@@ -1109,7 +1109,7 @@ let vertices = [
             name: "5.1. Paseando por los riachuelos. A. Freitas",
             type: "jpg",
             ficha: [
-              "<i>Paseando por los riachuelos</i> ",
+              "<p><i>Paseando por los riachuelos</i></p> ",
               "A. Freitas ",
               "1914 ",
               "En Colección de postales de José María Restrepo-Millán (1908-1914) ",
@@ -1165,7 +1165,7 @@ let vertices = [
             name: "1.2. El desierto prodigioso y el prodigio del desierto. Pedro Solís y Valenzuela",
             type: "jpg",
             ficha: [
-              "<i>El desierto prodigioso y el prodigio del desierto</i> ",
+              "<p><i>El desierto prodigioso y el prodigio del desierto</i></p>",
               "Pedro Solís y Valenzuela ",
               "ca. 1650 ",
               "Colección Instituto Caro y Cuervo, MS001 ",
@@ -1194,7 +1194,7 @@ let vertices = [
             name: "2.1. Manuscrito La vorágine. José Eustasio Rivera",
             type: "jpg",
             ficha: [
-              "Manuscrito de <i>La vorágine</i> ",
+              "<p><i>Manuscrito de <i>La vorágine</i></p>",
               "José Eustasio Rivera ",
               "1922-1924 ",
               "Biblioteca Nacional de Colombia, Sala Fondo Antiguo, RM617 ",
@@ -1210,7 +1210,7 @@ let vertices = [
             name: "2.2. El proceso del Putumayo. Carlos A. Valcárcel",
             type: "jpg",
             ficha: [
-              "<i>El proceso del Putumayo y sus secretos inauditos</i> ",
+              "<p><i>El proceso del Putumayo y sus secretos inauditos</i></p> ",
               "Carlos A. Valcárcel ",
               "Lima: Imprenta Comercial, 1915 ",
               "Biblioteca Luis Ángel Arango, Colección Especial Remota, 343.185 V15p ",
@@ -1298,7 +1298,7 @@ let vertices = [
             name: "4.2. La Amazonia colombiana. Rafael Thomas",
             type: "jpg",
             ficha: [
-              "<i>La Amazonia colombiana</i> ",
+              "<p><i>La Amazonia colombiana</i></p>",
               "Rafael Thomas ",
               "Cartagena: Imprenta Eléctrica Departamental, 1920 ",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, 986.17 T46a ",
@@ -1327,7 +1327,7 @@ let vertices = [
             name: "5.1. Ice Scenes, Long Point. George Hathaway",
             type: "jpg",
             ficha: [
-              "<i>Ice Scenes, Cape Cod, Winter of 1875, Fishing Fleet off Long Point </i>",
+              "<p><i>Ice Scenes, Cape Cod, Winter of 1875, Fishing Fleet off Long Point </i></p>",
               "George Hathaway Nickerson ",
               "1850-1930 ",
               "Getty Museum ",
@@ -1342,7 +1342,7 @@ let vertices = [
             name: "5.2. Manuscrito de La vorágine - f.84v. José Eustasio Rivera",
             type: "jpg",
             ficha: [
-              "Manuscrito de <i>La vorágine</i> ",
+              "<p>Manuscrito de <i>La vorágine</i></p> ",
               "José Eustasio Rivera ",
               "1922-1924 ",
               "Biblioteca Nacional de Colombia, Sala Fondo Antiguo, RM617 ",
@@ -1485,7 +1485,7 @@ let vertices = [
             name: "3.2. Libro Azul. Great Britain y Casement",
             type: "jpg",
             ficha: [
-              "<i>Correspondence respecting the treatment of British Colonial subjects and native indians employed in the Collection of Rubber in the Putumayo District</i>",
+              "<p><i>Correspondence respecting the treatment of British Colonial subjects and native indians employed in the Collection of Rubber in the Putumayo District</i></p>",
               "Gran Bretaña",
               "Londres: His Majesty's Stationery Office, 1912",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Misceláneas n.º 1438",
@@ -1514,7 +1514,7 @@ let vertices = [
             name: "4.2. Recuerdos de un viaje. Pablo V. Gómez",
             type: "jpg",
             ficha: [
-              "<i>Recuerdos de un viaje</i>",
+              "<p><i>Recuerdos de un viaje</i></p>",
               "Pablo V. Gómez",
               "Zapatoca: Tipografía El Progreso, 1913",
               "Biblioteca Nacional de Colombia, 918.617",
@@ -1529,7 +1529,7 @@ let vertices = [
             name: "4.1. Informes sobre las misiones. Hermanos Menores Capuchinos",
             type: "jpg",
             ficha: [
-              "<i>Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca</i>",
+              "<p><i>Informes sobre las misiones del Caquetá, Putumayo, Goajira, Casanare, Meta, Vichada, Vaupés y Arauca</i></p>",
               "Hermanos Menores Capuchinos",
               "Bogotá: Imprenta Nacional, 1917",
               "Biblioteca Luis Ángel Arango, Sala de Libros Raros y Manuscritos, Misceláneas n.º 197",
@@ -1558,7 +1558,7 @@ let vertices = [
             name: "5.1. Mujer sentada en una ventana fumando. Anónimo",
             type: "tif",
             ficha: [
-              "<i>Mujer sentada en una ventana fumando</i>",
+              "<p><i>Mujer sentada en una ventana fumando</i></p>",
               "Anónimo",
               "1904",
               "Biblioteca del Congreso de los Estados Unidos",
@@ -1575,7 +1575,7 @@ let vertices = [
             ficha: [
               "Tannhäuser",
               "Richard Wagner",
-              "En Samuel Holland Rous, <i>The Victrola Book of the Opera: Stories of the Operas</i>, New Jersey: Victor Talking Machine Company, 1919",
+              "<p>En Samuel Holland Rous, <i>The Victrola Book of the Opera: Stories of the Operas</i>, New Jersey: Victor Talking Machine Company, 1919</p>,",
               "Biblioteca Luis Ángel Arango, Depósito D1, 782.1 H65v",
             ],
             text: "<p>Como a mucha gente de su generación y entorno, la música que más gustaba e impactaba a José Eustasio Rivera era la del compositor alemán Richard Wagner (1813-1883). Los dramas musicales de Wagner habían generado una verdadera revolución estética y política en el mundo occidental durante la segunda mitad del siglo XIX, y se hicieron inmensamente populares e influyentes a través de traducciones a muchos idiomas y las primeras grabaciones fonográficas. La edición preparada en 1908 por la Casa Editorial Maucci (Barcelona) permitió que las complejidades de sus libretos y tramas se hicieran comprensibles para el público hispanohablante.</p><p>La historia de Arturo Cova con Zoraida evoca inevitablemente una de las más célebres obras de Wagner, <i>Tannhäuser</i>, sobre un poeta medieval que se debate entre el amor puro y el amor terrenal y lujurioso por la diosa Venus, que le tiene preso en su montaña, ubicada en el inframundo. A Venus le canta Tannhäuser desesperado, lira en mano: <i>“No solo el placer es vecino de mi corazón. / En medio del goce, busco el dolor. / De tu reino debo huir. / ¡Oh reina, diosa, déjame ir!”</i>. El peligro a la mujer dueña de sí misma, de su cuerpo e inteligencia, es un tema recurrente en todas las artes de Occidente.</p>",
