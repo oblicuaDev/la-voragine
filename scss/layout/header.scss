@@ -6,7 +6,7 @@ header {
     height: 280px;
     padding: 30px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1023px) {
         height: auto;
     }
 
@@ -17,7 +17,7 @@ header {
             width: 220px;
             height: 110px;
 
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 1023px) {
                 width: 80px;
                 height: 50px;
                 object-fit: contain;
@@ -30,7 +30,7 @@ header {
         width: 80px;
         height: 80px;
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 1023px) {
             width: 80px;
             height: 50px;
             object-fit: contain;
@@ -46,7 +46,7 @@ header {
         padding-right: 150px;
         position: static;
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 1023px) {
             flex-direction: column;
             padding: 0;
         }
@@ -74,7 +74,7 @@ header {
             transform: translateX(-5px)
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 1023px) {
             display: none;
             align-items: center;
             justify-content: center;
@@ -93,7 +93,7 @@ nav {
     transform: translateX(-50%);
 
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1023px) {
         &.menu {
             align-items: center;
             background-color: #665343;

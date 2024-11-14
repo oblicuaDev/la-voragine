@@ -30,7 +30,7 @@ html {
   text-align: center;
   margin: 0 auto;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1023px) {
     font-size: 24px;
   }
 }
@@ -61,14 +61,15 @@ h1.title {
   color: #665343;
   text-align: center;
 
-  @media only screen and (max-width: 768px) {
-    width: 50%;
+  @media only screen and (max-width: 1023px) {
+    width: 100%;
     height: auto;
+    line-height: 70px;
 
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .brujula {
     display: none !important;
   }
@@ -97,7 +98,7 @@ h1.title {
   left: 50%;
   transform: translateX(-50%);
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1023px) {
     display: flex;
   }
 }
@@ -241,6 +242,8 @@ a.complete {
   justify-content: center;
   z-index: 999;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #fff;
   height: 100%;
   margin: 0;
