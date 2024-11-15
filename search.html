@@ -9139,15 +9139,30 @@
                         // Buscar en cada cita dentro de item.citas
                         if (item.citas) {
                             item.citas.forEach((cita) => {
-                                if (cita.comentario && cita.comentario.toLowerCase().includes(lowerSearchTerm) ||
-                                    cita.text && cita.text.toLowerCase().includes(lowerSearchTerm) ||
-                                    cita.textoAcomp && cita.textoAcomp.toLowerCase().includes(lowerSearchTerm)) {
+                                if (Array.isArray(cita.text)) {
+                                    if (cita.comentario && cita.comentario.toLowerCase().includes(lowerSearchTerm) ||
+                                        cita.text && cita.text.join("").toLowerCase().includes(lowerSearchTerm) ||
+                                        cita.textoAcomp && cita.textoAcomp.toLowerCase().includes(lowerSearchTerm)) {
 
-                                    results.push({
-                                        title: `${item.title} - Cita`,
-                                        text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
-                                        image: cita.image || item.tarjeta,
-                                    });
+                                        results.push({
+                                            title: `${item.title} - Cita`,
+                                            text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
+                                            image: cita.image || item.tarjeta,
+                                        });
+                                    }
+
+                                } else {
+                                    if (cita.comentario && cita.comentario.toLowerCase().includes(lowerSearchTerm) ||
+                                        cita.text && cita.text.toLowerCase().includes(lowerSearchTerm) ||
+                                        cita.textoAcomp && cita.textoAcomp.toLowerCase().includes(lowerSearchTerm)) {
+
+                                        results.push({
+                                            title: `${item.title} - Cita`,
+                                            text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
+                                            image: cita.image || item.tarjeta,
+                                        });
+                                    }
+
                                 }
 
                                 // Buscar dentro de cada galería de la cita

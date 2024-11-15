@@ -8,8 +8,8 @@
 
     .brujula {
         position: absolute;
-        top: -50px;
-        right: 40px;
+        top: -150px;
+        right: 0;
     }
 
 
@@ -59,6 +59,7 @@
             top: -60px;
             left: 0;
             padding: 0 20px;
+            width: max-content;
 
             @media only screen and (max-width: 1023px) {
                 position: static;
@@ -73,6 +74,12 @@
                 color: #665343;
                 line-height: 22px;
 
+                @media only screen and (max-width: 1280px) {
+                    position: static;
+                    font-size: 22px;
+                    line-height: 29px;
+                }
+
                 &:nth-child(2) {
                     color: #cc0000;
 
@@ -86,10 +93,17 @@
                     width: 100%;
                     margin: 2px 0;
                 }
+
+                &:last-of-type {
+                    &::after {
+                        content: none;
+                    }
+                }
             }
         }
 
         h3,
+        h3 p,
         &>p {
             max-width: 720px;
 
@@ -150,7 +164,7 @@
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
         gap: 20px;
         max-width: 1200px;
         align-items: center;
@@ -162,6 +176,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         gap: 20px;
+        height: 100%;
 
         @media only screen and (max-width: 1023px) {
             display: flex;
@@ -241,6 +256,7 @@
             font-weight: 400;
             font-style: normal;
             font-size: 12px;
+            margin-bottom: 20px;
             color: #665343;
         }
     }

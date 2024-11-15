@@ -196,16 +196,6 @@ let vertices = [
             img: "img/citas/azar/2/3.1.Azar.jpg",
             thumbnail: "img/citas/azar/2/3.1.Azar_Thumb.jpg",
           },
-          {
-            name: "3.2. ",
-            type: "",
-            ficha: [],
-            text: "<p>Un moderno Clemente Silva fue el profesor Gustavo Moncayo (1952–2022), otro habitante del sur andino que emprendió un largo camino a pie en busca de su hijo secuestrado; en este caso, un militar capturado por las FARC. Su marcha conmovió a medio país y puso el dedo en la llaga sobre la necesidad de acuerdos humanitarios. En 2010, en una operación colombo-brasileña, Pablo Emilio Moncayo, su hijo, fue liberado. En un acto simbólico, el hijo le quitó al padre las cadenas con las que había caminado por más de cuatro años.</p>",
-            link: "",
-            btnText: "",
-            img: "",
-            thumbnail: "img/citas/azar/2/3.2.Azar_Thumb.jpg",
-          },
         ],
       },
       {
@@ -734,7 +724,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>En su acepción común, la RAE define codicia como el “Afán excesivo de riquezas”. La cita anterior enuncia el estado anímico de Arturo Cova durante su periodo en los llanos. Se imagina a sí mismo como un “héroe” que ha llevado el progreso a las zonas salvajes: un “civilizador”. Su premio es la acumulación de riquezas y su reconocimiento debe ser público. La codicia necesita la exhibición de dos cosas: la riqueza y el poder. ¿Para qué ambas si no es para tener lo que se desea? Ahora, el “civilizador”, en compensación por su trabajo, <i>debe</i> ser satisfecho. No importa si sus deseos son lícitos o éticos, si se le quieren dar o no. Tomará lo que cree merecer, aunque sea por la fuerza. La “dominante obsesión” no solo es <i>tener</i> más, es <i>ser</i> más. Al final, esta locura solo traerá dolor y muerte, como al toro atraído por los engaños del capote. </p>",
+          "<p>En su acepción común, la RAE define <i>codicia</i> como el “Afán excesivo de riquezas”. La cita anterior enuncia el estado anímico de Arturo Cova durante su periodo en los llanos. Se imagina a sí mismo como un “héroe” que ha llevado el progreso a las zonas salvajes: un “civilizador”. Su premio es la acumulación de riquezas y su reconocimiento debe ser público. La codicia necesita la exhibición de dos cosas: la riqueza y el poder. ¿Para qué ambas si no es para tener lo que se desea? Ahora, el “civilizador”, en compensación por su trabajo, <i>debe</i> ser satisfecho. No importa si sus deseos son lícitos o éticos, si se le quieren dar o no. Tomará lo que cree merecer, aunque sea por la fuerza. La “dominante obsesión” no solo es <i>tener</i> más, es <i>ser</i> más. Al final, esta locura solo traerá dolor y muerte, como al toro atraído por los engaños del capote. </p>",
         text: "<p>El pensamiento de la riqueza se convirtió en esos días en mi dominante obsesión, y llegó a sugestionarme con tal poder, que ya me creía ricacho fastuoso, venido a los llanos a dar impulso a la actividad financiera (p. 43).</p>",
         desc: "Pensamientos de Arturo Cova ante las posibilidades de éxito del negocio entre Franco y Zubieta.",
         galeria: [
@@ -927,7 +917,7 @@ let vertices = [
             name: "5.2. Vapor de la United Fruit Company tomando banano",
             type: "jpg",
             ficha: [
-              "<p><i>Vapor de la United Fruit Company tomando banano</i></p",
+              "<p><i>Vapor de la United Fruit Company tomando banano</i></p>",
               "United Fruit Company",
               "1913",
               "En Colección de postales de José María Restrepo-Millán (1908-1914)",
@@ -960,7 +950,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>Durante la estadía de los protagonistas en la hacienda La Maporita, un hato llanero, Cova conoce a la mulata Tiana, encargada de la cocina. Antonio, hijo de Tiana, partirá al Vichada para trabajar en las caucherías y ella teme perderlo. Por ello, prepara el café de Antonio con el corazón de un pájaro piapoco. En este pasaje, Tiana se refiere a la patria como la tierra natal y como la región de origen. Los colombianos nos pensamos como “país de regiones” y, en la novela, Rivera enfatiza el mosaico de las identidades regionales de sus personajes, al tiempo en que deja entrever la suya propia como huilense. </p><p>Las palabras de la mulata Tiana expresan vívidamente su pertenencia a la llanura:  </p><p>Yo soy únicamente <i>yanera</i>, del lao de Manare. Dicen que soy craveña, pero no soy del Cravo; que pauteña, pero no soy del Pauto. ¡Yo soy de todas estas <i>yanuras!</i> Pa qué más patria, si son tan beyas y tan <i>dilatáas!</i> Bien dice el dicho: ¿Onde <i>tá</i> tu Dios? ¡Onde te salga el sol! (p. 45). </p><p>Esta idea de patria, que surge del arraigo a la geografía y a los lugares, es la que sustenta la nostalgia de otro de los personajes de la novela, Ramiro Estévanez, quien “Amaba de la vida cuanto era noble: el hogar, la patria, la fe, el trabajo, todo lo digno y lo laudable” (p. 175). La noción de patria cambia, sin embargo, a lo largo de la novela y comienza a mostrarse como una realidad mediada y moldeada por el Estado y sus funcionarios. </p>",
+          "<p>Durante la estadía de los protagonistas en la hacienda La Maporita, un hato llanero, Cova conoce a la mulata Tiana, encargada de la cocina. Antonio, hijo de Tiana, partirá al Vichada para trabajar en las caucherías y ella teme perderlo. Por ello, prepara el café de Antonio con el corazón de un pájaro piapoco. En este pasaje, Tiana se refiere a la patria como la tierra natal y como la región de origen. Los colombianos nos pensamos como “país de regiones” y, en la novela, Rivera enfatiza el mosaico de las identidades regionales de sus personajes, al tiempo en que deja entrever la suya propia como huilense. </p><p>Las palabras de la mulata Tiana expresan vívidamente su pertenencia a la llanura:  </p><p>Yo soy únicamente <i>yanera</i>, del <i>lao</i> de Manare. Dicen que soy craveña, pero no soy del Cravo; que pauteña, pero no soy del Pauto. ¡Yo soy de todas estas <i>yanuras!</i> Pa qué más patria, si son tan <i>beyas</i> y tan <i>dilatáas!</i> Bien dice el dicho: ¿Onde <i>tá</i> tu Dios? ¡Onde te salga el sol! (p. 45). </p><p>Esta idea de patria, que surge del arraigo a la geografía y a los lugares, es la que sustenta la nostalgia de otro de los personajes de la novela, Ramiro Estévanez, quien “Amaba de la vida cuanto era noble: el hogar, la patria, la fe, el trabajo, todo lo digno y lo laudable” (p. 175). La noción de patria cambia, sin embargo, a lo largo de la novela y comienza a mostrarse como una realidad mediada y moldeada por el Estado y sus funcionarios. </p>",
         text: "<p>Mientras que yo desayunaba, sentóse en el suelo y comenzó a ajustar con los dientes la cadenita de una medalla que llevaba al cuello. </p><p>—Resolví ponerme esta prenda, porque tá bendita y es milagrosa. A vé si el Antonio se anima a yevarme. Por si me dejare desamparáa, le di en el café el corazón de un pajarito llamao piapoco. Puée irse muy lejos y corré tierras; pero, onde oiga cantá otro pájaro semejante, se pondrá triste y tendrá que volverse, porque la guiña tá en que viene la pesaúmbre a poné de presente la patria y el rancho y el queré olvidao, y tras de los suspiros tiée que encaminarse el suspiraor o se muere de pena. La medaya también ayúa si se le cuelga al que se va (p. 35). </p>",
         desc: "Palabras de la mulata Sebastiana a Arturo Cova en La Maporita. ",
         galeria: [
@@ -984,7 +974,7 @@ let vertices = [
       {
         id: "21",
         image: "img/citas/patria/1/Patria_Cita01.jpg",
-        bg: "img/citas/patria/1/Patria_Cita01_Fondo.jpg",
+        bg: "img/citas/patria/1/Patria_Cita02_Fondo.jpg",
         pagina: "Rivera, 2023, pág. 13",
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
@@ -1144,10 +1134,10 @@ let vertices = [
   },
   {
     id: "extravio",
-    title: "Extravio",
-    minititle: "el extravio",
+    title: "Extravío",
+    minititle: "el extravío",
     intro:
-      "<p>En 1925, el Diccionario de la Real Academia de la Lengua Española definió extraviar como “poner una cosa en el lugar que no le corresponde, ignorar el paradero de algo o alguien, o dejar la forma de vida que se había empezado por otra (comúnmente, en mal sentido)” (p. 554). Los personajes de <i>La vorágine</i> pierden el camino y la noción de realidad.</p><p>José Eustasio Rivera retrató de manera impactante las regiones del Orinoco y el Amazonas. Si bien la violencia y explotación de estas zonas alcanzaban los titulares de prensa, pasaban sin más. Pero quizá porque Rivera sintetizó crudas realidades o porque muchos leyeron la novela como testimonio real, <i>La vorágine</i> repercutió en la discusión sobre estos territorios que representaba la mitad del país. Un siglo después, muchos de estos territorios continúan extraviados en los fenómenos que Rivera denunció.</p>",
+      "<p>En 1925, el Diccionario de la Real Academia de la Lengua Española definió <i>extraviar</i> como “poner una cosa en el lugar que no le corresponde, ignorar el paradero de algo o alguien, o dejar la forma de vida que se había empezado por otra (comúnmente, en mal sentido)” (p. 554). Los personajes de <i>La vorágine</i> pierden el camino y la noción de realidad.</p><p>José Eustasio Rivera retrató de manera impactante las regiones del Orinoco y el Amazonas. Si bien la violencia y explotación de estas zonas alcanzaban los titulares de prensa, pasaban sin más. Pero quizá porque Rivera sintetizó crudas realidades o porque muchos leyeron la novela como testimonio real, <i>La vorágine</i> repercutió en la discusión sobre estos territorios que representaba la mitad del país. Un siglo después, muchos de estos territorios continúan extraviados en los fenómenos que Rivera denunció.</p>",
     textoFinal:
       "<p>Un siglo después, con más actores y mayores consecuencias, muchos de estos territorios continúan perdidos en los fenómenos que <i>La vorágine</i> denunció. </p>",
     citas: [
@@ -1292,7 +1282,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>Mucho se habla de <i>La vorágine>/i> como “novela de la selva”, pero no se explora realmente lo que esto implica. Habitualmente se toma como la representación de un ámbito hostil que vuelve salvajes y miserables a los protagonistas de la historia, para luego devorarlos. Pero la intención de José Eustasio Rivera era otra: quería insistir en que el llano y la selva ―o cualquier otro entorno susceptible de ser colonizado― responderán con natural violencia al ser invadidos y explotados sin consideración. </p><p>Tal vez esto resulte fácil de comprender hoy, después de un siglo de desertificación de lugares que parecían reservas inagotables de fauna y flora, violentadas por el calentamiento global y el consumo desaforados. En <i>La vorágine</i>, la selva extravía a quienes la violan. Y ese extravío no solo es perderse en la espesura, también es perderse en sí mismo, volverse loco y sucumbir a la violencia. </p><p>Hoy, la naturaleza no se concibe como una fuerza que debe ser dominada ni como una fuente inagotable de recursos. Humanidad y naturaleza son uno, la humanidad es parte y no contraparte. Desafortunadamente llegamos a esta conclusión, como los personajes de <i>La vorágine</i>, perdidos ante la amenaza de nuestra propia existencia. </p>",
+          "<p>Mucho se habla de <i>La vorágine</i> como “novela de la selva”, pero no se explora realmente lo que esto implica. Habitualmente se toma como la representación de un ámbito hostil que vuelve salvajes y miserables a los protagonistas de la historia, para luego devorarlos. Pero la intención de José Eustasio Rivera era otra: quería insistir en que el llano y la selva ―o cualquier otro entorno susceptible de ser colonizado― responderán con natural violencia al ser invadidos y explotados sin consideración. </p><p>Tal vez esto resulte fácil de comprender hoy, después de un siglo de desertificación de lugares que parecían reservas inagotables de fauna y flora, violentadas por el calentamiento global y el consumo desaforados. En <i>La vorágine</i>, la selva extravía a quienes la violan. Y ese extravío no solo es perderse en la espesura, también es perderse en sí mismo, volverse loco y sucumbir a la violencia. </p><p>Hoy, la naturaleza no se concibe como una fuerza que debe ser dominada ni como una fuente inagotable de recursos. Humanidad y naturaleza son uno, la humanidad es parte y no contraparte. Desafortunadamente llegamos a esta conclusión, como los personajes de <i>La vorágine</i>, perdidos ante la amenaza de nuestra propia existencia. </p>",
         text: "<p>Nadie ha sabido cuál es la causa del misterio que nos trastorna cuando vagamos por la selva. Sin embargo, creo acertar en la explicación: cualquiera de estos árboles se amansaría, tornándose amistoso y hasta risueño, en un parque, en un camino, en una llanura, donde nadie lo sangrara ni lo persiguiera; mas aquí todos son perversos, o agresivos, o hipnotizantes. En estos silencios, bajo estas sombras, tienen su manera de combatirnos: algo nos asusta, algo nos crispa, algo nos oprime, y viene el mareo de las espesuras, y queremos huir y nos extraviamos, y por esta razón miles de caucheros no volvieron a salir nunca (pp. 149-150). </p>",
         desc: "Palabras de Clemente Silva a Arturo Cova, quien ha sentido el embrujamiento de la montaña.",
         galeria: [
@@ -1479,7 +1469,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023. </p>",
         comentario:
-          "<p>Uno de los pasajes más conmovedores de <i>La vorágine</i> describe la caravana de los <i>picures</i>: caucheros fugados de la estación donde han sido esclavizados a punta de deudas impagables y su propia ambición. Es un catálogo de ilusiones en vilo que tendrá un desenlace fatídico. Desde las ilusiones más básicas hasta las más nobles adquieren un cariz lujurioso: nacen de un deseo descomunal e imposible. </p><p>Este tipo de ilusiones tiene varios ejemplos reales durante la explotación cauchera. Antonio Vaca Díez, empresario cauchero, trajo desde Francia una casa prefabricada de hierro diseñada por Gustav Eiffel (creador de la Torre Eiffel) para ubicarla en plena selva, a orillas del río Mishagua. Proyecto imposible: la primera mitad de la casa (enviada en dos partes) se debió situar en la ciudad de Iquitos; la segunda, se vendió como chatarra. </p><p><i>La vorágine</i> sorprende por cómo Rivera incorporó ―muchas veces sin ser consciente de ello― temas míticos de la tradición occidental. Esta escena recuerda el motivo platónico y medieval de la nave de los locos. Originalmente una fábula sobre la mala forma de gobernar, vino a representar la locura ante la convicción de ir por buen camino cuando se avanza hacia el dolor y la muerte.</p>",
+          "<p>Uno de los pasajes más conmovedores de <i>La vorágine</i> describe la caravana de los <i>picures</i>: caucheros fugados de la estación donde han sido esclavizados a punta de deudas impagables y su propia ambición. Es un catálogo de ilusiones en vilo que tendrá un desenlace fatídico. Desde las ilusiones más básicas hasta las más nobles adquieren un cariz lujurioso: nacen de un deseo descomunal e imposible. </p><p>Este tipo de ilusiones tiene varios ejemplos reales durante la explotación cauchera. Antonio Vaca Díez, empresario cauchero, trajo desde Francia una casa prefabricada de hierro diseñada por Gustav Eiffel (creador de la Torre Eiffel) para ubicarla en plena selva, a orillas del río Mishagua. Proyecto imposible: la primera mitad de la casa (enviada en dos partes) se debió situar en la ciudad de Iquitos; la segunda, se vendió como chatarra. </p><p><i>La vorágine</i> sorprende por cómo Rivera incorporó ―muchas veces sin ser consciente de ello― temas míticos de la tradición occidental. Esta escena recuerda el motivo platónico y medieval de la <i>nave de los locos</i>. Originalmente una fábula sobre la mala forma de gobernar, vino a representar la locura ante la convicción de ir por buen camino cuando se avanza hacia el dolor y la muerte.</p>",
         text: "<p>Y allá van por entre la selva, con la ilusión de la libertad, llenos de risas y proyectos, adulando al guía y prometiéndole su amistad, su recuerdo, su gratitud. Lauro Coutinho ha cortado la hoja de una palma y la conduce en alto, como un pendón; Souza Machado no quiere abandonar su balón de goma, que pesa más de dieciocho kilos, con cuyo producto piensa adquirir durante dos noches las caricias de una mujer, que sea blanca y rubia y que trasciende a brandy y a rosas; el italiano Peggi habla de salir a cualquier ciudad para emplearse de cocinero en algún hotel donde abunden las sobras y las propinas; Coutinho, el mayor, quiere casarse con una moza que tenga rentas; el indio Venancio anhela dedicarse a labrar curiaras; Pedro Fajardo aspira a comprar un techo para hospedar a su madre ciega, don Clemente Silva sueña en hallar una sepultura. ¡Es la procesión de los infelices, cuyo camino parte de la miseria y llega hasta la muerte! (p. 156). </p>",
         desc: "Anotaciones de Arturo Cova sobre el extravío en la selva de Clemente Silva junto con otros caucheros. ",
         galeria: [
@@ -1614,7 +1604,7 @@ let vertices = [
     title: "Violencia",
     minititle: "la violencia",
     intro:
-      "<p>Se ha dicho que <i>La vorágine</i> es la gran novela colombiana sobre la violencia. También lo es sobre el capitalismo, la selva y la frontera. Pero Violencia es la palabra que, desde un inicio, establece la clave de interpretación de la trama. En el manuscrito que preparó Rivera de la primera parte de <i>La vorágine</i> y en todas las ediciones que él supervisó, la violencia de la primera frase iba en mayúscula. No fue una elección gratuita: Rivera quería enfatizar que se trataba de una fuerza destructora total, activa en múltiples formas y escenarios. Violencias políticas, violencias contra poblaciones enteras, violencia de la expoliación capitalista de la selva, violencia de la codicia, violencia de la explotación de personas, violencia contra las mujeres, violencia contra sí mismo, violencia como motor del mal.</p>",
+      "<p>Se ha dicho que <i>La vorágine</i> es la gran novela colombiana sobre la violencia. También lo es sobre el capitalismo, la selva y la frontera. Pero <i>Violencia</i> es la palabra que, desde un inicio, establece la clave de interpretación de la trama. En el manuscrito que preparó Rivera de la primera parte de <i>La vorágine</i> y en todas las ediciones que él supervisó, la violencia de la primera frase iba en mayúscula. No fue una elección gratuita: Rivera quería enfatizar que se trataba de una fuerza destructora total, activa en múltiples formas y escenarios. Violencias políticas, violencias contra poblaciones enteras, violencia de la expoliación capitalista de la selva, violencia de la codicia, violencia de la explotación de personas, violencia contra las mujeres, violencia contra sí mismo, violencia como motor del mal.</p>",
     textoFinal:
       "<p>Tanto en el manuscrito que preparó Rivera de la primera parte de <i>La vorágine<i> —hoy en día en la Biblioteca Nacional de Colombia—, como en todas las ediciones que él supervisó, la violencia de la famosa primera frase fue escrita con mayúscula. No fue una opción gratuita: quería enfatizar que se trataba de una fuerza destructora total, activa en múltiples formas y escenarios. Violencias políticas, violencias contra poblaciones enteras, violencia de la expoliación capitalista de la selva, violencia de la codicia, violencia de la explotación de personas, violencia contra las mujeres, violencia contra sí mismo, violencia como motor del mal. Una fuerza trasmitida por muchas sustancias: el alcohol, por supuesto, pero también por el dinero, el perfume y el caucho, que ultimadamente conllevan la destrucción y el triunfo de la muerte; a eso que de otra manera llamamos “terror”. </p>",
     citas: [
@@ -1670,7 +1660,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica</i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>Una de las formas de la violencia que aparece en <i>La vorágine</i> es la que surge de la relación de poder entre guardias y prisioneros, así estos hayan sido encarcelados de manera legal. Los prisioneros han sido engañados y secuestrados para venderlos como trabajadores en las caucherías por parte de los hombres de Barrera. </p><p>“Barrera había venido a llevar la gente para las caucherías de Vichada”, explicaba a don Rafo la niña Griselda, “Es la ocasión de mejorá: dan alimentación y cinco pesos por día [...] ha treído mercancías y morrocotas para dá y convidá [...] tá ofreciendo plata anticipáa” (p. 28). Este era uno de los aspectos más rentables del negocio: engañarlos y obligarlos con ilusiones anticipadas. “Si pudiera, no negociaría en goma sino en gomeros” (p. 194), pensó tiempo después el propio Arturo Cova. Y para ponerlos en marcha, los guardianes y verdugos tenían que ejercer control total sobre los cuerpos y las vidas de los esclavizados. La brutalidad y violencia de los capataces caucheros y de los carceleros de secuestrados se facilitan porque están al margen de la ley. O mejor: porque en la frontera, la ley es otra, la de ellos. </p>",
+          "<p>Una de las formas de la violencia que aparece en <i>La vorágine</i> es la que surge de la relación de poder entre guardias y prisioneros, así estos hayan sido encarcelados de manera legal. Los prisioneros han sido engañados y secuestrados para venderlos como trabajadores en las caucherías por parte de los hombres de Barrera. </p><p>“Barrera había venido a llevar la gente para las caucherías de Vichada”, explicaba a don Rafo la niña Griselda, “Es la ocasión de mejorá: dan alimentación y cinco pesos por día [...] ha treído mercancías y <i>morrocotas</i> para dá y convidá [...] tá ofreciendo plata anticipáa” (p. 28). Este era uno de los aspectos más rentables del negocio: engañarlos y obligarlos con ilusiones anticipadas. “Si pudiera, no negociaría en goma sino en gomeros” (p. 194), pensó tiempo después el propio Arturo Cova. Y para ponerlos en marcha, los guardianes y verdugos tenían que ejercer control total sobre los cuerpos y las vidas de los esclavizados. La brutalidad y violencia de los capataces caucheros y de los carceleros de secuestrados se facilitan porque están al margen de la ley. O mejor: porque en la frontera, la ley es otra, la de ellos. </p>",
         text: "<p>En el bongo de las mujeres van los chicuelos, a pleno sol, mojándose las cabecitas para no morir carbonizados. Parten el alma con sus vagidos, tanto como las súplicas de las madres, que piden ramas para taparlos. El día que salimos al Orinoco, un niño de pechos lloraba de hambre. El Matacano, al verlo lleno de llagas por las picaduras de los zancudos, dijo que se trataba de la viruela, y, tomándolo de los pies, volteólo en el aire y lo echó a las ondas. Al punto, un caimán lo atravesó en la jeta, y, poniéndose a flote, buscó la ribera para tragárselo. La enloquecida madre se lanzó al agua y tuvo igual suerte que la criaturilla. Mientras los centinelas aplaudían la diversión, logré zafarme las ligaduras, y, rapándole el grazt al que estaba cerca, le hundí al Matacano la bayoneta entre los riñones, lo dejé clavado contra la borda, y, en presencia de todos, salté al río. </p><p>Los cocodrilos se entretuvieron con la mujer. Ningún disparo hizo blanco en mí. Dios premió mi venganza y aquí estoy (p. 100). </p>",
         desc: "Relato de Helí Mesa en el Vichada contado a Arturo Cova y sus compañeros.",
         galeria: [
@@ -1753,7 +1743,7 @@ let vertices = [
         refBibliografica:
           "<p>José Eustasio Rivera, <i>La vorágine. Una edición cosmográfica<i>, edición crítica de Margarita Serje y Erna von der Walde, Bogotá: Ediciones Uniandes, 2023.</p>",
         comentario:
-          "<p>Reiteradas referencias a la forma en que <i>La vorágine</i> es la sexual. En particular, se hacen reiteradas referencias a forma en que las mujeres indígenas son violadas, explotadas y cosificadas: “saldrá pronto una expedición a someter las tribus andoques y lleva encargo de recoger <i>guarichas</i> donde las haya. […] cualquier indio que tenga mujer o hija debe presentarla en este establecimiento para saber que se hace con ella” (p. 122). Y más adelante, “estas noches los siringueros han invadido el zarzo de las mujeres, para gozarlas como premio de su semana, según vieja costumbre. […] Los menos rijosos cambian su derecho a los impacientes por tabacos, por goma o por píldoras de quinina” (p. 190). Pero no solo se hace referencia a la violencia sexual contra las indígenas. En la novela se cuenta también la historia de Clarita, una llanera venezolana a quien rifaron en un juego de tresillo y ha sido continuamente degradada y usada a cambio de prometerle un retorno a su tierra, que nunca ocurrirá. </p>",
+          "<p>Una de las formas de violencia a las que se refiere reiteradamente <i>La voragine</i> es la sexual. En particular, se hacen reiteradas referencias a la forma en que las mujeres indígenas son violadas, explotadas y cosificadas: “saldrá pronto una expedición a someter las tribus andoques y lleva encargo de recoger <i>guarichas</i> donde las haya. […] cualquier indio que tenga mujer o hija debe presentarla en este establecimiento para saber que se hace con ella” (p. 122). Y más adelante, “estas noches los siringueros han invadido el zarzo de las mujeres, para gozarlas como premio de su semana, según vieja costumbre. […] Los menos rijosos cambian su derecho a los impacientes por tabacos, por goma o por píldoras de quinina” (p. 190). Pero no solo se hace referencia a la violencia sexual contra las indígenas. En la novela se cuenta también la historia de Clarita, una llanera venezolana a quien rifaron en un juego de tresillo y ha sido continuamente degradada y usada a cambio de prometerle un retorno a su tierra, que nunca ocurrirá. </p>",
         text: "<p>Y cuando pasamos junto a un caney, cercano al río, vi un grupo de niñas, de ocho a trece años, sentadas en el suelo, en círculo triste. Vestían todas chingues mugrientos, terciados en forma de banda y suspendidos por sobre el hombro con un cordón, de suerte que les quedaban pecho y brazos desnudos. Una espulgaba a su compañera, que se le había dormido sobre las rodillas; otras preparaban un cigarrillo en una corteza de <i>tabarí</i>, fina como el papel; esta, de cuando en cuando, mordía con displicencia un caimito lechoso; aquella, de ojos estúpidos y greñas alborotadas, distraía el hambre de una criatura que le pataleaba en las piernas, metiéndole el meñique entre la boquita, a falta del pezón ya exhausto. ¡Nunca veré otro grupo de más infinita desolación! </p><p>—Don Clemente, ¿qué se quedan haciendo estas indiecitas mientras tornan sus padres a la barraca? </p><p>—Estas son las queridas de nuestros amos. Se las cambiaron a sus parientes por sal, por telas y cachivaches o las arrancaron de sus bohíos como impuesto de esclavitud. Ellas casi no han conocido la serena inocencia que la infancia respira, ni tuvieron otro juguete que el pesado tarro de cargar agua o el hermanito sobre el cuadril. ¡Cuán impuro fue el holocausto de su trágica doncellez! Antes de los diez años, son compelidas al lecho, como a un suplicio; y, descaderadas por sus patrones, crecen entecas, taciturnas, ¡hasta que un día sufren el espanto de sentirse madres, sin comprender la maternidad! (p. 174).</p>",
         desc: "Diálogo entre Arturo Cova y Clemente Silva en las barracas de Guaracú. ",
         galeria: [
@@ -1869,17 +1859,18 @@ if (document.querySelector(".lanovela")) {
       threshold: [0], // Se dispara cuando cualquier parte del elemento entra o sale del viewport
     }
   );
-
-  // Observamos el elemento .controls
-  observer.observe(controlsElement);
-  document.querySelector("#openLinks").addEventListener("click", () => {
-    document.querySelector(".linkslanovela").classList.toggle("active");
-  });
-  document.querySelectorAll(".linkslanovela a").forEach((link) => {
-    link.addEventListener("click", () => {
+  if (controlsElement) {
+    // Observamos el elemento .controls
+    observer.observe(controlsElement);
+    document.querySelector("#openLinks").addEventListener("click", () => {
       document.querySelector(".linkslanovela").classList.toggle("active");
     });
-  });
+    document.querySelectorAll(".linkslanovela a").forEach((link) => {
+      link.addEventListener("click", () => {
+        document.querySelector(".linkslanovela").classList.toggle("active");
+      });
+    });
+  }
   // Selecciona los elementos necesarios
   const contentElements = document.querySelectorAll(".content *"); // Selecciona todos los elementos dentro de .content
   const fontSizeButtons = document.querySelectorAll(".font-size-btn");
@@ -2008,29 +1999,28 @@ if (document.querySelector(".lanovela")) {
     }
   }
 }
-// if (window.innerWidth > 768) {
-//   // Resolución de referencia
-//   const baseWidth = 1920;
-//   const baseHeight = 1080;
+if (window.innerWidth > 768) {
+  // Resolución de referencia
+  const baseWidth = 1920;
+  const baseHeight = 1080;
 
-//   // Dimensiones actuales de la ventana
-//   const currentWidth = window.outerWidth;
-//   const currentHeight = window.outerHeight;
+  // Dimensiones actuales de la ventana
+  const currentWidth = window.outerWidth;
+  const currentHeight = window.outerHeight;
 
-//   // Calcula el factor de escala basándote en la proporción de la resolución actual respecto a la base
-//   const scaleWidth = currentWidth / baseWidth;
-//   const scaleHeight = currentHeight / baseHeight;
+  // Calcula el factor de escala basándote en la proporción de la resolución actual respecto a la base
+  const scaleWidth = currentWidth / baseWidth;
+  const scaleHeight = currentHeight / baseHeight;
 
-//   // Usa el factor de escala menor para mantener la proporción sin distorsionar el contenido
-//   const scale = Math.min(scaleWidth, scaleHeight);
+  // Usa el factor de escala menor para mantener la proporción sin distorsionar el contenido
+  const scale = Math.min(scaleWidth, scaleHeight);
 
-//   // Aplica el zoom si la resolución es diferente a 1920x1080
-//   console.log(currentWidth, baseWidth, currentHeight, baseHeight);
-
-//   if (currentWidth !== baseWidth) {
-//     document.body.style.zoom = scale;
-//   }
-// }
+  if (currentWidth !== baseWidth && !document.querySelector(".home")) {
+    document.querySelector("main").style.zoom = scale;
+  } else {
+    document.body.style.zoom = scale;
+  }
+}
 if (document.querySelector(".home")) {
   const clicSound = document.getElementById("clicSound");
   clicSound.volume = 0.2;
@@ -2039,49 +2029,54 @@ if (document.querySelector(".home")) {
   const totalTarjetas = 8; // Total incluyendo la instrucción
   const duracionGiro = 8000; // Duración del giro en milisegundos
 
-  function seleccionarTarjetaAleatoria() {
-    if (animating) return; // Evita múltiples clics durante la animación
-    animating = true;
+  function seleccionarTarjetaAleatoria(e) {
+    if (
+      e.target.href == "javascript:seleccionarTarjetaAleatoria(event);" ||
+      e.target == document.querySelector(".home .vertices")
+    ) {
+      if (animating) return; // Evita múltiples clics durante la animación
+      animating = true;
 
-    // Excluye la primera tarjeta (instrucción) y selecciona entre las demás
-    // Excluye la primera tarjeta (instrucción) y selecciona entre las demás
-    const tarjetaSeleccionada = getSecureRandomNumber(1, totalTarjetas - 1);
+      // Excluye la primera tarjeta (instrucción) y selecciona entre las demás
+      // Excluye la primera tarjeta (instrucción) y selecciona entre las demás
+      const tarjetaSeleccionada = getSecureRandomNumber(1, totalTarjetas - 1);
 
-    const vueltas = 5; // Número de vueltas completas antes de detenerse
-    const angle = vueltas * 360 + tarjetaSeleccionada * (360 / totalTarjetas);
+      const vueltas = 5; // Número de vueltas completas antes de detenerse
+      const angle = vueltas * 360 + tarjetaSeleccionada * (360 / totalTarjetas);
 
-    // Aplica la rotación con una transición
-    ruleta.style.transition = `transform ${
-      duracionGiro / 1000
-    }s cubic-bezier(0.22, 1, 0.36, 1)`;
-    if (window.innerWidth > 768) {
-      ruleta.style.transform = `translate(-50%, -50%) rotate(${angle}deg) `;
-    } else {
-      ruleta.style.transform = `translateY(-50%) rotate(${angle}deg) `;
+      // Aplica la rotación con una transición
+      ruleta.style.transition = `transform ${
+        duracionGiro / 1000
+      }s cubic-bezier(0.22, 1, 0.36, 1)`;
+      if (window.innerWidth > 768) {
+        ruleta.style.transform = `translate(-50%, -50%) rotate(${angle}deg) `;
+      } else {
+        ruleta.style.transform = `translateY(-50%) rotate(${angle}deg) `;
+      }
+      clicSound.play();
+
+      // Detecta cuando la transición termina
+      ruleta.addEventListener(
+        "transitionend",
+        () => {
+          animating = false;
+          ruleta.style.transition = "none"; // Remueve la transición para el próximo giro
+          if (window.innerWidth > 768) {
+            ruleta.style.transform = `translate(-50%, -50%) rotate(${
+              angle % 360
+            }deg) `; // Ajusta el ángulo final
+          } else {
+            ruleta.style.transform = `translateY(-50%) rotate(${
+              angle % 360
+            }deg) `; // Ajusta el ángulo final
+          }
+          document.querySelector(
+            ".selectedLink"
+          ).href = `vertice.html?id=${verticesTxtReal[tarjetaSeleccionada]}`;
+        },
+        { once: true }
+      );
     }
-    clicSound.play();
-
-    // Detecta cuando la transición termina
-    ruleta.addEventListener(
-      "transitionend",
-      () => {
-        animating = false;
-        ruleta.style.transition = "none"; // Remueve la transición para el próximo giro
-        if (window.innerWidth > 768) {
-          ruleta.style.transform = `translate(-50%, -50%) rotate(${
-            angle % 360
-          }deg) `; // Ajusta el ángulo final
-        } else {
-          ruleta.style.transform = `translateY(-50%) rotate(${
-            angle % 360
-          }deg) `; // Ajusta el ángulo final
-        }
-        document.querySelector(
-          ".selectedLink"
-        ).href = `vertice.html?id=${verticesTxtReal[tarjetaSeleccionada]}`;
-      },
-      { once: true }
-    );
   }
 }
 
@@ -2107,7 +2102,7 @@ function checkImageOrientation(imageUrl, callback) {
 
   img.onload = function () {
     const isVertical = img.width < img.height;
-    callback(isVertical);
+    callback({ isVertical, width: img.width, height: img.height });
   };
 
   img.onerror = function () {
@@ -2129,15 +2124,27 @@ document.addEventListener("DOMContentLoaded", () => {
   ) {
     const introLimpio = infoVertice.intro;
     const finalLimpio = limpiarHTMLConSaltosDeLinea(infoVertice.textoFinal);
-    document.querySelector(".vertice .intro ").innerHTML = introLimpio;
-    document.querySelector(".vertice .footerText").innerHTML = finalLimpio;
+    document.querySelector(".vertice .intro .center h3").innerHTML =
+      introLimpio;
     document.querySelector(".vertice .grid-container").innerHTML = "";
     let text, textoLimpio, template;
     infoVertice.citas.forEach((cita, index) => {
       if (Array.isArray(cita.text)) {
         text = cita.text.join("");
         if (text.length > maxChars) {
-          text = text.slice(0, maxChars) + "...";
+          // Recortar el texto hasta el límite de caracteres
+          let truncatedText = text.slice(0, maxChars);
+
+          // Buscar el último espacio antes del límite
+          const lastSpaceIndex = truncatedText.lastIndexOf(" ");
+
+          // Si hay un espacio, recortar hasta ese espacio para no cortar palabras
+          if (lastSpaceIndex > 0) {
+            truncatedText = truncatedText.slice(0, lastSpaceIndex);
+          }
+
+          // Añadir los "..."
+          text = truncatedText + "...";
         }
         textoLimpio = limpiarHTMLConSaltosDeLinea(text);
 
@@ -2145,7 +2152,19 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         text = cita.text;
         if (text.length > maxChars) {
-          text = text.slice(0, maxChars) + "...";
+          // Recortar el texto hasta el límite de caracteres
+          let truncatedText = text.slice(0, maxChars);
+
+          // Buscar el último espacio antes del límite
+          const lastSpaceIndex = truncatedText.lastIndexOf(" ");
+
+          // Si hay un espacio, recortar hasta ese espacio para no cortar palabras
+          if (lastSpaceIndex > 0) {
+            truncatedText = truncatedText.slice(0, lastSpaceIndex);
+          }
+
+          // Añadir los "..."
+          text = truncatedText + "...";
         }
         textoLimpio = limpiarHTMLConSaltosDeLinea(text);
         template = `<a href="cita.html?id=${idVertice}&cita=${index}" class="grid-item"><img src="${cita.image}" alt="${textoLimpio}"><p>${textoLimpio}</p></a>`;
@@ -2226,12 +2245,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       citaActual.galeria.forEach((item, index) => {
         let { name, type, ficha, text, link, btnText, img, thumbnail } = item;
-        console.log(img);
-
         if (img != "") {
           // Uso de la función
-          checkImageOrientation(img, function () {
-            // Aquí puedes continuar con el resto del código, utilizando el valor de isVertical
+          checkImageOrientation(img, function ({ isVertical }) {
             // Generar el contenido dinámico para el figcaption
             let contenidoFicha = ficha
               .map((item, index) => {
@@ -2240,13 +2256,23 @@ document.addEventListener("DOMContentLoaded", () => {
                   : `<p>${item}</p>`;
               })
               .join("");
-            let template = `<button type="button" popovertarget="galitem-${index}"><figure><img  src="${thumbnail}" alt="${name}"><figcaption>${contenidoFicha}</figcaption></figure>
-            </button><div popover="" id="galitem-${index}" class="popover"><div class="content"><button class="close" popovertarget="galitem-${index}" popovertargetaction="toggle" type="button"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_101_2)"><path d="M20.2114 16.4061L14.3046 10.4993L20.2114 4.59246C21.2622 3.5417 21.2622 1.83796 20.2114 0.787191C19.1607 -0.263577 17.4569 -0.263577 16.4061 0.787191L10.4993 6.694L4.59317 0.78783C3.5424 -0.262937 1.83866 -0.262937 0.787893 0.78783C-0.262875 1.8386 -0.262875 3.54234 0.787893 4.5931L6.6947 10.4999L0.787893 16.4061C-0.262875 17.4569 -0.262875 19.1606 0.787893 20.2114C1.83866 21.2621 3.5424 21.2621 4.59317 20.2114L10.5 14.3045L16.4068 20.2114C17.4576 21.2621 19.1613 21.2621 20.2121 20.2114C21.2628 19.1606 21.2628 17.4569 20.2121 16.4061H20.2114Z" fill="#665343"></path></g><defs><clipPath id="clip0_101_2"><rect width="21" height="21" fill="white"></rect></clipPath></defs></svg></button><div class="content-header">${
+            let template = `<button type="button" onclick="setHeight(${index})" popovertarget="galitem-${index}"><figure><img  src="${thumbnail}" alt="${name}"><figcaption>${contenidoFicha}</figcaption></figure>
+            </button><div popover="" id="galitem-${index}" class="popover" style="${
+              isVertical ? `height: 100%";` : ``
+            }"><div class="content"><button class="close" popovertarget="galitem-${index}" popovertargetaction="toggle" type="button"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_101_2)"><path d="M20.2114 16.4061L14.3046 10.4993L20.2114 4.59246C21.2622 3.5417 21.2622 1.83796 20.2114 0.787191C19.1607 -0.263577 17.4569 -0.263577 16.4061 0.787191L10.4993 6.694L4.59317 0.78783C3.5424 -0.262937 1.83866 -0.262937 0.787893 0.78783C-0.262875 1.8386 -0.262875 3.54234 0.787893 4.5931L6.6947 10.4999L0.787893 16.4061C-0.262875 17.4569 -0.262875 19.1606 0.787893 20.2114C1.83866 21.2621 3.5424 21.2621 4.59317 20.2114L10.5 14.3045L16.4068 20.2114C17.4576 21.2621 19.1613 21.2621 20.2121 20.2114C21.2628 19.1606 21.2628 17.4569 20.2121 16.4061H20.2114Z" fill="#665343"></path></g><defs><clipPath id="clip0_101_2"><rect width="21" height="21" fill="white"></rect></clipPath></defs></svg></button><div class="content-header">${
               link != ""
                 ? `<a href="${link}" target="_blank" class="complete"><svg width="31" height="36" viewBox="0 0 31 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.37 7.2H1.62V33.08H23.37V7.2Z" fill="white"></path><path d="M29.15 27.65H7.4V1.78H21.25L29.15 9.7V27.65Z" fill="white"></path><path d="M30.45 8.95L22.09 0.45C21.81 0.16 21.42 0 21.02 0H7.17C6.34 0 5.67 0.67 5.67 1.5V5.67H1.5C0.67 5.67 0 6.34 0 7.17V33.6C0 34.43 0.67 35.1 1.5 35.1H23.71C24.54 35.1 25.21 34.43 25.21 33.6V29.43H29.38C30.21 29.43 30.88 28.76 30.88 27.93V10C30.88 9.61 30.73 9.23 30.45 8.95ZM22.52 5.17L25.8 8.51H22.52V5.17ZM22.21 32.1H3V8.67H5.67V27.93C5.67 28.76 6.34 29.43 7.17 29.43H22.21V32.1ZM8.67 26.43V3H19.52V10C19.52 10.83 20.19 11.5 21.02 11.5H27.88V26.43H8.67Z" fill="#665344"></path><path d="M23.85 14.72H12.69C11.86 14.72 11.19 15.39 11.19 16.22C11.19 17.05 11.86 17.72 12.69 17.72H23.85C24.68 17.72 25.35 17.05 25.35 16.22C25.35 15.39 24.68 14.72 23.85 14.72Z" fill="#665344"></path><path d="M23.85 20.39H12.69C11.86 20.39 11.19 21.06 11.19 21.89C11.19 22.72 11.86 23.39 12.69 23.39H23.85C24.68 23.39 25.35 22.72 25.35 21.89C25.35 21.06 24.68 20.39 23.85 20.39Z" fill="#665344"></path></svg>PARA VER EL RECURSO COMPLETO, HAGA CLIC AQUÍ.</a>`
                 : ``
             }</div>
-    <div class="content-body"><img src="${img}" alt="image"><div class="txt"><div class="nomargin">${contenidoFicha}</div>${text}</div></div></div></div>`;
+    <div class="content-body"><img src="${img}" alt="image" style="${
+              isVertical
+                ? `height: ${window.innerWidth > 1024 ? "100%" : "50%"};`
+                : ``
+            }"><div class="txt" style="${
+              isVertical
+                ? `height: ${window.innerWidth > 1024 ? "100%" : "50%"};`
+                : ``
+            }" ><div class="nomargin">${contenidoFicha}</div>${text}</div></div></div></div>`;
             // Guardar el template en el array en la posición correcta
             templates[index] = template;
             // Verificar si todas las imágenes han sido procesadas
@@ -2316,7 +2342,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 if (document.querySelector(".lanovela")) {
   // Seleccionamos todos los elementos <p> con la clase 'Cuerpo_Texto_01'
-  const paragraphs = document.querySelectorAll(".content p");
+  const paragraphs = document.querySelectorAll(".content [id]");
 
   // Iteramos sobre cada párrafo y le agregamos un evento de clic
   paragraphs.forEach((p) => {
@@ -2331,10 +2357,20 @@ if (document.querySelector(".lanovela")) {
       );
 
       if (result) {
+        console.log({ result, paragraphId });
         p.addEventListener("click", () => {
           window.location.href = `cita.html?id=${vertice.id}&cita=${citaIndex}`;
         });
       }
     });
   });
+}
+
+function setHeight(index) {
+  setTimeout(() => {
+    document.querySelector(
+      `.cita #galitem-${index} .content-body .txt`
+    ).style.height =
+      document.querySelector(`.cita #galitem-${index} img`).height + "px";
+  }, 100);
 }
