@@ -10,7 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=1.1.0">
+    <link rel="stylesheet" href="css/styles.css?v=2.0.9">
+    <link rel="stylesheet" href="css/styles-ipad.css?v=2.0.9"
+        media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)">
 </head>
 
 
@@ -27,6 +29,7 @@
         </a>
         <div class="container">
             <nav class="menu">
+                <a href="index.html" class="inicio">INICIO</a>
                 <a href="about.html">SOBRE EL PROYECTO</a>
 
                 <a href="lanovela.html">LA NOVELA</a>
@@ -9116,12 +9119,13 @@
                     // Buscar dentro de todos los elementos dentro del contenedor
                     const elements = contentContainer.querySelectorAll("*");
 
-                    elements.forEach((element) => {
+                    elements.forEach((element, index) => {
                         const text = element.innerText.toLowerCase(); // Obtener el texto visible sin HTML
                         if (text.includes(lowerSearchTerm)) {
                             results.push({
                                 title: "Resultado encontrado", // Puedes personalizar esto si es necesario
                                 text: stripHTMLTags(element.innerHTML), // Limpiar el texto HTML
+                                link: `lanovela.html?el=${index}`
                             });
                         }
                     });
@@ -9133,12 +9137,13 @@
                                 title: item.title,
                                 text: stripHTMLTags(item.intro),
                                 image: item.tarjeta,
+                                link: `vertice.html?id=${item.id}`
                             });
                         }
 
                         // Buscar en cada cita dentro de item.citas
                         if (item.citas) {
-                            item.citas.forEach((cita) => {
+                            item.citas.forEach((cita, index) => {
                                 if (Array.isArray(cita.text)) {
                                     if (cita.comentario && cita.comentario.toLowerCase().includes(lowerSearchTerm) ||
                                         cita.text && cita.text.join("").toLowerCase().includes(lowerSearchTerm) ||
@@ -9148,6 +9153,7 @@
                                             title: `${item.title} - Cita`,
                                             text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
                                             image: cita.image || item.tarjeta,
+                                            link: `cita.html?id=${item.id}&cita=${index}`
                                         });
                                     }
 
@@ -9160,6 +9166,7 @@
                                             title: `${item.title} - Cita`,
                                             text: stripHTMLTags(cita.comentario || cita.text || cita.textoAcomp),
                                             image: cita.image || item.tarjeta,
+                                            link: `cita.html?id=${item.id}&cita=${index}`
                                         });
                                     }
 
@@ -9176,6 +9183,7 @@
                                                 title: `${item.title} - Galería`,
                                                 text: stripHTMLTags(galeriaItem.text),
                                                 image: galeriaItem.img,
+                                                link: `cita.html?id=${item.id}&cita=${index}`
                                             });
                                         }
                                     });
@@ -9211,52 +9219,42 @@
                     return;
                 }
                 results.forEach((result) => {
+                    const li = document.createElement("li");
+                    li.className = "result-item";
 
-                });
-
-                results.forEach((result) => {
-                    if (type == 'novela') {
-                        const li = document.createElement("li");
-                        li.className = "result-item";
-
-                        const title = document.createElement("h5");
-                        title.className = "result-item__title";
-                        title.textContent = result.title;
-
-                        const text = document.createElement("p");
-                        text.className = "result-item__text";
-                        text.innerHTML = result.text.replace(new RegExp(`(${searchInput.value})`, "gi"), '<span class="highlight">$1</span>');
-
-                        li.appendChild(title);
-                        li.appendChild(text);
-
-                        resultsContainer.appendChild(li);
+                    const a = document.createElement("a");
+                    if (result.link) {
+                        a.href = result.link; // Cambia el '#' por la URL real si aplica.
                     } else {
-                        const li = document.createElement("li");
-                        li.className = "result-item";
+                        a.href = "#"; // Cambia el '#' por la URL real si aplica.
 
-                        const title = document.createElement("h5");
-                        title.className = "result-item__title";
-                        title.textContent = result.title;
+                    }
 
-                        const text = document.createElement("p");
-                        text.className = "result-item__text";
-                        text.innerHTML = result.text.replace(new RegExp((`${searchInput.value}`), "gi"), '<span class="highlight">$1</span>');
+                    // Añadir el contenido principal al enlace
+                    a.innerHTML = `<h5 class="result-item__title">${result.title}</h5><p class="result-item__text">${result.text.replace(new RegExp(`(${searchInput.value})`, "gi"), '<span class="highlight">$1</span>')}</p>`;
 
+                    // Verificar si no es de tipo 'novela' y añadir la imagen al enlace
+                    if (type !== 'novela') {
                         const image = document.createElement("div");
                         image.className = "result-item__image";
+
                         if (result.image) {
                             const imgElement = document.createElement("img");
                             imgElement.src = result.image;
+                            imgElement.alt = result.title; // Buenas prácticas para accesibilidad.
                             image.appendChild(imgElement);
                         }
 
-                        li.appendChild(title);
-                        li.appendChild(text);
-                        li.appendChild(image);
-
-                        resultsContainer.appendChild(li);
+                        // Añadir la imagen dentro del enlace
+                        a.appendChild(image);
                     }
+
+                    // Añadir el enlace al elemento de lista
+                    li.appendChild(a);
+
+                    // Añadir el elemento de lista al contenedor de resultados
+                    resultsContainer.appendChild(li);
+
 
                 });
             }

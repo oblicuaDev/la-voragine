@@ -10,7 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=1.1.0">
+    <link rel="stylesheet" href="css/styles.css?v=2.0.9">
+    <link rel="stylesheet" href="css/styles-ipad.css?v=2.0.9"
+        media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,6 +21,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
     </style>
+
 </head>
 
 <body class="lanovela">
@@ -317,6 +320,7 @@
             </a>
             <div class="container">
                 <nav class="menu">
+                    <a href="index.html" class="inicio">INICIO</a>
                     <a href="about.html">SOBRE EL PROYECTO</a>
 
                     <a href="lanovela.html">LA NOVELA</a>
@@ -422,7 +426,7 @@
 
     </div>
     <main>
-        <div class="content">
+        <div class="content" id="contentContainer">
             <div id="prologo"></div>
             <p class="Titulo_01" style="margin-top:50px;">Prólogo</p>
             <p class="Cuerpo_Texto_02">Señor Ministro:</p>
@@ -9421,6 +9425,27 @@
         <img src="img/aguja.png" alt="aguja" id="aguja">
     </div>
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const queryString = window.location.search; // Obtiene la parte del query string
+            const urlParams = new URLSearchParams(queryString); // Crea un objeto URLSearchParams
+            const contentContainer = document.getElementById("contentContainer"); // El contenedor principal
+            const elValue = urlParams.get('el'); // Obtiene el valor del parámetro 'el'
+
+            if (elValue) {
+                // Obtiene todos los elementos dentro del contenedor y selecciona el índice
+                const element = contentContainer.querySelectorAll("*")[elValue];
+                if (element) {
+                    // Hace scroll hacia el elemento
+                    element.scrollIntoView({ behavior: "smooth", block: "center" });
+                    console.log("Scrolled to element:", element);
+                } else {
+                    console.log("Elemento no encontrado con índice:", elValue);
+                }
+            }
+        })
+    </script>
+
 </body>
 
 </html>

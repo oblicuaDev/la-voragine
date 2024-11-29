@@ -128,16 +128,12 @@
         }
 
         .result-item {
+            display: flex;
             border-top: 1px solid rgba($color: #000, $alpha: .3);
+            padding: 30px 0;
             max-width: 100%;
+            gap: 70px;
             text-align: left;
-
-            a {
-                padding: 30px 0;
-                display: flex;
-                gap: 70px;
-
-            }
 
             &__title {
                 flex: 1;
@@ -153,8 +149,7 @@
                 color: #665343;
                 font-family: "Merriweather", serif;
                 font-weight: 400;
-                font-size: 14px;
-                line-height: 22px;
+                font-size: 12px;
             }
 
             &__image {

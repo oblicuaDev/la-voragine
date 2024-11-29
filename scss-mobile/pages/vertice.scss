@@ -46,7 +46,8 @@
         display: flex;
         justify-content: center;
         position: relative;
-        max-width: 1200px;
+        max-width: 1500px;
+        width: 100%;
         margin: 0 auto;
 
         @media only screen and (max-width: 1023px) {
@@ -106,7 +107,7 @@
         h3,
         h3 p,
         &>p {
-            max-width: 720px;
+            max-width: 1200px;
 
             width: 100%;
             margin: 0 auto 30px;

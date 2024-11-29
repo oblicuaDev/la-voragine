@@ -712,7 +712,7 @@ let vertices = [
     title: "Codicia",
     minititle: "la codicia",
     intro:
-      "<p>Más que una “novela de la selva”, <i>La vorágine</i> es una novela sobre el capitalismo―sobre las formas que adopta el capitalismo en las fronteras salvajes. En estas regiones, los negocios se entienden como redención y civilización, como inversiones que dan “impulso a la actividad financiera, al progreso y al desarrollo”. Si algo caracteriza el periodo de finales del siglo XIX y principios del siglo XX en América Latina fue el auge de las industrias de materias primas, que implicó la explotación de productos de diversas procedencias históricas y geográficas que fueron el motor del modelo extractivo exportador. Este proyecto se sustentó en tres ideas: los recursos naturales son ilimitados, su explotación debe ser rápida y barata, de manera que la acumulación de capital lleve al progreso. Tales ideas propiciaron la violencia entre seres humanos y contra la naturaleza.</p>",
+      "<p>Más que una “novela de la selva”, <i>La vorágine</i> es una novela sobre el capitalismo―sobre las formas que adopta el capitalismo en las fronteras. En estas regiones, los negocios se entienden como redención y civilización, como inversiones que dan “impulso a la actividad financiera, al progreso y al desarrollo”. Si algo caracteriza el periodo de finales del siglo XIX y principios del siglo XX en América Latina fue el auge de las industrias de materias primas, que implicó la explotación de productos de diversas procedencias históricas y geográficas que fueron el motor del modelo extractivo exportador. Este proyecto se sustentó en tres ideas: los recursos naturales son ilimitados, su explotación debe ser rápida y barata, de manera que la acumulación de capital lleve al progreso. Tales ideas propiciaron la violencia entre seres humanos y contra la naturaleza.</p>",
     textoFinal:
       "<p>Si algo caracteriza el periodo de finales del siglo XIX y principios del siglo XX en América Latina fue el auge de las <i>industrias de materias primas</i>, que implicó la explotación de una serie de productos de diversas procedencias históricas y geográficas que fueron el motor del modelo “extractivo exportador”, adoptado por las economías de la región desde finales del siglo XIX. Este modelo se sustentó en tres ideas fundamentales: los recursos naturales son ilimitados, su explotación debe ser rápida y barata, y el progreso se sustenta en la acumulación de capital. Tales ideas propiciaron la violencia entre seres humanos y contra la naturaleza. </p>",
     citas: [
@@ -1841,36 +1841,45 @@ if (document.querySelector(".lanovela")) {
   // Seleccionamos el elemento que queremos observar
   const controlsElement = document.querySelector(".controls");
 
-  // Configuramos el Intersection Observer
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Si el elemento está visible en el viewport
-          document.querySelector(".toolslanovela").classList.remove("show");
-        } else {
-          document.querySelector(".toolslanovela").classList.add("show");
-          // Si el elemento está fuera del viewport
-        }
-      });
-    },
-    {
-      root: null, // Observa el viewport
-      threshold: [0], // Se dispara cuando cualquier parte del elemento entra o sale del viewport
+  if (window.outerWidth < 1079) {
+    document.querySelector(".toolslanovela").classList.add("show");
+    document.querySelector(".lanovela .controls").style.padding =
+      "80px 20px 20px";
+  } else {
+    // Configuramos el Intersection Observer
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Si el elemento está visible en el viewport
+            document.querySelector(".toolslanovela").classList.remove("show");
+          } else {
+            document.querySelector(".toolslanovela").classList.add("show");
+            // Si el elemento está fuera del viewport
+          }
+        });
+      },
+      {
+        root: null, // Observa el viewport
+        threshold: [0], // Se dispara cuando cualquier parte del elemento entra o sale del viewport
+      }
+    );
+    if (controlsElement) {
+      // Observamos el elemento .controls
+      observer.observe(controlsElement);
     }
-  );
-  if (controlsElement) {
-    // Observamos el elemento .controls
-    observer.observe(controlsElement);
+  }
+  if (document.querySelector("#openLinks")) {
     document.querySelector("#openLinks").addEventListener("click", () => {
       document.querySelector(".linkslanovela").classList.toggle("active");
     });
-    document.querySelectorAll(".linkslanovela a").forEach((link) => {
-      link.addEventListener("click", () => {
-        document.querySelector(".linkslanovela").classList.toggle("active");
-      });
-    });
   }
+  document.querySelectorAll(".linkslanovela a").forEach((link) => {
+    link.addEventListener("click", () => {
+      document.querySelector(".linkslanovela").classList.toggle("active");
+    });
+  });
+
   // Selecciona los elementos necesarios
   const contentElements = document.querySelectorAll(".content *"); // Selecciona todos los elementos dentro de .content
   const fontSizeButtons = document.querySelectorAll(".font-size-btn");
@@ -2014,20 +2023,25 @@ if (window.innerWidth > 768) {
 
   // Usa el factor de escala menor para mantener la proporción sin distorsionar el contenido
   const scale = Math.min(scaleWidth, scaleHeight);
+  if (scale < 0.8) {
+    document.body.classList.add("isMinus");
+  }
 
   if (currentWidth !== baseWidth && !document.querySelector(".home")) {
     document.querySelector("main").style.zoom = scale;
   } else {
-    document.body.style.zoom = scale;
+    if (document.querySelector(".content-main")) {
+      document.querySelector(".content-main").style.zoom = scale;
+    }
   }
 }
+let animating = false;
+const totalTarjetas = 8; // Total incluyendo la instrucción
+const duracionGiro = 8000; // Duración del giro en milisegundos
+const ruleta = document.querySelector(".vertices");
 if (document.querySelector(".home")) {
   const clicSound = document.getElementById("clicSound");
   clicSound.volume = 0.2;
-  let animating = false;
-  const ruleta = document.querySelector(".vertices");
-  const totalTarjetas = 8; // Total incluyendo la instrucción
-  const duracionGiro = 8000; // Duración del giro en milisegundos
 
   function seleccionarTarjetaAleatoria(e) {
     if (
@@ -2048,11 +2062,9 @@ if (document.querySelector(".home")) {
       ruleta.style.transition = `transform ${
         duracionGiro / 1000
       }s cubic-bezier(0.22, 1, 0.36, 1)`;
-      if (window.innerWidth > 768) {
-        ruleta.style.transform = `translate(-50%, -50%) rotate(${angle}deg) `;
-      } else {
-        ruleta.style.transform = `translateY(-50%) rotate(${angle}deg) `;
-      }
+
+      ruleta.style.transform = `translate(-50%, -50%) rotate(${angle}deg) `;
+
       clicSound.play();
 
       // Detecta cuando la transición termina
@@ -2061,15 +2073,10 @@ if (document.querySelector(".home")) {
         () => {
           animating = false;
           ruleta.style.transition = "none"; // Remueve la transición para el próximo giro
-          if (window.innerWidth > 768) {
-            ruleta.style.transform = `translate(-50%, -50%) rotate(${
-              angle % 360
-            }deg) `; // Ajusta el ángulo final
-          } else {
-            ruleta.style.transform = `translateY(-50%) rotate(${
-              angle % 360
-            }deg) `; // Ajusta el ángulo final
-          }
+          ruleta.style.transform = `translate(-50%, -50%) rotate(${
+            angle % 360
+          }deg) `; // Ajusta el ángulo final
+
           document.querySelector(
             ".selectedLink"
           ).href = `vertice.html?id=${verticesTxtReal[tarjetaSeleccionada]}`;
@@ -2112,6 +2119,14 @@ function checkImageOrientation(imageUrl, callback) {
 
 const maxChars = 250;
 document.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth < 768 && document.querySelector(".home")) {
+    document.body.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.width = "100%";
+    window.addEventListener("scroll", (e) => {
+      window.scrollTo(0, 0);
+    });
+  }
   const params = new URLSearchParams(window.location.search);
   // Obtén el valor del parámetro `query`
   const idVertice = params.get("id") || "";

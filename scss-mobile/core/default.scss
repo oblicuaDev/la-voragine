@@ -254,6 +254,7 @@ a.complete {
 
   #aguja {
     position: absolute;
+
     transform: rotate(0deg);
     animation: needle-move 3s ease-in-out infinite alternate;
     -webkit-animation: needle-move 3s ease-in-out infinite alternate;
