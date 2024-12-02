@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="css/styles.css?v=2.0.9">
     <link rel="stylesheet" href="css/styles-ipad.css?v=2.0.9"
         media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)">
+        <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PBY3PXD2N"></script>
+
+<script>
+
+ window.dataLayer = window.dataLayer || [];
+
+ function gtag(){dataLayer.push(arguments);}
+
+ gtag('js', new Date());
+
+ gtag('config', 'G-7PBY3PXD2N');
+
+</script>
 </head>
 
 <body class="hoy" style="background-image: url(img/texture.jpg);">
@@ -69,10 +84,10 @@
         </div>
         <div class="grid">
             <div class="left">
-                <form action="">
+                <form action="interna_hoy.html">
                     <h3><a href="pdf/LaVoragine_Metodologia.pdf" target="_blank" download><img src="img/list.svg"
                                 alt="list"> metodología</a></h3>
-                    <!-- <select name="" id="">
+                    <select name="vertice" id="vertice">
                         <option value="">Elegir Vértice</option>
                         <option value="azar">AZAR</option>
                         <option value="codicia">CODICIA</option>
@@ -83,9 +98,9 @@
                         <option value="violencia">VIOLENCIA</option>
 
                     </select>
-                    <select name="" id="">
+                    <select name="ciudad" id="ciudad">
                         <option value="">Elegir Ciudad</option>
-                        <option value="bogotá">BOGOTÁ</option>
+                        <!-- <option value="bogotá">BOGOTÁ</option> -->
                         <option value="buenaventura">BUENAVENTURA</option>
                         <option value="florencia">FLORENCIA</option>
                         <option value="leticia">LETICIA</option>
@@ -95,21 +110,11 @@
                         <option value="santamarta">SANTA MARTA</option>
                         <option value="villavicencio">VILLAVICENCIO</option>
                     </select>
-                    <button type="button">Buscar</button> -->
+                    <button type="submit">Buscar</button>
                 </form>
-                <p><b>¡PROXIMAMENTE!</b> Esta sección agrupará las ideas y opiniones de jóvenes de diferentes regiones
-                    de
-                    Colombia que participaron en los talleres de <i>Reencontrar el camino: La vorágine leída cien años
-                        después</i>. Incluirá un archivo ciudadano que buscar conservar y divulgar lo que estos jóvenes
-                    tienen
-                    que decir acerca del pasado, el presente y el futuro del país desde la lectura y reflexión de
-                    diferentes documentos asociados a la novela.</p>
-                <p>Este proyecto utiliza la metodología de taller de lecto-escritura para propiciar la reflexión y toma
-                    <i>La vorágine</i> como eje central, no solo por su relevancia en la literatura nacional, sino
-                    también por
-                    los cuestionamientos que puso de manifiesto al momento de su publicación y que siguen siendo
-                    vigentes hoy.
-                </p>
+                <p>Entre y mayo y septiembre de 2024, varios centros culturales del Banco de la República realizaron los talleres de mediación de lectura “<i>La vorágine</i>: lecturas para otros caminos posibles”. Durante este tiempo, más de cien niños, niñas y adolescentes de diversas regiones del país dialogaron y reflexionaron en torno a las siete temáticas, o Vértices, de <i>La vorágine</i> que propone la curaduría de esta plataforma digital. Guiados por las preguntas ¿qué me hace sentir <i>La vorágine</i>?, ¿cómo se relaciona <i>La vorágine</i> con nuestra situación actual? y ¿qué nuevos caminos debemos encontrar como país?, sus respuestas muestran alternativas para encarar las problemáticas sociales, ambientales y económicas que José Eustasio Rivera puso de manifiesto hace cien años.   </p>
+                <p>Esta sección aloja algunos de los textos de opinión, poemas, poemas en prosa y dibujos que resultaron de los talleres. Se trata de un primer acercamiento a un archivo ciudadano que se seguirá construyendo hasta 2028, año del fallecimiento de Rivera y año de publicación de la última edición de <i>La vorágine</i> que él supervisó. Nuestro objetivo es que estos talleres se sigan realizando a lo largo y ancho del país, por lo que maestros, mediadores, promotores culturales y cualquier persona interesada en explorar la vigencia de <i>La vorágine</i> hoy pueda replicarlos. Los usuarios encontrarán aquí la metodología empleada, un compendio de repuestas y una selección de fotografías. También podrá hacer búsquedas por temática, documentos relacionados y fragmentos de la novela. </p>
+                <p>Para acceder al archivo completo haga click <a target="_blank" href="https://babel.banrepcultural.org/digital/collection/p17054coll37">aquí.</a>  </p>
             </div>
             <div class="right">
                 <div class="responsive-map">
@@ -142,14 +147,9 @@
         <img src="img/brujula.png" alt="brujula">
         <img src="img/aguja.png" alt="aguja" id="aguja">
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
 
     <script src="js/main.js"></script>
-    <script>
-        window.addEventListener('load', function () {
-            imageMapResize();
-        });
-    </script>
+  
 </body>
 
 </html>

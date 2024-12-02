@@ -2389,3 +2389,1513 @@ function setHeight(index) {
       document.querySelector(`.cita #galitem-${index} img`).height + "px";
   }, 100);
 }
+let keywords = [
+  "Abuso de drogas",
+  "Abuso de menores",
+  "Administración pública",
+  "Belleza corporal",
+  "Capitalismo ",
+  "Ciberespacio",
+  "Clase social",
+  "Conflicto",
+  "Conflicto armado",
+  "Conflicto interno",
+  "Conflictos ambientales",
+  "Conflictos socioambientales",
+  "Consumismo",
+  "Cultura",
+  "Cultura de masas",
+  "Derechos humanos",
+  "Diversidad",
+  "Economía",
+  "Educación",
+  "Empatía",
+  "Esclavitud",
+  "Estado",
+  "Espiritualidad",
+  "Equidad",
+  "Fantasía",
+  "Gobierno",
+  "Identidad",
+  "Igualdad",
+  "Ilusión",
+  "Infraestructura",
+  "Justicia",
+  "Justicia social",
+  "Juventud",
+  "Medioambiente",
+  "Migración",
+  "Libertad",
+  "Literatura de denuncia",
+  "Memoria histórica",
+  "Narcotráfico",
+  "Paramilitarismo",
+  "Periodo Colonial",
+  "Política",
+  "Política exterior",
+  "Problemas ambientales",
+  "Problemas sociales",
+  "Protesta",
+  "Pueblos indígenas",
+  "Recursos económicos",
+  "Recursos naturales",
+  "Recursos públicos",
+  "Redes sociales",
+  "Resolución de conflictos",
+  "Riqueza económica",
+  "Salud mental",
+  "Símbolos patrios",
+  "Segregación",
+  "Seguridad",
+  "Selva tropical",
+  "Soberanía",
+  "Trabajo forzoso",
+  "Valentía",
+  "Violencia de género",
+];
+let metodologia = {
+  florencia: [
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Leidy, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:'Me hace sentir un poco triste porque puedo ver lo inhumano que puede llegar a ser el ser humano. En este apartado podemos ver cómo matan por tierras; aquí las tierras de los indios fueron expropiadas para sembrar pasto y sostener ganado, todo esto con el fin de expandir el negocio de la ganadería. Matan por tierras y para poder vivir. Leidy, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, pp. 129-130",
+      fecha: "2024-07-12",
+      categoria: "Violencia",
+      keywords:
+        "Conflictos socioambientales; Pueblos indígenas; Problemas sociales; Riqueza económica; Segregación",
+      file: "Florencia_Leidy.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Juan, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela: 'Me hace sentir un pesar muy grande con las súplicas de las madres y ver cómo pueden morir de hambre y ver lo que ellas harían por sus hijos. Y también me siento muy enojado por ver cómo son capaces de tirar a un niño a los cocodrilos y ver cómo su madre rompiendo en llanto se lanza ante él.  Juan, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 100",
+      fecha: "2024-07-12",
+      categoria: "Violencia",
+      keywords: "Problemas sociales; Segregación; Violencia de género",
+      file: "Florencia_Juan.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la violencia en La vorágine con nuestra situación actual?",
+      autor: "Sofia, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela: 'En mi opinión el hecho de adentrarse a la selva amazónica sigue siendo muy difícil poder sobrevivir y más ahora que las personas no están enseñadas a vivir rodeadas de animales o selva tan salvaje, y las pocas personas que logran vivir son aquellas que tienen conocimiento de aquella o tienen espíritu de sobrevivencia.  Sofia, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, pp. 129-130",
+      fecha: "2024-07-12",
+      categoria: "Violencia",
+      keywords: "Diversidad; Medioambiente; Selva tropical; Soberanía",
+      file: "Florencia_Sofia.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la violencia en La vorágine con nuestra situación actual?",
+      autor: "Dayanna, 14 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela: 'La violencia de La Vorágine se relaciona con nuestros matones actuales, como los narcos, los militares, la guerrilla y etc. Las épocas cambiaron, pero sigue siendo perturbador y aterradoras, los matones matan, secuestran, estafan y entre otras.  Dayanna, 14 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 100",
+      fecha: "2024-07-12",
+      categoria: "Violencia",
+      keywords:
+        "Conflicto armado; Estado; Memoria histórica; Narcotráfico; Problemas sociales",
+      file: "Florencia_Dayanna_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la codicia en La vorágine con nuestra situación actual?",
+      autor: "Dayanna, 14 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela: 'La codicia se relaciona con un tema relevante y una amenaza para la justicia social y ambiental, recordándonos la importancia de luchar por un equilibrio entre el desarrollo y la sostenibilidad, así como para la justicia y los derechos humanos.  Dayanna, 14 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-08",
+      categoria: "Codicia",
+      keywords:
+        "Conflictos socioambientales; Derechos humanos; Economía, Justicia; Problemas sociales",
+      file: "Florencia_Dayanna_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Dayanna, 14 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Lo que yo pienso es que es nuestra situación actual puede ser bastante profunda y multifacética. La patria  puede evocar sentimientos de identidad, pertenencia y orgullo, pero también puede estar ligada a la crítica social y política. Dayanna, 14 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-08",
+      categoria: "Patria",
+      keywords: "Estado; Identidad; Justicia; Protesta; Soberanía",
+      file: "Florencia_Dayanna_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "Parra, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'Se relaciona con el deseo de tener a alguna mujer, especialmente la más buena, al igual que los carros, motos o cosas materiales. Parra, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 156",
+      fecha: "2024-08-16",
+      categoria: "Lujuria",
+      keywords:
+        "Capitalismo; Belleza corporal; Problemas sociales; Riqueza económica; Violencia de género",
+      file: "Florencia_Parra.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de lujuria?",
+      autor: "Karol, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'Uno de los nuevos caminos que debemos aprender a enseñar de manera correcta es el cuerpo humano para que más adelante se respeten ellos mismos y respeten los demás y que el cuerpo ajeno no se toca, sin consentimiento.  Karol, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 103",
+      fecha: "2024-08-16",
+      categoria: "Lujuria",
+      keywords: "Educación; Equidad; Identidad; Violencia de género",
+      file: "Florencia_Karol.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de lujuria?",
+      autor: "Laura, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'Es complicado, ya que hoy en día la lujuria está super presente, es difícil deshacerse de ella, ya que gracias a la lujuria existe la población. Pero si hay que establecer leyes contra la pedofilia y páginas que incitan al morbo.  Laura P., 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 94",
+      fecha: "2024-08-16",
+      categoria: "Lujuria",
+      keywords:
+        "Ciberespacio; Consumismo; Cultura de masas; Violencia de género",
+      file: "Florencia_Laura. JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Ana, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Debemos luchar por nuestros derechos y hacer que personas, como el gobierno, debieran dar mejores recursos a todas las ciudades, por igual.  Es importante saber de dónde venimos, sentirnos orgullosos y no tener vergüenza por ser de un pueblo apartado.  Ana, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes, p. 35",
+      fecha: "2024-07-15",
+      categoria: "Patria",
+      keywords:
+        "Derechos humanos; Diversidad; Igualdad; Protesta; Recursos económicos",
+      file: "Florencia_Ana.JPG",
+    },
+  ],
+  leticia: [
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Estefanía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  '(Dibujo)   “Cada gota de caucho robada, la selva la cobra con sangre”   Estefanía, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Conflictos socioambientales; Medioambiente; Recursos naturales",
+      file: "Leticia_Estefania_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Ana Sofía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'Selva (paraíso) y selva (boca).   (Dibujo)   Viviendo al lado (o en) la misma selva, es difícil considerarla como algo peligroso. ¿Cómo vas a pensar que tu casa es peligrosa? Sin embargo, una vez yo misma me perdí en la selva y entiendo bien cómo se siente. Cualquier dirección se ve desconocida, potencialmente amenazante y lo peor de todo es no saber dónde estás, ni a qué lugar estas yendo.   La mayor parte del tiempo la selva es verde y dorada con el sol, pero al entrar es oscura y fría. Todo lo bueno (sol, aves y micos… y color) está en la copa de los árboles que crecen peleando por luz.   Ana Sofía,   15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords: "Medioambiente; Selva tropical",
+      file: "Leticia_AnaSofia_5.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Devi, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'El extravió en la Vorágine es justo para los caucheros, tanto daño, sufrimiento, dolor, maltrato y violencia merece ser pagado. Y más cuando el afectado es un lugar de paz, tranquilidad y sobre todo lleno de memorias, historia e identidad cultural.   La selva en la región Amazónica fue arrebatada por personas que se dejaron llevar por la avaricia, el dinero y el poder, tal vez por eso su castigo fue perderse en su propio juego.   Devi – 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Conflictos socioambientales; Diversidad; Literatura de denuncia; Riqueza económica; Selva tropical",
+      file: "Leticia_Devi_2.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Nicoll, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'Siento sorpresa al leer lo que la selva es capaz de hacer a quienes acceden a ella de manera brusca, el cómo se le da importancia a sus reacciones ante algo, pues mayormente se ve lo negativo que le hace a las personas, pero no nos ponemos a analizar por qué sucedió eso.   El término extravío expresado en estos fragmentos me parece muy interesante, pues no lo expresan únicamente como alguien que entra a la selva y se pierde, por el contrario, nos dice a qué se debe y qué lo ocasionó, mostrando que el extravío no es únicamente por ingresar a la selva, sino que es por abusar y aprovecharse de lo que te brinda ésta, haciendo que la selva te responda de manera negativa.   Nicoll / 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Conflictos socioambientales; Literatura de dencuncia; Recursos naturales; Selva tropical",
+      file: "Leticia_Nicoll.JPG",
+    },
+    {
+      title: "¿Qué me hacen sentir los espejismos en La vorágine?",
+      autor: "Lucero, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela:  'Espejismo   (Dibujo)   Momentos engañosos y fantasiosos.   Lucero, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-15",
+      categoria: "Espejismos",
+      keywords: "Fantasía; Ilusión",
+      file: "Leticia_Lucero_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "María, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'El cómo se silencian los problemas, la facilidad de cómo desechar a una persona y la poca consideración hacía el círculo familiar de la víctima, me genera un disgusto hacia esas acciones; cómo somos desechables para las personas con poder y cuando les generamos un problema, menos es el sentimiento hacia la vida ajena.   María, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-20",
+      categoria: "Violencia",
+      keywords:
+        "Capitalismo; Clase social; Problemas sociales; Riqueza económica; Segregación",
+      file: "Leticia_Maria_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Ana Sofia, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'No hay cosa más triste que niñas despojadas de su inocencia y abandonadas en una maternidad que no terminan de comprender, por culpa de los hombres cuyo deseo asqueroso no es atraído ni siquiera por rostros o senos desarrollados, sino por malicia y un sentido de propiedad o superioridad que les hacer creer que tienen el derecho de tomar sin consentimiento algo que es puro y tierno.   Pero, así como tenían el valor de arrebatarles eso a las niñas, a ninguno de ellos se le pasó por la cabeza voltear la mirada a los bebés, cuyos padres podrían haber sido cualquiera de ellos, pero ahora serán bebés sin padre y como madre, una niña que estaba exhausta y adolorida.   (Dibujo)   Ana Sofía, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-20",
+      categoria: "Violencia",
+      keywords:
+        "Abuso de menores; Problemas sociales; Violencia de género; Segregación",
+      file: "Leticia_AnaSofia_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Sergio Alejandro, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'En la cuarta cita del vértice de la violencia se puede notar cómo niñas de 8 a 13 años sufrían en ser cambiadas por sal, telas y cachivaches, además sufren el no haber conocido la serena inocencia que la infancia respira. Tuvieron que pasar por la esclavitud cargando tarros de agua y cargar a sus hermanos sobre el cuadril.   Estas niñas arrancadas de sus bohíos para sufrir el trágico e impuro holocausto de su fatal doncellez. Antes de los 10 años son condenadas al lecho, que es un suplicio del cual nunca van a poder salir son descaderadas, manchadas por la cruda vida que les espera, volviéndose almas en pena que fueron manchadas por las oscuras manos, les dejan manchas imborrables en su cuerpo, manchas de valor y vergüenza.  Y tener que volverse madres siendo niñas, sufren el trauma de ser madres sin saber qué hacer.   (Dibujo)   Sergio Alejandro, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-20",
+      categoria: "Violencia",
+      keywords:
+        "Abuso de menores; Problemas sociales; Violencia de género; Segregación",
+      file: "Leticia_SergioAlejandro_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Sergio Alejandro, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  '“Andamos perdidos”: esta frase refleja cómo dos palabras describen cómo el pavor no se compara con el famoso “sálvese quien pueda”, porque pronunciarla en los montes hace que la selva parezca un abismo antropófago, abierto al alma como una boca que engulle a los hombres perdidos en la locura o descrito en el libro como “los devoró la selva”.   Sergio Alejandro, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-21",
+      categoria: "Violencia",
+      keywords: "Literatura de denuncia; Selva tropical",
+      file: "Leticia_SergioAlejandro_2.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Jaime Andrés, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'La violencia en la Vorágine me hizo sentir como empatía, una nueva forma de ver al pueblo indígena; también sobre el cómo el trabajador puede tener como una mejor oportunidad de trabajo mejorando su vida.   La muerte de los niños así como algo muy fuerte.   (Dibujo)   Jaime Andrés.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-14",
+      categoria: "Violencia",
+      keywords:
+        "Abuso de menores; Empatía; Problemas sociales; Pueblos indígenas",
+      file: "Leticia_JaimeAndres_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el azar en La vorágine?",
+      autor: "Hellen, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:  '(Dibujo)   Hellen Sandoval / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Azar",
+      keywords: "Conflictos socioambientales; Ilusión; Selva tropical",
+      file: "Leticia_Hellen_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la codicia en La vorágine?",
+      autor: "Michelle, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  'La codicia en La vorágine:  Todos los seres humanos por naturaleza llevamos la maldad en las venas. Con el pasar del tiempo y la educación, podemos desarrollarnos sanamente para tener una mejor convivencia social.   Todos tenemos diferentes puntos de vista frente a las situaciones del mundo, pero nadie está exento a sufrir las consecuencias de los actos que han marcado, marcan o marcaran las vivencias económicas, sociales, etc.   Michelle, 26 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Diversidad; Educación; Problemas sociales; Resolución de conflictos",
+      file: "Leticia_Michelle_4.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la codicia en La vorágine?",
+      autor: "Hellen, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  '(Dibujo)   Hellen / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Capitalismo; Problemas sociales; Riqueza económica; Segregación",
+      file: "Leticia_Hellen_4.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine?",
+      autor: "Ruth Estefania, 24 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'Desconocimientos territoriales, límites de macrorregión; muchos de nosotros no nos apropiamos de la hermosa biodiversidad y cultura que tenemos en nuestro país.   Mas en los territorios de la Amazonia, los pueblos indígenas.  Ruth Tangoa,   24 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords:
+        "Diversidad; Medioambiente; Pueblos indígenas; Segregación; Soberanía",
+      file: "Leticia_RuthTangoa.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine?",
+      autor: "Hellen, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'Me hace sentir confundida, el gobierno a veces exige tal patriotismo, que nos apoyemos como amigos, pero cómo lo hacemos si no encontramos justicia, no tenemos protección y mucho menos ¿paz? Debemos actuar y que cuando digan “¡patria!”, el pueblo esté presente para el cambio.   Hellen / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords: "Estado; Justicia; Política; Problemas sociales; Segregación",
+      file: "Leticia_Hellen_2.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la lujuria en La vorágine?",
+      autor: "Andrea, 14 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  'Respuesta: Es confuso, aún no sé qué siento con la lujuria, quizás lo siento tan poético y a la vez tan absurdo “¿Por qué querer tanto de algo?”. Poético porque te empeñas tanto en conseguirlo y prácticamente en él están tus sueños y esfuerzos, y absurdo porque cuál es la necesidad, cuando todo podría ser más sencillo.   Andrea, 14 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords: "Ilusión; Juventud; Problemas sociales",
+      file: "Leticia_Andrea.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la lujuria en La vorágine?",
+      autor: "Noreiny Paola, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  '#1. (Dibujo) Me causa curiosidad   #2. (Dibujo) Me causa abstinencia   #3. (Dibujo) Me causa confusión   16 años,   Noreiny Paola Paredes R.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords: "Juventud",
+      file: "Leticia_Noreiny_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "María, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'El extravío se logra ver de forma espiritual, las dolencias físicas, sustancias psicoactivas y situaciones sociales difíciles, que generan un reflejo físico y más que todo mental. El hacer o generar cosas malas para sentirse bien momentáneamente se vuelve un vicio o condena. Así mismo, la selva siente las emociones que tiene al adentrarse en ella, brindando una experiencia que marca de por vida a cada persona.   María, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Abuso de drogas; Espiritualidad; Problemas sociales; Selva tropical",
+      file: "Leticia_Maria_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Estefanía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'En “La vorágine” y “La Divina Comedia” se retratan infiernos y zonas de castigo, por errores cometidos. Estas selvas mortecinas, que pierden y enloquecen, se pueden encontrar en nuestra actualidad. Por ejemplo, los montones de personas drogadictas, cuyo mismo vicio juega el papel de infierno, sus errores son reprendidos con todas las consecuencias de las drogas.   También se puede ver el infierno de Dante y Riviera con hechos como el cambio climático, donde toda la avaricia humana que destruyó la tierra, ahora se convierte en el mundo acabando con la humanidad, no sin antes agotarla y enloquecerla.   Estefanía, 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Abuso de drogas; Conflictos medioambientales; Literatura de denuncia",
+      file: "Leticia_Estefania_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Ana Sofia, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'Cuando la tierra se mancha de sangre, la sangre queda. Cuántas cosas no habrá visto el Amazonas. La violencia viene, y no se va. Es un comportamiento arraigado al ser humano, un comportamiento natural y salvaje. ¿Quién limpiará la sangre de esta tierra?   Bonanzas como la de la cauchería, conflicto armado… Solo es una muestra reciente.   ¿El valor del oro blanco es igual al valor de pueblos indígenas enteros, sus costumbres y sus sueños?   ¿Selva verde o roja?   Ana Sofía,   15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Conflicto armado; Conflictos medioambientales; Pueblos indígenas; Recursos naturales; Segregación",
+      file: "Leticia_AnaSofia_6.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Devi, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'El extravió en La vorágine, lo puedo relacionar con mi situación actual, presenciando el cambio de personas que se dejan influenciar por otras, que caen en el consumo de sustancias ilícitas o incluso en la pérdida de su verdadero ser por situaciones que son difíciles de llevar. Todo esto puede hacer mucho daño en personas que intentan acercarse a su vida, y al causar daño va pasando el tiempo y te das cuenta de que esa persona puede estar de mal en peor, por algo que conozco como el karma.   Devi – 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Abuso de drogas; Conflicto; Cultura de masas; Identidad; Problemas sociales",
+      file: "Leticia_Devi_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relacionan los espejismos en La vorágine con nuestra situación actual?",
+      autor: "Lucero, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela:  'Espejismo en la actualidad.   (Dibujo)   Lucero, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-15",
+      categoria: "Espejismos",
+      keywords:
+        "Belleza corporal; Conflicto; Problemas sociales; Violencia de género",
+      file: "Leticia_Lucero_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relacionan los espejismos en La vorágine con nuestra situación actual?",
+      autor: "Bella Rosa, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela:  'En mi vida se relaciona en ilusiones y expectativas, ya sea en relaciones o metas; en La vorágine simboliza la realidad abrumadora que nos rodea. Confusión y desesperación: tener la sensación de estar perdidos y desorientados en nuestra vida, en el espejismo, me da a buscar una salida o un punto de referencia, nos atrae a lo desconocido sin entender completamente sus implicaciones. Sentimos estar atrapados en rutinas, obligaciones o situaciones que nos limitan; en el espejismo, nos da la ilusión de encontrar una escapatoria. Reflexión y auto-descubrimiento, en el espejismo, me da a conocer la reflexión; en La vorágine el auto-descubrimiento con nuestras emociones y pensamientos.   Bella Rosa,   16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Espejismos",
+      keywords: "Conflicto; Ilusión; Problemas sociales; Salud mental",
+      file: "Leticia_BellaRosa_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la violencia en La vorágine con nuestra situación actual?",
+      autor: "Ana Sofía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'Aún hoy en día, se demuestra que en nuestra naturaleza existe la maldad y todavía se pueden encontrar niñas agredidas, encadenadas a la maternidad, sosteniendo bebés de verdad y no de plástico.   (Dibujo)   Algunas los aman, otras no. Pero no se puede forzar el amor de una madre obligada.   Ana Sofía,   15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-20",
+      categoria: "Violencia",
+      keywords: "Abuso de menores; Problemas sociales; Violencia de género",
+      file: "Leticia_AnaSofia_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "Mara Lizbeth, 24 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:  'En mi vida actual al azar se me relaciona en un hecho de mi estudio, porque quise terminar el colegio, ir a la universidad, terminar mi carrera y en un futuro casarme, mas no sucedió como me lo imaginaba. Fue una experiencia con un sentimiento de tristeza y un poco de decepción, el resultado no era como esperaba.   Mara Lizbeth,   24 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Azar",
+      keywords: "Ilusión; Problemas sociales",
+      file: "Leticia_MaraLizbeth.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "Daniela, 17 de años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:  'En nuestra situación actual el azar se relaciona en diferentes ámbitos de nuestra vida, las personas más “vivas”, por decirlo así, se quieren apoderar de lo que deseen, cueste lo que cueste, sin importarles nada ni nadie; hacer trampa, como en los juegos de azar, es su habilidad, como por ejemplo, en el ámbito laboral, personas quieren llegar a la cima a costa de otras sin que se den cuenta. Eso es hacer trampa.   Daniela, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Azar",
+      keywords: "Capitalismo; Conflicto; Problemas sociales; Riqueza económica",
+      file: "Leticia_Daniela_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la codicia en La vorágine con nuestra situación actual?",
+      autor: "Hellen, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  '(Dibujo)   Capitalismo.   Hellen / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Capitalismo; Clase social; Problemas sociales; Protesta; Segregación",
+      file: "Leticia_Hellen_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la codicia en La vorágine con nuestra situación actual?",
+      autor: "Álvaro, 24 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  'Que, por querer hacer más, hacen menos. La avaricia y la codicia en la actualidad es atroz, ya que los mandatarios se están robando los recursos del pueblo para beneficio propio. Es tanta la ambición y la codicia que llegan a mentir al pueblo con promesas falsas para satisfacción propia. Ejemplo, la construcción del supuesto mega colegio en la institución educativa Sagrado Corazón de Jesús en Leticia – Amazonas, que fue entregada en obra negra. Fue tanta la codicia, que jugaron con los sueños de muchos niños y jóvenes por llenarse los bolsillos.   (Dibujo)   Álvaro, 24 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Administración pública; Infraestructura; Juventud; Recursos públicos; Segregación",
+      file: "Leticia_Alvaro.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Michelle, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  '(Texto al interior del dibujo)   La patria en La Vorágine en la actualidad. Relación.   Los pueblos indígenas aún siguen siendo vulnerados en sus derechos y malos tratos, hay abuso de autoridad en muchos ámbitos de la sociedad.   Muchos han sido desterrados de sus propios territorios, a causa de los conflictos internos del país.   Se han perdido un gran número de flora, fauna y también de conocimientos importantes de los pueblos indígenas.   Michelle, 26 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords:
+        "Diversidad; Medioambiente; Problemas sociales; Pueblos indígenas; Segregación",
+      file: "Leticia_Michelle_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Daniela, 17 de años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'En la actualidad muchas personas se identifican con el tema de proteger y preservar su entorno natural como una forma de demostrar amor y compromiso con su país, pero se han dado casos de corrupción, deforestación, eso hace la diferencia grande de lo que es patria.   Daniela, 17 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords:
+        "Conflicto; Conflictos socioambientales; Problemas sociales; Soberanía",
+      file: "Leticia_Daniela_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "Shayna Yuridia",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  'Pues pienso que en la época actual en la que estamos, las mujeres siguen siendo un objeto sexual, aunque también podemos decir que las necesidades también afectan en la sociedad y eso lleva a las mujeres a venderse por unos pesos, así que la lujuria nos acompaña en el día a día en la vida.   Shayna Yuridia.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords: "Problemas sociales; Trabajo forzoso; Violencia de género",
+      file: "Leticia_ShaynaYuridia.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "Noreiny Paola, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  '#1. (Texto al interior del dibujo) Se relaciona de la manera en que las mujeres son explotadas por extranjeros.   #2. (Texto al interior del dibujo) Se relaciona con que las mujeres indígenas venden a sus hijas para poder mantenerse.   #3. Se relaciona en la obsesión que tienen los hombres con las mujeres vírgenes.   #4. Se relaciona con la forma en la que se consigue bienes y bienestar con la explotación o trata de blancas.   15 años,   Noreiny Paola Paredes R.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords:
+        "Capitalismo; Problemas sociales; Pueblos indígenas; Trabajo forzoso; Violencia de género",
+      file: "Leticia_Noreiny_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "Jesus David, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  'Se relaciona con la forma en la que en la actualidad tenemos posicionada la sexualidad y la belleza en diferentes ciudades o países, por cómo deberían vestir o ser, esto también forma parte de la evolución de las culturas como etnias y poblados.   Jesús David Jaimes Gutiérrez, 15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords:
+        "Identidad; Belleza corporal; Problemas sociales; Violencia de género",
+      file: "Leticia_JesusDavid.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "María, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  'Brutal violación hacia una indígena virgen - Por la culpa de alcahuetas, blancos (gringos) que quieren satisfacer sus deseos sexuales por el dinero.   María / 16 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-22",
+      categoria: "Lujuria",
+      keywords:
+        "Conflicto; Pueblos indígenas; Segregación; Violencia de género",
+      file: "Leticia_MariaM_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de extravío?",
+      autor: "María, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'La educación, el crecimiento personal y social son pilares primordiales que deben ser mejorados. La educación para guiar desde una edad muy temprana los valores humanos y la importancia de la naturaleza y las personas a nuestro alrededor.   El crecimiento personal y la mejora a uno mismo y los cuidados contribuyen a algunas personas, dejando un poco de buenas costumbres en cada quien. El crecimiento social es más complejo, pero sÍ es posible.   María, 15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords: "Cultura; Educación; Diversidad; Juventud; Medioambiente",
+      file: "Leticia_Maria_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de extravío?",
+      autor: "Ana Sofía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'Como país siempre tendremos que luchar con la memoria. La memoria de toda la violencia que hemos vivido en varias zonas del país, lo que lleva a la búsqueda de algún cierre para lograr comenzar algo nuevo, algo mejor.   Pero, como pasó con la Comisión de la Verdad, muchos no pueden olvidar y todavía guardan rencor. Quizás la tierra misma nos guarda rencor a nosotros, y por eso la selva devora a los hombres. Tiene hambre de amor. Los hombres también tienen hambre de amor.   Antes que nada, hay que comer un poco de amor, y quizás así podamos iniciar de nuevo.   Ana Sofía,   15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords: "Conflicto; Medioambiente; Memoria histórica; Selva tropical",
+      file: "Leticia_AnaSofia_4.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de extravío?",
+      autor: "Devi, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'Primero, se debería empezar por el cambio de uno mismo, ya que existen conceptos diferentes por cada persona que vive en Colombia, y eso conlleva a tolerar, a no estar de acuerdo o a empatar con los mismos conceptos. Nuestro país ha sido reconocido por las bonanzas que ha vivido a lo largo de su historia, sin embargo, la sociedad no se ve interesada por sanar las heridas de nuestro país.   Devi – 15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords: "Conflicto; Diversidad; Recursos naturales",
+      file: "Leticia_Devi_3.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de extravío?",
+      autor: "Estefanía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:  'La discriminación, el sufrimiento y la violencia son problemas que llevan años (cientos) afectando el mundo. Aunque la educación sí es una herramienta fuerte para evitar que las personas se inclinen hacia esos caminos, hay muchísimas personas que no pueden acceder a ella. Varias organizaciones y personas ya han intentado combatir estas problemáticas, Colombia y el mundo siguen igual o peor. Aun si se hace el super plan para evitar el extravío, creo que no hay personas suficientes para enseñar y aprender. Un mundo sin extravío y problemas es un mundo platónico y este es, como el mismo Platón decía, imposible.   Estefanía, 15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-13",
+      categoria: "Extravío",
+      keywords:
+        "Conflicto; Educación; Problemas sociales; Recursos públicos; Segregación",
+      file: "Leticia_Estefania_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de violencia?",
+      autor: "Ana Sofía, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'Dejen a las niñas ser niñas,   que nadie les arrebate su inocencia.   Dejen a las mujeres ser madres,   si ellas quieren y cuando ellas decidan.   Y que los hombres sean hombres,   que tengan honor y amen a las mujeres,   no a las niñas.   En este mundo cruel, lo niños serán niños.   Déjenlos ser.   Ana Sofía,   15 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-20",
+      categoria: "Violencia",
+      keywords: "Abuso de menores; Problemas sociales; Violencia de género",
+      file: "Leticia_AnaSofia_3.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de violencia?",
+      autor: "Jaime Andrés, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela:  'Muchas veces violentamos a alguien sin darnos cuenta, aprender a reconocer los distintos tipos de violencia sería una de las maneras más efectivas de contrarrestar esta. Aprender a reconocer nuestros errores también es crucial para la ejecución de esta, una disculpa y cambio de actitud puede eliminar las violencias más leves.   (Dibujo)   Jaime Andrés, 18 años. '  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-14",
+      categoria: "Violencia",
+      keywords:
+        "Educación; Empatía; Diversidad; Resolución de conflictos; Salud mental",
+      file: "Leticia_JaimeAndres_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de azar?",
+      autor: "Bella Rosa, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:  'En el concepto de unos nuevos caminos del azar podemos encontrar:   Aceptación y adaptación: Aceptar que hay aspectos de la vida que escapan a nuestro control y aprender a adaptarnos a las circunstancias cambiantes.   Flexibilidad: Desarrollar nuestras capacidades de ser flexibles y ajustar nuestras expectativas y planes según las situaciones imprevistas que puedan seguir.   Bella Rosa,   16 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Azar",
+      keywords:
+        "Educación; Empatía; Diversidad; Resolución de conflictos; Salud mental",
+      file: "Leticia_BellaRosa_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de azar?",
+      autor: "Michelle, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:  'Nuevos horizontes frente al concepto azar.   Los cambios son personales vistos desde cada situación, la educación desde casa influirá positivamente para relacionarnos y generar cambios en la sociedad, desde ahí las jerarquías tendrán una mejor forma de resolver toda la problemática siempre dando soluciones.   Michelle, 26 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-25",
+      categoria: "Azar",
+      keywords: "Educación; Diversidad; Resolución de conflictos; Salud mental",
+      file: "Leticia_Michelle_5.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de codicia?",
+      autor: "Michelle, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  'Texto al interior de un mapa mental)   Nuevos caminos frente a la codicia.   Educación – casa – valores – nos forman para la vida y ser mejores seres humanos   Educación – colegios – valores – compañerismo, respeto, honestidad, etc... – vivir bien en sociedad   Educación – valores – capacitaciones – mejorar – convivencia, comportamiento, etc.   Michelle, 26 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Educación; Empatía; Diversidad; Problemas sociales; Salud mental",
+      file: "Leticia_Michelle_3.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de codicia?",
+      autor: "Jhon, 24 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:  'Debemos redefinir el éxito.   Cultivar la gratitud.   Fomentar la empatía.   Promover la sostenibilidad.   Desarrollar la conciencia.   Crear alternativas.   Educar y sensibilizar.   Colaborar.   Buscar la simplicidad.   Cultivar la espiritualidad.   Jhon,   24 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Codicia",
+      keywords:
+        "Educación; Espiritualidad; Diversidad; Resolución de conflictos; Salud mental",
+      file: "Leticia_Jhon.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Michelle, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'Nuevos rumbos frente al concepto de la patria.   En la actualidad el patriotismo se ve reflejado en escenarios deportivos, pero en escenarios para revivir memorias de personas que marcaron historia con respecto a la violencia interna del país es escaso. Son pocos quienes realmente hacen valer a esos seres que ahora forman parte de una triste realidad.   (Dibujos)   Michelle, 26 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords:
+        "Conflicto; Conflicto armado; Justicia; Memoria histórica; Problemas sociales",
+      file: "Leticia_Michelle_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Daniela, 17 de años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'En estos tiempos cambiantes, creo que es importante definir el concepto de patria hacia uno más inclusivo y diverso. La unidad en la diversidad, el respeto y la equidad.   Daniela, 17 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-27",
+      categoria: "Patria",
+      keywords:
+        "Cultura; Diversidad; Educación; Equidad; Resolución de conflictos",
+      file: "Leticia_Daniela_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Lenis, 26 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:  'Debemos tener más sentido de pertenencia, ser más responsables con nuestra patria, ser más unidos como nación, conectar con nuestra tierra, hacer construcción colectiva.   Lenis,   26 años.'  ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "",
+      categoria: "Patria",
+      keywords:
+        "Cultura; Diversidad; Equidad; Medioambiente; Resolución de conflictos",
+      file: "Leticia_Lenis.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de lujuria?",
+      autor: "María, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela:  'No es malo desear algo, lo malo es tenerlo y desearlo aún más, porque como seres humanos, somos ambiciosos al querer resaltar más que los demás.   Deberíamos ser más realistas y aceptar que nunca vamos a estar satisfechos con lo que deseamos, debemos ser personas humildes y no desearle el mal a nadie, desearles el bien para que puedan cumplir lo que quieran conseguir.   María / 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Lujuria",
+      keywords: "Capitalismo; Conflicto; Cultura de masas; Problemas sociales",
+      file: "Leticia_MariaM_1.JPG",
+    },
+  ],
+  neiva: [
+    {
+      title: "¿Qué me hace sentir la violencia en La vorágine?",
+      autor: "Ana Laura, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela: 'Escuchar la verdadera historia detrás que hay sobre la novela “romántica” que pensábamos que era, es muy cruel, ya que no precisamente era una novela romántica, guardaba un oscuro secreto que es la VIOLENCIA que hay en el país desde hace muchos años. Escuchar todo lo que pasaron esas personas en aquella época me hace sentir un poco triste, un poco no: muy triste y desconsolada.  Ana Laura, 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-11",
+      categoria: "Violencia",
+      keywords: "Conflicto; Literatura de denuncia; Memoria histórica",
+      file: "Neiva_AnaLaura.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine? ",
+      autor: "Frank Steeven, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Me hace sentir que nuestra patria, que estamos presenciando, debemos cuidarla, protegerla, construirla, para tener un país mejor, con muchos avances, porque la patria del pasado, poco a poco la iban desmejorando, como destruirla y así iba decayendo todo.  Mi propósito es pensar antes de actuar, para así cambiar el mundo; representar de donde vengo, porque para mí Colombia es lo mejor, ya que contamos con muchas riquezas ambientales y culturales. Para ello, pensemos antes de actuar para construir un patria libre y segura.  Frank Steeven // 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-09",
+      categoria: "Patria",
+      keywords: "Diversidad; Identidad; Libertad; Recursos naturales",
+      file: "Neiva_FrankSteeven.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine? ",
+      autor: "Freinier, 15 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Al conocer el concepto de patria en la Vorágine, me despierta un sentimiento de curiosidad y asombro, ya que el llano y el Amazonas, al formar parte de Colombia, estaban abandonados por el gobierno, en el contexto en el que se adapta la Vorágine, ocasionando que la comunidad llegara a tales medidas, como se relata en el libro: la explotación laboral, el acoso sexual, el engaño y las falsas esperanzas de conseguir una vida mejor, siendo los principales afectado la raza indígena.  En los tiempos pasados, Colombia estaba sumergida en procesos de cambio, conflictos sociales y ambientales, algo que José Eustasio Rivera dejó palpado en el libro, cuyo valor actualmente se conmemora. Sinceramente, esto es plenamente hermoso, ya que permite conocer nuestra patria en tiempo remotos de la Historia, dando a volar nuestra imaginación, sintiendo y comprendiendo el texto del escrito, algo que a su vez describe el contexto social de Colombia. Freiner / 15 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-09",
+      categoria: "Patria",
+      keywords:
+        "Conflictos socioambientales; Literatura de denuncia; Memoria histórica; Pueblos indígenas; Trabajo forzoso",
+      file: "Neiva_Freinier.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine? ",
+      autor: "Juan Andrés, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'José Eustasio Rivera nos muestra aspectos importantes de regiones invisibilizadas del país, esos lugares vulnerables, y nos invitan en La vorágine a girar nuestra mirada a esos lugares en donde se daba la explotación laboral a manos de personas, inclusive de otros países.  Logro sentir la nostalgia de gente que se ve obligada a abandonar la patria, y su sensación de no entender por qué tienen que dejarla. Esto me lleva a valorar la importancia que tiene conocer nuestras raíces. Ahora sé del gran valor que tiene conocer nuestra patria. Juan Andrés, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-09",
+      categoria: "Patria",
+      keywords: "Identidad; Literatura de denuncia; Migración; Trabajo forzoso",
+      file: "Neiva_JuanAndres.JPG",
+    },
+    {
+      title: "¿Qué me hacen sentir los espejismos en La vorágine?",
+      autor: "Isabella, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela: 'Opino que la novela La vorágine maneja muy bien la representación de estos, de cómo los personajes se visualizaron en una vida que no pudieron conseguir. Esta es una situación que le pasa mucho a la gente hoy en día, personas que viajan a otros países para una mejor calidad de vida, porque han pintado ese lugar como una maravilla que al final resultó no serlo. Me parece triste la situación en que acaban esto, porque abandonaron su antigua vida y costumbres, lejos de seres queridos, para terminar fracasando.  Isabella (16 años).'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Espejismos",
+      keywords: "Ilusión; Migración; Problemas sociales; Segregación",
+      file: "Neiva_Isabella.JPG",
+    },
+    {
+      title: "¿Qué me hacen sentir los espejismos en La vorágine?",
+      autor: "Juan José, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela: 'Me hace sentir un vacío en el estómago, al ver los sueños y esperanzas de los personajes siendo arrastrados por la cruda realidad. Al pensar que me llegue a pasar esto, me llena de angustia y temor a vivir, a que mis alas sean cortadas por la afilada espada del mundo, a que mis sueños no se hagan realidad, a vivir una vida sin vida.  Juan José – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Espejismos",
+      keywords: "Conflicto; Empatía; Ilusión; Problemas sociales",
+      file: "Neiva_JuanJose_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relacionan los espejismos en La vorágine con nuestra situación actual?",
+      autor: "Ángel Santiago, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela: 'Los espejismos de La vorágine se pueden relacionar con nuestra realidad, concretamente con fenómenos como la migración natal a países del primer mundo, en busca de mejores oportunidades, para encontrar la explotación laboral despiadada. Incluso, se pueden relacionar con la dimensión ambiental y con aquellas personas que esperanzadamente reciclan sólo para encontrar que sus esfuerzos fueron en vano.  Ángel Santiago, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Espejismos",
+      keywords:
+        "Conflictos socioambientales; Migración; Problemas sociales; Trabajo forzoso; Segregación",
+      file: "Neiva_AngelSantiago.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona los espejismos en La vorágine con nuestra situación actual?",
+      autor: "Juan José, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela: 'Muchas personas sueñan con mejorar su vida, en ser alguien importante; sueñan con ser felices haciendo lo que les apasiona, pero lamentablemente, debido a su contexto social y económico, no son capaces de cumplir sus expectativas y terminan siendo consumidos vilmente por el mundo. Sus vidas son como estrellas fugaces, pasan efímeramente por el firmamento, brillan momentáneamente con esperanza y pasión, pero se terminan perdiendo en el espacio.  Juan José – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Espejismos",
+      keywords: "Clase social; Ilusión; Problemas sociales; Segregación",
+      file: "Neiva_JuanJose_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona los espejismos en La vorágine con nuestra situación actual?",
+      autor: "Ana María, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de espejismos en la novela: 'Los espejismos en la actualidad están constantemente, como el de Arturo que migró para encontrar otras oportunidades y ser más adinerado. Hoy en día en Colombia seguimos esperanzados de que el salir del país da oportunidades y las da, sólo que son difíciles de alcanzar. O también el espejismo de la persona ideal, muchos nos imaginamos a esa persona en un futuro, sin haber conocido bien a la persona.  Ana María, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-26",
+      categoria: "Espejismos",
+      keywords:
+        "Clase social; Ilusión; Migración; Riqueza económica; Segregación",
+      file: "Neiva_AnaMaria.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "Angy, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'Hoy en día millones de jóvenes e incluso adultos, no tienen ni idea de qué es lo que van a hacer en su vida. Algunos están muy arrepentidos de haber tomado decisiones que ellos consideraban “era su destino” o “para esto nacieron”, pero la gran mayoría de jóvenes dicen querer lograr muchas cosas y ganar plata, pero ni siquiera se esfuerzan por lograr esas “metas”, al contrario, dejan que “el destino” los ayude a involucrarse en cosas ilegales o peligrosas.  Angy, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Azar",
+      keywords: "Ilusión; Juventud; Problemas sociales; Riqueza económica",
+      file: "Neiva_Angy.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el azar en La vorágine? ",
+      autor: "Maria Camila, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'El azar en La vorágine, me hace sentir incierta sobre mi futuro: que hoy estemos planeando algo que anhelamos lograr y la incertidumbre sobre no saber si el “azar” no juega a nuestro favor y no logremos cumplir nuestros objetivos. Terminar haciendo algo que no me agrade y sentir que fallé en cumplir mi propósito.   Maria Camila, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Azar",
+      keywords: "Ilusión; Juventud; Problemas sociales",
+      file: "Neiva_MariaCamila_1.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto del azar? ",
+      autor: "Maria Camila, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'Como jóvenes, debemos tomar medidas para poder encontrar nuevos caminos, ya sea fomentando nuestra capacidad de comunicación, ayudando al cambio climático, promoviendo la igualdad, el respeto, la tolerancia y otros valores fundamentales para la proyección de nuevos comienzos como sociedad. Nosotros somos los dueños de nuestro futuro, nosotros tenemos en nuestras manos la capacidad de mejorar, de crear un país en donde prevalezcan valores y sobre todo la paz.   Maria Camila (16 años)'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Azar",
+      keywords:
+        "Empatía; Igualdad; Juventud; Medioambiente; Resolución de conflictos",
+      file: "Neiva_MariaCamila_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Danna Alejandra, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'El extravío en la Vorágine se relaciona con nuestra situación actual en momentos de incertidumbre, cambios inesperados o desafíos que nos hacen sentir perdidos o confundidos.  Al igual que los personajes de la novela, siempre podemos encontrar manera de enfrentar esas situaciones, buscar ayuda y seguir adelante. A como era hace 100 años en la Vorágine, el extravío se ha venido presentando en Colombia al momento de las personas “extraviarse”, pierden su identidad y propósito, al abandonar el país por crisis económicas o falta de empleo, esto hace que el extravío continúe, como también lo hace presente la violencia y la corrupción. Danna Alejandra – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Extravío",
+      keywords:
+        "Conflicto; Identidad; Política; Problemas sociales; Salud mental",
+      file: "Neiva_DannaAlejandra.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto del extravío? ",
+      autor: "María Fernanda, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'Creo que es importante buscar nuevos caminos que nos ayuden a recuperar el rumbo, la claridad y la orientación en medio de la incertidumbre o la confusión. Esto puede implicar explorar nuevas formas de pensar, buscar ayuda, establecer metas claras o incluso tomar un momento para reflexionar.   Enfrentar el extravío puede ser una oportunidad para crecer, aprender y descubrir aspectos de nosotros mismos que quizás desconocíamos.   En el contexto colombiano, el concepto del “extravío” puede estar relacionado con la sensación de pérdida de rumbo en medio de los complejos desafíos que el país enfrenta, como la corrupción, la desigualdad, la violencia, la explotación de los recursos naturales y los retos económicos y sociales.   María Fernanda, 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Extravío",
+      keywords:
+        "Administración pública; Conflictos socioambientales; Educación; Gobierno; Problemas sociales; Resolución de conflictos",
+      file: "Neiva_MariaFernanda.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la codicia en La vorágine con nuestra situación actual?",
+      autor: "Ana Sofía, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela: 'Hoy en día se sigue reflejando la gran codicia que existe en nuestra sociedad, como por ejemplo se sigue manejando la explotación de las personas para obtener así mano de obra barata. Otro tema clave se trata del narcotráfico que hay donde la avaricia abarca los recursos naturales sin importarle sus excesos y daños que le puede causar en años futuros a la naturaleza. La gente busca la manera de poder tener beneficios a costilla de los demás, sin importar el daño que se le puede causar a aquellos trabajadores que contrata, aquellas personas codiciosas. También, aquellos secuestros son temas de codicia que se generan para conseguir beneficios sin importarle el sufrimiento que se le puede causar a los demás.  Ana Sofía G., 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Codicia",
+      keywords:
+        "Conflicto armado; Conflictos socioambientales; Narcotráfico; Trabajo forzoso; Segregación",
+      file: "Neiva_AnaSofia.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la lujuria en La vorágine con nuestra situación actual?",
+      autor: "Juliana, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'La vorágine de la lujuria en la era digital puede ser abrumadora, pero no es inevitable. Al ser conscientes de nuestras acciones y nuestras emociones, podemos salir de la vorágine y encontrar un camino más saludable y más auténtico.  Juliana, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-05",
+      categoria: "Lujuria",
+      keywords: "Ciberespacio; Resolución de conflictos; Salud mental",
+      file: "Neiva_Juliana.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de la lujuria?",
+      autor: "Pablo Andrés, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'Frente al concepto de lujuria, es crucial buscar caminos que promuevan un entendimiento equilibrado y saludable de la sexualidad. En lugar de reprimir o demonizar los impulsos naturales, se debe fomentar la educación sexual integral, el respeto mutuo y la auto-reflexión. Esto incluye ofrecer información precisa y completa sobre la sexualidad, promover conversaciones sinceras sobre deseos y límites, enseñar y respetar el consentimiento, fomentar la reflexión personal e integrar la salud sexual con la salud mental y emocional.   By: Pablo Andrés, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-05",
+      categoria: "Lujuria",
+      keywords: "Diversidad; Educación; Salud mental",
+      file: "Neiva_PabloAndres_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la lujuria en La vorágine?",
+      autor: "Pablo Andrés, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'En medio de La Vorágine, la lujuria me puede hacer sentir como si estuviera perdiendo el control de tus propias acciones y pensamientos. Es posible que me sienta atrapado en un remolino de emociones, donde mis deseos dominan por completo mi comportamiento, llevándome a actuar impulsivamente sin considerar las consecuencias.   By: Pablo Andrés, 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-05",
+      categoria: "Lujuria",
+      keywords: "Conflicto; Problemas sociales",
+      file: "Neiva_PabloAndres_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto del extravío? ",
+      autor: "Juan Diego, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'Una forma de encontrar nuevos caminos es desarrollar habilidades de adaptabilidad y resiliencia para enfrentar situaciones de incertidumbre con mayor tranquilidad y confianza. Es importante aprender a gestionar el estrés, mantener una mentalidad abierta para explorar diferentes enfoques ante los desafíos y buscar apoyo emocional cuando sea necesario. Además, cultivar la autoconciencia para identificar nuestras emociones y necesidades en momentos de extravío, nos puede ayudar a tomar decisiones más acertadas y encontrar el rumbo nuevamente.  Juan Diego – 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-29",
+      categoria: "Extravío",
+      keywords: "Espiritualidad; Resolución de conflictos; Salud mental",
+      file: "Neiva_JuanDiego.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de la patria?",
+      autor: "Idali, 17 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'El camino que deberíamos tomar sería mejorar la calidad de justicia, al mismo tiempo, cumplir las leyes que ya están constituidas. Con el cumplimiento de estas podríamos evitar tantas injusticias, una de esas y la más común es la explotación laboral, la cual se viene viviendo desde hace muchos años atrás, como se puede ver plasmado en la obra la Vorágine, obra la cual fue escrita con hechos reales que se vivián en esa época, hechos los cuales tristemente en la actualidad se siguen viviendo, a pesar de haber leyes para evitar este tipo de abusos.  100 años después de la publicación de la Vorágine, en nuestro país se siguen viviendo varios temas que se tocan en esa obra, como lo son: la explotación laboral, los abusos sexuales, la explotación de los recursos naturales, el conflicto armado y los asesinatos que han ocurrido de varios líderes sociales. Idali, 17 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-09",
+      categoria: "Patria",
+      keywords:
+        "Conflicto armado; Conflictos socioambientales; Literatura de denuncia; Memoria histórica; Violencia de género",
+      file: "Neiva_Idali.JPG",
+    },
+  ],
+  pasto: [
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'EL EXTRAVÍO DE LO VORAZ  El infinito se aproximará y preso te convertirá,  es imposible huir: se huye de nada, se huye de todo.  En la profundidad se encuentra el puñal, el paraíso  los pinchará, el infierno conquistará. Habla y resígnate  ya. O calla y morirás igual. (Dibujo) Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Extravío",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_LauraV_4.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el azar en La vorágine?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'La sabana se enrojece ante el jaguar adormilado,  después del tiempo se rifan las tierras del afectado.  (Dibujo)  Laura V – 16 años.' ",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Azar",
+      keywords: "Conflicto; Medioambiente; Problemas sociales",
+      file: "Pasto_LauraV_8.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine?",
+      autor: "Esteban T, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: '— La patria la siento cuando yo mismo tomo conciencia y autoridad sobre mi país. Comprender que ni yo mismo conozco la patria colombiana y que el estado solo se encuentra en sitios muy reducidos del país.  Amazonas / Medellín. Florecimiento de las ciudades. (Dibujo)  Esteban T. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Estado; Segregación",
+      file: "Pasto_EstebanT_1.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine?",
+      autor: "David, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Rta./ La patria es de unos pocos: de aquellos de las grandes ciudades, de aquellos cuyo pensamiento occidentalizado no permite ver más allá de los límites de su realidad. La patria es centralizada, es abrupta y excluyente; destroza, mutila y niega a sus propios hijos. Somos trazados por longitudes ajenas, puestos a servicio de unos pocos, viviendo de la ignorancia de nuestra tierra y de su gente. Así pues, la patria de unos pocos, de aquellos de las grandes ciudades…  David / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Justicia social; Problemas sociales",
+      file: "Pasto_David_3.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la codicia en La vorágine?",
+      autor: "Dayana, 19 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de codicia en la novela:'La codicia es tan insaciable neurosis del ser humano, la cual yace detrás del temor a ser olvidado en la inmensidad del universo; nos retrasa como especie, nos consume. Me hace sentir reflexiva, en un sentido, preocupada de que la sociedad se vea absorta de las consecuencias de aquella codicia, hambrienta en totalidad por el afán de obtener más riquezas y validación, tal y como se dio en la obra, donde la codicia dio paso al salvajismo. ¿Dejaremos que la validación externa, las riquezas y el mismo capitalismo, marquen nuestra vida y futuro? ¿Acaso nos dejaremos consumir por dicho impulso? Dayana – 19 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Codicia",
+      keywords:
+        "Capitalismo; Consumismo; Problemas sociales; Riqueza económica",
+      file: "Pasto_Dayana.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir el azar en La vorágine?",
+      autor: "William, 19 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:'Me encontraba acobijado con grandes hojas y el último amigo que me quedaba, un reloj que marca el tiempo de ese jaguar que me esperaba. Temiendo de él, sudaba. Era el sol desde mi ventana mirándome escribir en mi máquina. William – 19 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-10",
+      categoria: "Azar",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_William_3.JPG",
+    },
+    {
+      title: "¿Qué me hace sentir la patria en La vorágine?",
+      autor: "Felipe, 28 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:'El patriotismo al que se refiere en estos párrafos me hace sentir mucho temor e impotencia al conocer por sus propias palabras de empresario el cómo se sirven de la seguridad militar para sus propios fines comerciales, poniendo en primer lugar sus intereses antes que los de la ley y los derechos humanos. Al afirmar que hay “vecinos envidiosos” pienso que sus convicciones hacia su empresa están primero que cualquier derecho de los trabajadores. Felipe Revelo Revelo – 28 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-29",
+      categoria: "Patria",
+      keywords: "Capitalismo; Derechos humanos; Problemas sociales",
+      file: "Pasto_FelipeRevelo_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela:'El extravío es un camino sin lugar, lo he buscado en enciclopedias, pero no está ni allí, ni allá, no está cerca del recuerdo, de la muerte, de los ángeles; tal vez él mismo se ha creado y él mismo se esconde. Me usa de rehén, me mece, se burla, se ríe. Es vago, vacío, es feroz bestia, me quema junto con él. He de parecer un infante llamándole. El cielo cae, el mar se levanta, todos se rebelan contra mí; se acerca, me susurra y grita y vuelve a desaparecer. Soy lo que se pierde. Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Extravío",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_LauraV_3.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela:'Se humedece la cascada del colmillo del jaguar se sonroja y sonsaca el agua ante el martirio. ¿Quién se ha caído? Preguntan los demás. “Creo que la luz del sol he visto pasar”.(Dibujo) Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Azar",
+      keywords: "Conflicto; Fantasía",
+      file: "Pasto_LauraV_7.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Esteban T, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:'— La Patria se ve afectada más que todo por el desconocimiento que nosotros mismos tenemos de nuestro país, y en cómo las elites desprecian las regiones selváticas: ellos sólo buscan el interés personal por encima de los intereses de la patria, olvidando muchas regiones del país y dejándonos desolados. Región Andino-Caribe. Blancos en el mapa. (Dibujo) Esteban T. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-15",
+      categoria: "Patria",
+      keywords: "Justicia social; Política; Segregación",
+      file: "Pasto_EstebanT_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "David, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:'Rta./ Se relaciona con la exclusión de nuestra propia gente; se relaciona con discursos vacíos, imprácticos e ideológicos que muchos políticos usan en nuestra doliente actualidad. Donde la violencia se ha tomado el país, los intereses propios salen a la luz; no se trabaja a favor del estado, se trabaja a favor de uno. En nuestros días solo quedan cenizas de promesas incompletas y sangre de olvidadas culturas. David / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Justicia social; Política; Segregación",
+      file: "Pasto_David_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Jeidy, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Nuestra situación actual está mucho más sesgada y amarrada a un país en donde la patria se vuelve cada día más vulnerable, priorizando nuevas formas de contribución al país, pero en clases sociales más específicas. La patria en la Vorágine es influenciada por culturas indígenas, resaltando la importancia de estas en nuestro país, pero en nuestros diversos puntos de vista, esta manera de reflejar puede variar continuamente en un país multicultural.  Jeidy – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Clase social; Diversidad; Pueblos indígenas",
+      file: "Pasto_Jeidy_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona la patria en La vorágine con nuestra situación actual?",
+      autor: "Felipe, 28 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Servirse estos empresarios del caucho de los militares del estado, demuestra una acción de paramilitarismo. Es una modalidad muy conocida en todo el territorio, lamentablemente. Las empresas bananeras, actualmente, han ido a juicio por casos de financiación a paramilitares, es el caso de Chiquita Brands que ha afectado a muchas comunidades en el norte del país, así como en los tiempos de las Caucherías.  Felipe Revelo Revelo – 28 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Memoria histórica; Paramilitarismo; Problemas sociales",
+      file: "Pasto_FelipeRevelo_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "Germán, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'Colombia, un país inmerso en problemas como si fueran árboles frondosos. En medio de la adversidad, un terreno firme es tan probable como conseguir una carta de joker en toda la baraja. La situación es tan difícil que incluso la bandera fue rasgada.  (Dibujo)  German Alejandro – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-08-06",
+      categoria: "Azar",
+      keywords: "Problemas sociales; Símbolos patrios",
+      file: "Pasto_GermanAlejandro.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "William, 19 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'El extravío es un camino sin lugar que no encontrarás y está en luto. Ahí escondí el sol de los pasos medidos, edifica un día que promete cambiar de ruta donde siempre te encontrará. Condenado estás y te retiene usar los caminos, soy lo que se pierde.  William – 19 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-10",
+      categoria: "Extravío",
+      keywords: "Ilusión",
+      file: "Pasto_William_1.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el azar en La vorágine con nuestra situación actual?",
+      autor: "William, 19 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'Infectaron la tierra, arrasaron con toda presa que veían como un jaguar. Aún quedan los restos de una selva roja, color rojo como se tiene la idea del infierno.  William – 19 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-10",
+      categoria: "Azar",
+      keywords: "Conflictos socioambientales; Medioambiente ",
+      file: "Pasto_William_2.JPG",
+    },
+    {
+      title:
+        "¿Cómo se relaciona el extravío en La vorágine con nuestra situación actual?",
+      autor: "Amy, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'Inicio: El extravío es un camino sin lugar. Nombre adormecido, tesoro perdido, memoria naufragante, despertar de la creación, ausencia de camino, infierno del paraíso, luto de amor, triunfo del corazón, vacío segador del frío, fuego constructor del cálido abrazo soleado separado de mí o de ti, canto blanco de mi camino, llave del mago, reflejo de mi esencia. Soy lo que se pierde.  Amy Bastidas – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-20",
+      categoria: "Extravío",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_AmyBastidas.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de violencia?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de violencia en la novela: '(Inicio diálogo con dibujo)  — “Palabras” —mencionó.  — “¿Tan solo palabras? —dijo el pequeño.  — “Exacto, lo triste de ello es que todos son unos tartamudos por desinterés o miedo”.  (Fin diálogo con dibujo)  Solo hacen falta palabras, ganas y valentía. Quienes tienen esas habilidades innatas son asesinados, desaparecidos o se desplazan a otros estados. El resto, somos colombianos cobardes.  Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Violencia",
+      keywords: "Conflicto interno; Valentía",
+      file: "Pasto_LauraV_1.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de extravío?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'El azar juega con la ilusión, son amigos, pelean, forman una contraparte, reviven y mueren. Toman venganza, hablan fantasmales, se dirigen a la plaza, a las calles, al monte, al cementerio. Toman presos a quien encuentran, ignorantes para tomar una decisión. Son escurridizos, inesperados e incrépulos (sic).  Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Extravío",
+      keywords: "Ilusión",
+      file: "Pasto_LauraV_5.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de azar?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de azar en la novela: 'Oh, en la profundidad me encuentro  y aquí, más bases tengo.  Aunque saliera a la luz a brillar,  esa más oscura está.  ¿He de dar frutos? He llegado a dudar.  ¿Quién mis preguntas podrá contestar?  Tal vez el destello del sol,  ese me ha de aguantar.  Aquí abajo no hay tanta oscuridad  como en la que arriba me viene a buscar.  (Dibujo)  Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Azar",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_LauraV_6.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de lujuria?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de lujuria en la novela: 'Iluso he contemplado el sol salir  rocía con sus destellos el devenir  majestuoso será, pronto ha de caer  y con su puño, la noche debe estremecer.  Quizás en el ardido calor se ha de cansar y ensangrentado el viajero podrá descansar, su salida gozosa y majestuosa será y pintará en el recuerdo la mentira del jamás. Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Lujuria",
+      keywords: "Ilusión",
+      file: "Pasto_LauraV_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "David, 18 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: 'Rta./ Mas que nuevos caminos, se deben hallar nuevos conceptos, conceptos que nos lleven a una Colombia más unificada, cuya diversidad, cultura y vida no se vea limitada ni obstruida. Una Colombia de promesas hechas, completas; que el nombre de Colombia no se use para ganar votos, y así, de este modo, nos podremos llamar colombianos, conocedores de nuestra tierra y amantes de la cultura y la verdad. Colombia de fronteras abiertas.  David / 18 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Diversidad; Política; Símbolos patrios ",
+      file: "Pasto_David_2.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Esteban T, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela: '— Otro camino que debemos encontrar es el de que nosotros mismos busquemos una forma de formar nuestra patria; no creer en los altos rangos como los gobernantes, sino de alguna manera realizar actos que nos unan y podamos salir adelante como colombianos.  Esteban T. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-22",
+      categoria: "Patria",
+      keywords: "Gobierno; Política; Resolución de conflictos",
+      file: "Pasto_EstebanT_3.JPG",
+    },
+    {
+      title:
+        "¿Qué nuevos caminos debemos encontrar frente al concepto de patria?",
+      autor: "Jeidy, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de patria en la novela:'El concepto de Patria radica en la manera como el país la practica y la intuye en el pensamiento individual. De este modo, vemos cómo el hecho de excluir a grupos indígenas que hacen parte de nuestra patria baja el nivel que tenemos como sociedad. Hacer patria no solo consiste en hacer cosas que beneficien al estado en comunidades de mejores condiciones, sino más bien el hecho de ser parte de las culturas indígenas nos lleva por nuevos caminos de gran desarrollo en nuestro país; no solo en una ayuda comunitaria, sino también individual, contribuyendo a nuestro pensamiento colaborativo. Jeidy – 16 años.",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-06-29",
+      categoria: "Patria",
+      keywords: "Pueblos indígenas; Segregación; Resolución de conflictos",
+      file: "Pasto_Jeidy_2.JPG",
+    },
+  ],
+  riohacha: [
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'EL EXTRAVÍO DE LO VORAZ  El infinito se aproximará y preso te convertirá,  es imposible huir: se huye de nada, se huye de todo.  En la profundidad se encuentra el puñal, el paraíso  los pinchará, el infierno conquistará. Habla y resígnate  ya. O calla y morirás igual. (Dibujo) Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Extravío",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_LauraV_4.JPG",
+    },
+  ],
+  "santa marta": [
+    {
+      title: "¿Qué me hace sentir el extravío en La vorágine?",
+      autor: "Laura V, 16 años",
+      descripcion:
+        "Resultado del taller “La vorágine: Lecturas para otros caminos posibles” que giró en torno al concepto de extravío en la novela: 'EL EXTRAVÍO DE LO VORAZ  El infinito se aproximará y preso te convertirá,  es imposible huir: se huye de nada, se huye de todo.  En la profundidad se encuentra el puñal, el paraíso  los pinchará, el infierno conquistará. Habla y resígnate  ya. O calla y morirás igual. (Dibujo) Laura V. – 16 años.'",
+      referencias:
+        "Rivera, José Eustasio. (2023). La Vorágine. Una edición cosmográfica. (M. Serje, & E. von der Walde, Edits.) Bogotá: Ediciones Uniandes",
+      fecha: "2024-07-12",
+      categoria: "Extravío",
+      keywords: "Fantasía; Ilusión",
+      file: "Pasto_LauraV_4.JPG",
+    },
+  ],
+};
+
+const params = new URLSearchParams(window.location.search);
+// Obtén el valor del parámetro `query`
+const verticeSelected = params.get("vertice") || "";
+const ciudadSelected = params.get("ciudad") || "";
+const getinfoMetodologiaCiudadVertice = (vertice, ciudad) => {
+  const result = {
+    byCity: [],
+    byCategory: [],
+    byCityAndCategory: [],
+  };
+
+  // 1. Encontrar todos los elementos de la ciudad especificada
+  if (ciudad && metodologia[ciudad]) {
+    result.byCity = metodologia[ciudad];
+  }
+
+  // 2. Encontrar todos los elementos con la categoría especificada
+  for (const city in metodologia) {
+    const filteredByCategory = metodologia[city].filter(
+      (item) => item.categoria.toLowerCase() === vertice.toLowerCase()
+    );
+    result.byCategory.push(...filteredByCategory);
+  }
+
+  // 3. Encontrar todos los elementos de la ciudad especificada que coincidan con la categoría
+  if (ciudad && metodologia[ciudad]) {
+    result.byCityAndCategory = metodologia[ciudad].filter(
+      (item) => item.categoria.toLowerCase() === vertice.toLowerCase()
+    );
+  }
+
+  return result;
+};
+let metodologiaactive = 0;
+function renderItemMetodologia(item){
+
+  document.querySelector(".interna_hoy .grid .center-header button#next").addEventListener("click", () => {
+    metodologiaactive = (metodologiaactive + 1) % resultsList.length; // Regresa al inicio si llega al final
+    renderItemMetodologia(resultsList[metodologiaactive]);
+  });
+  
+  document.querySelector(".interna_hoy .grid .center-header button#prev").addEventListener("click", () => {
+    metodologiaactive = (metodologiaactive - 1 + resultsList.length) % resultsList.length; // Regresa al final si llega al inicio
+    renderItemMetodologia(resultsList[metodologiaactive]);
+  });
+  
+  
+  document.querySelector(".interna_hoy .grid .center h4").innerHTML = ciudadSelected
+  document.querySelector(".interna_hoy .grid .center-header .info span.red").innerHTML = item.autor
+  document.querySelector(".interna_hoy .grid .center-header .info span.date").innerHTML = `${ciudadSelected} ${item.fecha}`;
+  document.querySelector(".interna_hoy .grid .center .note img").src = `img/metodologia/${ciudadSelected}/Respuestas/${item.file}`;
+  }
+let resultsList = [];
+if (document.querySelector(".interna_hoy")) {
+  const results = getinfoMetodologiaCiudadVertice(
+    verticeSelected,
+    ciudadSelected
+  );
+  if (verticeSelected == "") {
+    resultsList = results.byCity;
+  } else if (ciudadSelected == "") {
+    resultsList = results.byCategory;
+  } else if (verticeSelected != "" && ciudadSelected != "") {
+    resultsList = results.byCityAndCategory;
+  }
+  console.log(resultsList);
+  renderItemMetodologia(resultsList[metodologiaactive])
+}
+
+

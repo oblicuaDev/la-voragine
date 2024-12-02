@@ -25,7 +25,7 @@
 
     .grid {
         display: grid;
-        grid-template-columns: 290px 1fr;
+        grid-template-columns: 350px 1fr;
 
         @media only screen and (max-width: 1023px) {
             grid-template-columns: 1fr;
@@ -310,11 +310,13 @@
 
             .responsive-map {
                 position: relative;
-                width: 100%;
-                max-width: 100%;
+                width: 100%; /* Adjust as needed */
+                max-width: 800px; /* Set a maximum width */
+                margin: 0 auto; /* Center the map */
             }
-
+            
             .map-image {
+                
                 width: 100%;
                 height: auto;
                 display: block;
