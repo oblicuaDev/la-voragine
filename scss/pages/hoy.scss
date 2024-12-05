@@ -25,7 +25,7 @@
 
     .grid {
         display: grid;
-        grid-template-columns: 350px 1fr;
+        grid-template-columns: 280px 1fr;
 
         @media only screen and (max-width: 1023px) {
             grid-template-columns: 1fr;
@@ -79,6 +79,9 @@
                     padding: 5px;
                     width: 100%;
                     margin-bottom: 15px;
+                    option:disabled{
+                        display:none;
+                    }
                 }
 
                 button {
@@ -94,6 +97,9 @@
                     font-family: "Merriweather", serif;
                     font-weight: 400;
                     font-style: normal;
+                    &:disabled{
+                        opacity: 0.8;
+                    }
                 }
 
             }
@@ -105,6 +111,11 @@
                 color: #665343;
                 font-size: 14px;
                 margin-bottom: 15px;
+                a{
+                    color: #665343;
+                    font-weight:bold;
+                    text-decoration:underline;
+                }
             }
 
         }
@@ -316,10 +327,7 @@
             }
             
             .map-image {
-                
-                width: 100%;
-                height: auto;
-                display: block;
+                            display: block;
             }
         }
     }

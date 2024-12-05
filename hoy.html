@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=2.0.9">
-    <link rel="stylesheet" href="css/styles-ipad.css?v=2.0.9"
+    <link rel="stylesheet" href="css/styles.css?v=3.0.7">
+    <link rel="stylesheet" href="css/styles-ipad.css?v=3.0.7"
         media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)">
         <!-- Google tag (gtag.js) -->
 
@@ -43,11 +43,24 @@
         </a>
         <div class="container">
             <nav class="menu">
-                <a href="index.html" class="inicio">INICIO</a>
-                <a href="about.html">SOBRE EL PROYECTO</a>
-
-                <a href="lanovela.html">LA NOVELA</a>
-                <a href="hoy.html">LA VORÁGINE LEÍDA HOY</a>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre el proyecto</a></li>
+                    <li><a href="javascript:;">Vértices 
+                        <ul>
+                            <li><a href="vertice.html?id=azar">AZAR</a></li>
+                            <li><a href="vertice.html?id=codicia">CODICIA</a></li>
+                            <li><a href="vertice.html?id=espejismos">ESPEJISMOS</a></li>
+                            <li><a href="vertice.html?id=extravio">EXTRAVÍO</a></li>
+                            <li><a href="vertice.html?id=lujuria">LUJURIA</a></li>
+                            <li><a href="vertice.html?id=patria">PATRIA</a></li>
+                            <li><a href="vertice.html?id=violencia">VIOLENCIA</a> </li>
+                            <li><a href="about.html">SOBRE EL PROYECTO</a></li></ul>
+                        </li>
+                    <li><a href="lanovela.html">La novela</a></li>
+                    <li><a href="hoy.html">La Vorágine leída hoy</a></li>
+                    <!-- <li><a href="">Documentos relacionados</a>•</li> -->
+                </ul>
             </nav>
             <a href="search.html" class="search">Buscar <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -85,9 +98,9 @@
         <div class="grid">
             <div class="left">
                 <form action="interna_hoy.html">
-                    <h3><a href="pdf/LaVoragine_Metodologia.pdf" target="_blank" download><img src="img/list.svg"
+                    <h3><a href="pdf/LaVoragine_Metodologia.pdf" target="_blank" ><img src="img/list.svg"
                                 alt="list"> metodología</a></h3>
-                    <select name="vertice" id="vertice">
+                    <select name="vertice" id="vertice" >
                         <option value="">Elegir Vértice</option>
                         <option value="azar">AZAR</option>
                         <option value="codicia">CODICIA</option>
@@ -98,19 +111,19 @@
                         <option value="violencia">VIOLENCIA</option>
 
                     </select>
-                    <select name="ciudad" id="ciudad">
+                    <select name="ciudad" id="ciudad" >
                         <option value="">Elegir Ciudad</option>
                         <!-- <option value="bogotá">BOGOTÁ</option> -->
-                        <option value="buenaventura">BUENAVENTURA</option>
+                        <!-- <option value="buenaventura">BUENAVENTURA</option> -->
                         <option value="florencia">FLORENCIA</option>
                         <option value="leticia">LETICIA</option>
                         <option value="neiva">NEIVA</option>
                         <option value="pasto">PASTO</option>
                         <option value="riohacha">RIOHACHA</option>
                         <option value="santamarta">SANTA MARTA</option>
-                        <option value="villavicencio">VILLAVICENCIO</option>
+                        <!-- <option value="villavicencio">VILLAVICENCIO</option> -->
                     </select>
-                    <button type="submit">Buscar</button>
+                    <button type="submit" disabled>Buscar</button>
                 </form>
                 <p>Entre y mayo y septiembre de 2024, varios centros culturales del Banco de la República realizaron los talleres de mediación de lectura “<i>La vorágine</i>: lecturas para otros caminos posibles”. Durante este tiempo, más de cien niños, niñas y adolescentes de diversas regiones del país dialogaron y reflexionaron en torno a las siete temáticas, o Vértices, de <i>La vorágine</i> que propone la curaduría de esta plataforma digital. Guiados por las preguntas ¿qué me hace sentir <i>La vorágine</i>?, ¿cómo se relaciona <i>La vorágine</i> con nuestra situación actual? y ¿qué nuevos caminos debemos encontrar como país?, sus respuestas muestran alternativas para encarar las problemáticas sociales, ambientales y económicas que José Eustasio Rivera puso de manifiesto hace cien años.   </p>
                 <p>Esta sección aloja algunos de los textos de opinión, poemas, poemas en prosa y dibujos que resultaron de los talleres. Se trata de un primer acercamiento a un archivo ciudadano que se seguirá construyendo hasta 2028, año del fallecimiento de Rivera y año de publicación de la última edición de <i>La vorágine</i> que él supervisó. Nuestro objetivo es que estos talleres se sigan realizando a lo largo y ancho del país, por lo que maestros, mediadores, promotores culturales y cualquier persona interesada en explorar la vigencia de <i>La vorágine</i> hoy pueda replicarlos. Los usuarios encontrarán aquí la metodología empleada, un compendio de repuestas y una selección de fotografías. También podrá hacer búsquedas por temática, documentos relacionados y fragmentos de la novela. </p>
@@ -118,26 +131,14 @@
             </div>
             <div class="right">
                 <div class="responsive-map">
-                    <img src="img/mapacol.png" usemap="#image-map" class="map-image">
-                    <map name="image-map">
-                        <area target="" alt="riohacha" title="riohacha" href="interna_hoy.html" coords="910,129,652,54"
-                            shape="rect">
-                        <area target="" alt="santamarta" title="santamarta" href="interna_hoy.html"
-                            coords="260,100,561,166" shape="rect">
-                        <area target="" alt="bogota" title="bogota" href="interna_hoy.html" coords="457,758,597,873"
-                            shape="rect">
-                        <area target="" alt="villavicencio" title="villavicencio" href="interna_hoy.html"
-                            coords="554,879,870,935" shape="rect">
-                        <area target="" alt="buenaventura" title="buenaventura" href="interna_hoy.html"
-                            coords="102,840,330,956" shape="rect">
-                        <area target="" alt="neiva" title="neiva" href="interna_hoy.html" coords="254,994,441,1053"
-                            shape="rect">
-                        <area target="" alt="florencia" title="florencia" href="interna_hoy.html"
-                            coords="336,1110,594,1176" shape="rect">
-                        <area target="" alt="pasto" title="pasto" href="interna_hoy.html" coords="49,1207,230,1267"
-                            shape="rect">
-                        <area target="" alt="leticia" title="leticia" href="interna_hoy.html"
-                            coords="940,1765,1151,1829" shape="rect">
+                    <img src="img/mapacol.png" usemap="#image-mapmap" class="map-image">
+                    <map name="image-mapmap">
+                        <area target="" alt="riohacha" title="riohacha" href="interna_hoy.html?vertice=&amp;ciudad=riohacha" coords="388,54,271,24" shape="rect">
+                        <area target="" alt="santa marta" title="santa marta" href="interna_hoy.html?vertice=&amp;ciudad=santamarta" coords="111,46,237,64" shape="rect">
+                        <area target="" alt="neiva" title="neiva" href="interna_hoy.html?vertice=&amp;ciudad=neiva" coords="105,417,188,444" shape="rect">
+                        <area target="" alt="florencia" title="florencia" href="interna_hoy.html?vertice=&amp;ciudad=florencia" coords="136,463,253,495" shape="rect">
+                        <area target="" alt="pasto" title="pasto" href="interna_hoy.html?vertice=&amp;ciudad=pasto" coords="15,508,101,540" shape="rect">
+                        <area target="" alt="leticia" title="leticia" href="interna_hoy.html?vertice=&amp;ciudad=leticia" coords="388,742,494,770" shape="rect">
                     </map>
                 </div>
             </div>

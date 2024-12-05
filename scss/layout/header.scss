@@ -80,12 +80,31 @@ header {
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 50px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    & > ul{
+        display: flex;
+        align-items: center;
+        li{
+            position:relative;
+            text-transform:uppercase;
+            a{
+                text-transform:uppercase;
+            }
+            ul{
+                position:absolute;
+                top:100%;
+                display:none;
+            }
+            &:hover{
+                ul{
+                    display:block;
+                }
+            }
+        }
+
+    }
 
     @media only screen and (max-width: 1023px) {
         &.menu {
