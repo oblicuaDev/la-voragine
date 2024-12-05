@@ -1,180 +1,184 @@
 header {
-    position: relative;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-    height: 280px;
-    padding: 30px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+  padding: 30px;
+
+  @media only screen and (max-width: 1023px) {
+    height: auto;
+  }
+
+  .logo {
+    svg,
+    img {
+      width: 220px;
+      height: 110px;
+
+      @media only screen and (max-width: 1023px) {
+        width: 80px;
+        height: 50px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .banrep {
+    width: 80px;
+    height: 80px;
 
     @media only screen and (max-width: 1023px) {
-        height: auto;
+      width: 80px;
+      height: 50px;
+      object-fit: contain;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: flex-end;
+    padding-right: 150px;
+    position: static;
+
+    @media only screen and (max-width: 1023px) {
+      flex-direction: column;
+      padding: 0;
+    }
+  }
+
+  a.search {
+    color: #665343;
+    font-family: "Imbue 24pt";
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    text-transform: uppercase;
+    gap: 10px;
+    font-size: 18px;
+
+    &:hover {
+      transform: translateX(-5px);
     }
 
-    .logo {
-
-        svg,
-        img {
-            width: 220px;
-            height: 110px;
-
-            @media only screen and (max-width: 1023px) {
-                width: 80px;
-                height: 50px;
-                object-fit: contain;
-
-            }
-        }
+    @media only screen and (max-width: 1023px) {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      margin: 30px auto;
     }
-
-    .banrep {
-        width: 80px;
-        height: 80px;
-
-        @media only screen and (max-width: 1023px) {
-            width: 80px;
-            height: 50px;
-            object-fit: contain;
-
-        }
-    }
-
-    .container {
-        display: flex;
-        align-items: flex-start;
-        padding: 20px;
-        justify-content: flex-end;
-        padding-right: 150px;
-        position: static;
-
-        @media only screen and (max-width: 1023px) {
-            flex-direction: column;
-            padding: 0;
-        }
-    }
-
-    a.search {
-        color: #665343;
-        font-family: 'Imbue 24pt';
-        font-weight: bold;
-        font-style: normal;
-        display: flex;
-        align-items: center;
-        transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        text-transform: uppercase;
-        gap: 10px;
-        font-size: 18px;
-
-        &:hover {
-            transform: translateX(-5px)
-        }
-
-        @media only screen and (max-width: 1023px) {
-            display: none;
-            align-items: center;
-            justify-content: center;
-            margin: 30px auto;
-
-        }
-
-    }
+  }
 }
 
 nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    & > ul{
-        display: flex;
-        align-items: center;
-        li{
-            position:relative;
-            text-transform:uppercase;
-            a{
-                text-transform:uppercase;
-            }
-            ul{
-                position:absolute;
-                top:100%;
-                display:none;
-            }
-            &:hover{
-                ul{
-                    display:block;
-                }
-            }
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  & > ul {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    li {
+      position: relative;
+      text-transform: uppercase;
+      a {
+        text-transform: uppercase;
+      }
+      ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+        @media only screen and (max-width: 768px) {
+          position: static;
         }
+        li {
+          text-align: center;
 
+          a {
+            text-align: center;
+          }
+        }
+      }
+      &:hover {
+        ul {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    &.menu {
+      align-items: center;
+      background-color: #665343;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+padding: 130px 20px;
+      left: -100vw;
+      position: fixed;
+      top: 0;
+      transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      width: 100vw;
+
+      a {
+        color: #fff;
+        text-align: center;
+    display: block;
+      }
+
+      &.active {
+        left: 0;
+
+        @media only screen and (max-width: 1023px) {
+          left: 50vw;
+        }
+      }
+    }
+  }
+
+  a {
+    color: #665343;
+    font-family: "Imbue 24pt";
+    font-weight: bold;
+    font-style: normal;
+    font-size: clamp(18px, 2vw, 20px);
+    white-space: nowrap;
+
+    &.inicio {
+      display: none;
+
+      @media only screen and (max-width: 1023px) {
+        display: block;
+      }
     }
 
-    @media only screen and (max-width: 1023px) {
-        &.menu {
-            align-items: center;
-            background-color: #665343;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            justify-content: center;
-            left: -100vw;
-            position: fixed;
-            top: 0;
-            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-            width: 100vw;
-
-            a {
-                color: #FFF;
-            }
-
-            &.active {
-                left: 0;
-
-                @media only screen and (max-width: 1023px) {
-                    left: 50vw;
-                }
-            }
-        }
-
+    &:hover {
+      text-decoration: underline;
     }
-
-    a {
-        color: #665343;
-        font-family: 'Imbue 24pt';
-        font-weight: bold;
-        font-style: normal;
-        font-size: clamp(18px, 2vw, 20px);
-        white-space: nowrap;
-
-        &.inicio {
-            display: none;
-
-            @media only screen and (max-width: 1023px) {
-                display: block;
-            }
-        }
-
-
-
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+  }
 }
 
 .selva {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  mix-blend-mode: multiply;
 }
 
-
 body.isMinus {
-    header {
-        nav {
-            a {
-                font-size: clamp(20px, 1vw, 28px);
-            }
-        }
+  header {
+    nav {
+      a {
+        font-size: clamp(12px,2vw,18px);
+      }
     }
+  }
 }

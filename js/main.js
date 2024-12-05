@@ -196,6 +196,19 @@ let vertices = [
             img: "img/citas/azar/2/3.1.Azar.jpg",
             thumbnail: "img/citas/azar/2/3.1.Azar_Thumb.jpg",
           },
+          {
+            name: "3.2. Retrato del Profesor Moncayo",
+            type: "jpg",
+            ficha: [
+              "Retrato del Profesor Moncayo",
+              "@Revista Semana/ GUILLERMO TORRES",
+            ],
+            text: "<p>Un moderno Clemente Silva fue el profesor Gustavo Moncayo (1952–2022), otro habitante del sur andino que emprendió un largo camino a pie en busca de su hijo secuestrado; en este caso, un militar capturado por las FARC. Su marcha conmovió a medio país y puso el dedo en la llaga sobre la necesidad de acuerdos humanitarios. En 2010, en una operación colombo-brasileña, Pablo Emilio Moncayo, su hijo, fue liberado. En un acto simbólico, el hijo le quitó al padre las cadenas con las que había caminado por más de cuatro años.</p>",
+            link: "",
+            btnText: "",
+            img: "img/citas/azar/2/3.2.Azar.jpg",
+            thumbnail: "img/citas/azar/2/3.2.Azar_Thumb.jpg",
+          },
         ],
       },
       {
@@ -4382,10 +4395,18 @@ function showGallery() {
 const verticeSelect = document.getElementById("vertice");
 const ciudadSelect = document.getElementById("ciudad");
 
-verticeSelect.addEventListener("change", () =>
-  updateDisabledOptions("vertice")
-);
-ciudadSelect.addEventListener("change", () => updateDisabledOptions("ciudad"));
+verticeSelect.addEventListener("change", () => {
+  updateDisabledOptions("vertice");
+  document
+    .querySelector(".hoy .grid .left form button")
+    .removeAttribute("disabled");
+});
+ciudadSelect.addEventListener("change", () => {
+  updateDisabledOptions("ciudad");
+  document
+    .querySelector(".hoy .grid .left form button")
+    .removeAttribute("disabled");
+});
 
 function updateDisabledOptions(changed) {
   document
